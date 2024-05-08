@@ -1,0 +1,3 @@
+[submodule "alchemistry"]
+	path = alchemistry
+	url = git@github.com:Dysnomia-Studio/alchemistry.git

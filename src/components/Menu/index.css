@@ -1,0 +1,47 @@
+.menu {
+	text-align: center;
+	margin-bottom: 3.5rem;
+}
+.menu * {
+	vertical-align: middle;
+}
+.menu img {
+	max-height: 4rem;
+}
+.menu-item-title, .menu a {
+	color: #CCC;
+	margin-left: 0.5rem;
+	margin-right: 0.5rem;
+	text-decoration: none;
+}
+.menu-item-title, .menu a:not(.submenu a) {
+	font-size: 1.5rem;
+}
+.menu a:hover {
+	color: #FFF;
+}
+
+.menu .menu-item {
+	position: relative;
+	z-index: 10;
+}
+.menu .submenu {
+	border-left: 1px solid white;
+	display: none;
+	font-size: 1rem;
+	position: absolute;
+	padding-top: 2rem;
+	left: 0;
+	top: 0;
+	text-align: left;
+}
+.menu .menu-item:hover > .submenu {
+	display: initial;
+}
+.submenu:hover {
+	display: initial;
+}
+.submenu a {
+	display: inline-block;
+	padding-bottom: 0.3rem;
+}

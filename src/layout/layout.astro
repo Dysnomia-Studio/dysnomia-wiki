@@ -1,0 +1,20 @@
+---
+import Menu from '../components/Menu';
+import Footer from '../components/Footer';
+
+import './layout.css';
+
+const { title } = Astro.props;
+---
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Dysnomia Wiki - {title}</title>
+	</head>
+	<body>
+		<Menu />
+		<slot /> <!-- page content -->
+		<Footer />
+	</body>
+</html>

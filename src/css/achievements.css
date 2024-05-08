@@ -1,0 +1,44 @@
+.achievement-list {
+	margin: 0 auto;
+	max-width: 800px;
+	width: 100%;
+}
+
+.achievement-list-item {
+	border-bottom: 1px solid #FFFFFF55;
+	margin-bottom: 1rem;
+	padding-bottom: 1rem;
+	position: relative;
+}
+
+.achievement-list-item img {
+	max-width: 50px;
+}
+
+.achievement-list-item img , .achievement-list-item-body {
+	display: inline-block;
+	vertical-align: top;
+}
+
+.achievement-list-item-body {
+	padding-left: 1rem;
+	width: calc(100% - 100px - 1rem);
+}
+
+.achievement-list-rarity {
+	position: absolute;
+	right: 0.25rem;
+	top: 0.25rem;
+}
+
+.achievement-list-rarity-rare {
+	color: #f7e70b;
+}
+.achievement-list-rarity-rare:before {
+	content: '⭐';
+}
+
+.achievement-list summary {
+	margin-top: 1rem;
+	cursor: pointer;
+}
