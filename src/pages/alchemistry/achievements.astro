@@ -13,7 +13,6 @@ import '/src/css/achievements.css';
 const lang = getLangFromUrl(Astro.url);
 const t = useTranslations(lang);
 const achievementsPercentages = await getAchievementsPercentagesForGame(APP_ID);
-achievementsPercentages.sort((a, b) => b.percent - a.percent);
 // TODO: auto-check additional achievements so build will fail if we add achievements to the game
 ---
 <Layout title="Alchemistry - Achievements">

@@ -6,7 +6,10 @@ export default async function getAchievementsPercentagesForGame(id) {
 		}
 
 		const responseData = await res.json();
-		return responseData?.achievementpercentages?.achievements || [];
+		const outputData =  responseData?.achievementpercentages?.achievements || [];
+		outputData.sort((a, b) => b.percent - a.percent);
+
+		return outputData;
 	} catch {
 		return [];
 	}
