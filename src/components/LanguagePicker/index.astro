@@ -1,0 +1,18 @@
+---
+import { languageDictionary, languageList } from '../../i18n/constants';
+import { cleanPath, getLangFromUrl, useTranslatedPath, useTranslations } from '/src/i18n/utils';
+
+import './index.css';
+
+const currPage = cleanPath(Astro.url.pathname);
+const currLang = getLangFromUrl(Astro.url);
+const translatePath = useTranslatedPath();
+---
+<ul class="language-picker">
+  {languageList.map((lang) => (
+    <li>
+      {currLang === lang && <b>{languageDictionary[lang]}</b>}
+      {currLang !== lang && <a href={translatePath(currPage, lang)}>{languageDictionary[lang]}</a>}
+    </li>
+  ))}
+</ul>

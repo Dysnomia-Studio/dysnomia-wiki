@@ -1,6 +1,10 @@
 export const defaultLang = 'en';
 //const languageList = ['de', 'en', 'fr', 'nl', 'ru', 'sv'];
 export const languageList = ['en', 'fr'];
+export const languageDictionary = {
+	'en': 'English',
+	'fr': 'Francais',
+};
 export const types = {
 	alchemistry: [
 		'achievements',

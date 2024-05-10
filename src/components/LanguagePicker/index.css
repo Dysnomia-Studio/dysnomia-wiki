@@ -1,0 +1,8 @@
+.language-picker {
+	list-style: none;
+	padding: 0;
+}
+.language-picker li {
+	padding-left: 1rem;
+	display: inline-block;
+}

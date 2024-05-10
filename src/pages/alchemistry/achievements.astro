@@ -1,6 +1,7 @@
 ---
 import AchievementsList from '/src/components/AchievementsList';
 import AlchemistryAchievementDescription from '/src/components/AlchemistryAchievementDescription';
+import LanguagePicker from '/src/components/LanguagePicker/index.astro';
 
 import Layout from '/src/layout/layout.astro';
 
@@ -30,5 +31,8 @@ const achievementsToDisplay = achievementsPercentages.map((achievementData) => {
 });
 ---
 <Layout title="Alchemistry - Achievements">
-	<AchievementsList t={t} achievements={achievementsToDisplay} />
+	<div class="achievements-page">
+		<LanguagePicker />
+		<AchievementsList t={t} achievements={achievementsToDisplay} />
+	</div>
 </Layout>
