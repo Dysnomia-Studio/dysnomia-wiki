@@ -8,7 +8,7 @@ export default function AlchemistryAchievementDescription({ achievement, t, tran
 				<summary>Item needed</summary>{/* TODO: i18n */}
 				You should create <a href={translatePath(`/items/${neededItems[achievement.name]}`)}>
 					{t(`alchemistry:items:${neededItems[achievement.name]}`)}
-				</a>{neededIngredients[achievement.name] && <> using <a href={translatePath(`/items/${neededIngredients[achievement.name]}`)}>
+				</a>{neededIngredients[achievement.name] && <> from <a href={translatePath(`/items/${neededIngredients[achievement.name]}`)}>
 					{t(`alchemistry:items:${neededIngredients[achievement.name]}`)}
 					</a>.
 				</>}
