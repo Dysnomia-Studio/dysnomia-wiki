@@ -23,5 +23,5 @@ pnpm-debug.log*
 # jetbrains setting folder
 .idea/
 
-public/img/alchemistry/achievements/
+public/img/alchemistry/achievements/*.png
 src/business/alchemistry_achievementManager.js

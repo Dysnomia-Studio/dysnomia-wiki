@@ -5,7 +5,7 @@
   "scripts": {
     "start": "npm run prepare && astro dev",
     "build": "npm run prepare && astro build",
-    "prepare": "cp alchemistry/src/business/achievementManager.js src/business/alchemistry_achievementManager.js && cp -R alchemistry/i18n/ src/i18n/alchemistry/ && cp -R src/pages/alchemistry/ src/pages/fr/ && cp -R alchemistry/public/img/achievements/ public/img/alchemistry/",
+    "prepare": "cp alchemistry/src/business/achievementManager.js src/business/alchemistry_achievementManager.js && cp -R alchemistry/i18n/ src/i18n/alchemistry/ && cp -R src/pages/alchemistry/ src/pages/fr/ && cp -R alchemistry/public/img/achievements/*_ok.png public/img/alchemistry/achievements/",
     "preview": "astro preview",
     "astro": "astro"
   },
