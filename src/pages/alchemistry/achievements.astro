@@ -13,7 +13,10 @@ import '/src/css/achievements.css';
 const lang = getLangFromUrl(Astro.url);
 const t = useTranslations(lang);
 const achievementsPercentages = await getAchievementsPercentagesForGame(APP_ID);
-// TODO: auto-check additional achievements so build will fail if we add achievements to the game
+
+if(achievementsPercentages.length !== Object.keys(achievements).length) {
+	throw new Error('There are some missing achievements to generate the wiki');
+}
 ---
 <Layout title="Alchemistry - Achievements">
 	<div class="achievement-list">
