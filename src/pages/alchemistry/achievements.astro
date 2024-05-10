@@ -2,6 +2,7 @@
 import Layout from '/src/layout/layout.astro';
 
 import { achievements } from '/src/business/alchemistry_achievementManager.js';
+import { APP_ID } from '/src/business/alchemistry_constants.js';
 import { neededItems, neededIngredients } from '/src/business/alchemistry_neededItems.js';
 import getAchievementsPercentagesForGame from '/src/business/getAchievementsPercentagesForGame.js';
 
@@ -11,7 +12,7 @@ import '/src/css/achievements.css';
 
 const lang = getLangFromUrl(Astro.url);
 const t = useTranslations(lang);
-const achievementsPercentages = await getAchievementsPercentagesForGame(1730540); // TODO: use constant for app_id
+const achievementsPercentages = await getAchievementsPercentagesForGame(APP_ID);
 achievementsPercentages.sort((a, b) => b.percent - a.percent);
 // TODO: auto-check additional achievements so build will fail if we add achievements to the game
 ---
