@@ -17,7 +17,7 @@ jobs:
     - name: Use Node.js ${{ matrix.node-version }}
       uses: actions/setup-node@v3
       with:
-        node-version: 20
+        node-version: 22
         cache: 'npm'
 
     - name: SonarQube Scan
@@ -55,7 +55,7 @@ jobs:
       - name: Use Node.js ${{ matrix.node-version }}
         uses: actions/setup-node@v3
         with:
-          node-version: 20
+          node-version: 22
           cache: 'npm'
 
       - run: npm ci
