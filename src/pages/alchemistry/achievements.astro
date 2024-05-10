@@ -31,8 +31,8 @@ if(achievementsPercentages.length !== Object.keys(achievements).length) {
 						<div class="achievement-list-item-title">
 							{t(`alchemistry:achievements:NEW_ACHIEVEMENT_1_${index}_NAME`)}
 						</div>
-						<span class={'achievement-list-rarity' + ((achievementData?.percent < 10) ? ' achievement-list-rarity-rare' : '')}>
-							{Math.floor(achievementData?.percent || '?')}%
+						<span class={'achievement-list-rarity' + ((achievementData.percent < 10) ? ' achievement-list-rarity-rare' : '')}>
+							{Math.floor(achievementData.percent)}%
 						</span>
 						<div class="achievement-list-item-description">
 							{t(`alchemistry:achievements:NEW_ACHIEVEMENT_1_${index}_DESC`).replace('N/A', '')}
