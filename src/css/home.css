@@ -1,0 +1,9 @@
+.home a {
+	color: hsl(194, 56%, 59%);
+	text-decoration: none;
+}
+
+.home a:hover {
+	color: hsl(194, 56%, 75%);
+	text-decoration: underline;
+}

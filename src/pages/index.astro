@@ -1,7 +1,30 @@
 ---
 import Layout from '../layout/layout.astro';
 
+import '/src/css/home.css';
+
 ---
 <Layout title="Home">
-	<p>My page content, wrapped in a layout!</p>
+	<div class="home">
+		{/* TODO: i18n */}
+		<p>Welcome to Dysnomia's games wiki!</p>
+		<p>Official website: <a href="https://dysnomia.studio" target="_blank" rel="noopener noreferrer">https://dysnomia.studio</a></p>
+		<p>Official steam developer page: <a href="https://store.steampowered.com/developer/dysnomia" target="_blank" rel="noopener noreferrer">https://store.steampowered.com/developer/dysnomia</a></p>
+		<p>Official itch developer page: <a href="https://elanis.itch.io" target="_blank" rel="noopener noreferrer">https://elanis.itch.io</a></p>
+		<br/>
+		<p>Wiki pages:</p>
+		<ul>
+			<li>
+				<span>Alchemistry</span>
+				<ul>
+					<li><a href="/alchemistry/achievements">Achievements</a><br/></li>
+					<li><a href="/alchemistry/challenges">Challenges</a><br/></li>
+					<li><a href="/alchemistry/items">Items</a><br/></li>
+				</ul>
+			</li>
+			<li><a href="/extortion">Extortion</a></li>
+			<li><a href="/galactae">Galactae</a></li>
+			<li><a href="/manufactur-inc">Manufactur'inc</a></li>
+		</ul>
+	</div>
 </Layout>
