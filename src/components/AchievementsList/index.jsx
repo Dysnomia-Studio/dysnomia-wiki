@@ -1,7 +1,6 @@
 import './index.css';
 
 export default function AchievementsList({ achievements, t }) {
-	console.log(achievements);
 	return (
 		<div class="achievement-list">
 			{achievements.map((currentAchievement) => {
