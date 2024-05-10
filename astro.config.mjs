@@ -2,14 +2,26 @@ import { defineConfig } from 'astro/config';
 import react from '@astrojs/react';
 import playformCompress from "@playform/compress";
 
+import sitemap from "@astrojs/sitemap";
+
 // https://astro.build/config
 export default defineConfig({
-	integrations: [react(), playformCompress()],
-	i18n: {
-		defaultLocale: 'en',
-		locales: ['en', 'fr'],
-		routing: {
-			prefixDefaultLocale: false
-		}
-	}
+  integrations: [react(), playformCompress(), 
+  	sitemap({
+      i18n: {
+        defaultLocale: 'en',
+        locales: {
+          en: 'en-US',
+          fr: 'fr-FR',
+        },
+      },
+  	})],
+  i18n: {
+    defaultLocale: 'en',
+    locales: ['en', 'fr'],
+    routing: {
+      prefixDefaultLocale: false
+    }
+  },
+  site: 'https://wiki.dysnomia.studio',
 });
