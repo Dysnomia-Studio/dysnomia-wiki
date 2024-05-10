@@ -3,7 +3,7 @@ import './index.css';
 export default function Menu() {
 	return (
 		<nav className="menu">
-			<a href="https://dysnomia.studio" target="_blank"><img src="/dysnomia.webp" alt="Dysnomia's logo" /></a>
+			<a href="/"><img src="/dysnomia.webp" alt="Dysnomia's logo" /></a>
 			<span className="menu-item">
 				<span className="menu-item-title">Alchemistry</span>
 				<span className="submenu">
