@@ -1,14 +1,14 @@
 ---
+import AchievementsList from '/src/components/AchievementsList';
+import AlchemistryAchievementDescription from '/src/components/AlchemistryAchievementDescription';
+
 import Layout from '/src/layout/layout.astro';
 
 import { achievements } from '/src/business/alchemistry_achievementManager.js';
 import { APP_ID } from '/src/business/alchemistry_constants.js';
-import { neededItems, neededIngredients } from '/src/business/alchemistry_neededItems.js';
 import getAchievementsPercentagesForGame from '/src/business/getAchievementsPercentagesForGame.js';
 
 import { getLangFromUrl, useTranslations } from '/src/i18n/utils';
-
-import '/src/css/achievements.css';
 
 const lang = getLangFromUrl(Astro.url);
 const t = useTranslations(lang);
@@ -17,33 +17,18 @@ const achievementsPercentages = await getAchievementsPercentagesForGame(APP_ID);
 if(achievementsPercentages.length !== Object.keys(achievements).length) {
 	throw new Error('There are some missing achievements to generate the wiki');
 }
+
+const achievementsToDisplay = achievementsPercentages.map((achievementData) => {
+	const achievement = {
+		name: achievementData.name,
+		index: Object.keys(achievements).indexOf(achievementData.name),
+		percent: achievementData.percent
+	};
+	achievement.description = AlchemistryAchievementDescription({ t, achievement });
+
+	return achievement;
+});
 ---
 <Layout title="Alchemistry - Achievements">
-	<div class="achievement-list">
-		{achievementsPercentages.map((achievementData) => {
-			const achievement = achievementData.name;
-			const index = Object.keys(achievements).indexOf(achievement);
-
-			return (
-				<div class="achievement-list-item">
-					<img src={`/img/alchemistry/achievements/${achievement}_ok.png`} />
-					<div class="achievement-list-item-body">
-						<div class="achievement-list-item-title">
-							{t(`alchemistry:achievements:NEW_ACHIEVEMENT_1_${index}_NAME`)}
-						</div>
-						<span class={'achievement-list-rarity' + ((achievementData.percent < 10) ? ' achievement-list-rarity-rare' : '')}>
-							{Math.floor(achievementData.percent)}%
-						</span>
-						<div class="achievement-list-item-description">
-							{t(`alchemistry:achievements:NEW_ACHIEVEMENT_1_${index}_DESC`).replace('N/A', '')}
-							{neededItems[achievement] && <details>
-								<summary>Item needed</summary>{/* TODO: i18n */}
-								You should create <b>{neededItems[achievement]}</b>{neededIngredients[achievement] && ` using ${neededIngredients[achievement]}`}.
-							</details>}
-						</div>
-					</div>
-				</div>
-			);
-		})}
-	</div>
+	<AchievementsList t={t} achievements={achievementsToDisplay} />
 </Layout>
