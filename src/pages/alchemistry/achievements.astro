@@ -9,10 +9,11 @@ import { achievements } from '/src/business/alchemistry_achievementManager.js';
 import { APP_ID } from '/src/business/alchemistry_constants.js';
 import getAchievementsPercentagesForGame from '/src/business/getAchievementsPercentagesForGame.js';
 
-import { getLangFromUrl, useTranslations } from '/src/i18n/utils';
+import { getLangFromUrl, useTranslatedPath, useTranslations } from '/src/i18n/utils';
 
 const lang = getLangFromUrl(Astro.url);
 const t = useTranslations(lang);
+const translatePath = useTranslatedPath(lang);
 const achievementsPercentages = await getAchievementsPercentagesForGame(APP_ID);
 
 if(achievementsPercentages.length !== Object.keys(achievements).length) {
@@ -25,7 +26,7 @@ const achievementsToDisplay = achievementsPercentages.map((achievementData) => {
 		index: Object.keys(achievements).indexOf(achievementData.name),
 		percent: achievementData.percent
 	};
-	achievement.description = AlchemistryAchievementDescription({ t, achievement });
+	achievement.description = AlchemistryAchievementDescription({ achievement, t, translatePath });
 
 	return achievement;
 });
