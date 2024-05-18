@@ -1,3 +1,5 @@
+import PropTypes from 'prop-types';
+
 import './index.css';
 
 const RARITY_THRESOLD = 10;
@@ -31,3 +33,13 @@ export default function AchievementsList({ achievements, t }) {
 		</div>
 	);
 }
+
+AchievementsList.propTypes = {
+	achievements: PropTypes.arrayOf(PropTypes.exact({
+		description: PropTypes.element.isRequired,
+		index: PropTypes.number.isRequired,
+		name: PropTypes.string.isRequired,
+		percent: PropTypes.number.isRequired,
+	})).isRequired,
+	t: PropTypes.func.isRequired,
+};
