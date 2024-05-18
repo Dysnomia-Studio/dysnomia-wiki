@@ -1,0 +1,1921 @@
+{
+    "42": [
+        [
+            "life",
+            "universe"
+        ]
+    ],
+    "air": [
+        [
+            "carbon_dioxide",
+            "oxygen"
+        ]
+    ],
+    "alchemistry": [
+        [
+            "potion",
+            "video_game"
+        ]
+    ],
+    "algae": [
+        [
+            "ocean",
+            "plant"
+        ]
+    ],
+    "alien": [
+        [
+            "galaxy",
+            "life"
+        ]
+    ],
+    "animal": [
+        [
+            "continent",
+            "life"
+        ],
+        [
+            "earth",
+            "life"
+        ]
+    ],
+    "antimater": [
+        [
+            "lightspeed",
+            "particle"
+        ]
+    ],
+    "aquarium": [
+        [
+            "glass",
+            "water"
+        ]
+    ],
+    "archipelago": [
+        [
+            "atoll",
+            "island"
+        ]
+    ],
+    "ash": [
+        [
+            "fire",
+            "time"
+        ],
+        [
+            "fire",
+            "water"
+        ]
+    ],
+    "astronaut": [
+        [
+            "human",
+            "rocket"
+        ]
+    ],
+    "atlantis": [
+        [
+            "city",
+            "ocean"
+        ]
+    ],
+    "atoll": [
+        [
+            "coral",
+            "island"
+        ],
+        [
+            "time",
+            "volcano"
+        ]
+    ],
+    "axe": [
+        [
+            "tool",
+            "tree"
+        ]
+    ],
+    "baby": [
+        [
+            "human",
+            "human"
+        ]
+    ],
+    "ball": [
+        [
+            "air",
+            "leather"
+        ]
+    ],
+    "beach": [
+        [
+            "ocean",
+            "sand"
+        ]
+    ],
+    "beach_castle": [
+        [
+            "beach",
+            "castle"
+        ],
+        [
+            "castle",
+            "sand"
+        ]
+    ],
+    "bee": [
+        [
+            "animal",
+            "flower"
+        ],
+        [
+            "animal",
+            "plant"
+        ]
+    ],
+    "beverage": [
+        [
+            "glass",
+            "juice"
+        ],
+        [
+            "glass",
+            "water"
+        ]
+    ],
+    "binary_system": [
+        [
+            "solar_system",
+            "sun"
+        ]
+    ],
+    "bird": [
+        [
+            "animal",
+            "cloud"
+        ],
+        [
+            "cloud",
+            "life"
+        ],
+        [
+            "continent",
+            "life"
+        ]
+    ],
+    "black_hole": [
+        [
+            "galaxy",
+            "time"
+        ],
+        [
+            "sun",
+            "time"
+        ]
+    ],
+    "blood": [
+        [
+            "knife",
+            "animal"
+        ],
+        [
+            "knife",
+            "human"
+        ]
+    ],
+    "boat": [
+        [
+            "engine",
+            "ocean"
+        ]
+    ],
+    "bone": [
+        [
+            "animal",
+            "death"
+        ],
+        [
+            "bird",
+            "death"
+        ],
+        [
+            "death",
+            "fish"
+        ],
+        [
+            "death",
+            "human"
+        ]
+    ],
+    "book": [
+        [
+            "cardboard ",
+            "paper"
+        ],
+        [
+            "leather",
+            "paper"
+        ]
+    ],
+    "box": [
+        [
+            "cardboard",
+            "cardboard"
+        ]
+    ],
+    "bread": [
+        [
+            "flour",
+            "water"
+        ]
+    ],
+    "breaded_fish": [
+        [
+            "bread",
+            "fish"
+        ],
+        [
+            "fish",
+            "oil"
+        ]
+    ],
+    "brick": [
+        [
+            "clay",
+            "fire"
+        ],
+        [
+            "clay",
+            "furnace"
+        ]
+    ],
+    "bucket": [
+        [
+            "glass",
+            "metal"
+        ]
+    ],
+    "building": [
+        [
+            "brick",
+            "wood"
+        ],
+        [
+            "wall",
+            "wood"
+        ]
+    ],
+    "cable": [
+        [
+            "electricity",
+            "pipe"
+        ]
+    ],
+    "cactus": [
+        [
+            "needle",
+            "plant"
+        ]
+    ],
+    "cake": [
+        [
+            "egg",
+            "flour"
+        ]
+    ],
+    "camera": [
+        [
+            "eye",
+            "technology"
+        ]
+    ],
+    "campfire": [
+        [
+            "fire",
+            "wood"
+        ]
+    ],
+    "canyon": [
+        [
+            "cliff",
+            "desert"
+        ]
+    ],
+    "carbon_dioxide": [
+        [
+            "animal",
+            "oxygen"
+        ],
+        [
+            "bird",
+            "oxygen"
+        ],
+        [
+            "fish",
+            "oxygen"
+        ],
+        [
+            "human",
+            "oxygen"
+        ],
+        [
+            "oxygen",
+            "plant"
+        ]
+    ],
+    "card": [
+        [
+            "cardboard",
+            "toy"
+        ],
+        [
+            "paper",
+            "toy"
+        ]
+    ],
+    "cardboard": [
+        [
+            "paper",
+            "paper"
+        ]
+    ],
+    "carrier": [
+        [
+            "boat",
+            "plane"
+        ]
+    ],
+    "casino": [
+        [
+            "building",
+            "las_vegas"
+        ]
+    ],
+    "castle": [
+        [
+            "city",
+            "rampart"
+        ],
+        [
+            "city",
+            "wall"
+        ],
+        [
+            "house",
+            "rampart"
+        ],
+        [
+            "house",
+            "wall"
+        ]
+    ],
+    "cat": [
+        [
+            "animal",
+            "box"
+        ]
+    ],
+    "chainsaw": [
+        [
+            "axe",
+            "engine"
+        ]
+    ],
+    "chalet": [
+        [
+            "house",
+            "wood"
+        ]
+    ],
+    "charcoal": [
+        [
+            "fire",
+            "wood"
+        ],
+        [
+            "furnace",
+            "wood"
+        ],
+        [
+            "lava",
+            "wood"
+        ]
+    ],
+    "cheese": [
+        [
+            "milk",
+            "time"
+        ]
+    ],
+    "chicken": [
+        [
+            "animal",
+            "farmer"
+        ]
+    ],
+    "child": [
+        [
+            "baby",
+            "time"
+        ]
+    ],
+    "christmas_sleigh": [
+        [
+            "fir",
+            "plane"
+        ]
+    ],
+    "city": [
+        [
+            "house",
+            "house"
+        ]
+    ],
+    "clay": [
+        [
+            "dirt",
+            "sand"
+        ]
+    ],
+    "cliff": [
+        [
+            "beach",
+            "mountain"
+        ],
+        [
+            "beach",
+            "stone"
+        ]
+    ],
+    "clock": [
+        [
+            "electricity",
+            "hourglass"
+        ]
+    ],
+    "cloud": [
+        [
+            "ocean",
+            "sun"
+        ]
+    ],
+    "coal": [
+        [
+            "forest",
+            "time"
+        ],
+        [
+            "plant",
+            "time"
+        ],
+        [
+            "time",
+            "tree"
+        ]
+    ],
+    "communication": [
+        [
+            "human",
+            "sound"
+        ]
+    ],
+    "computer": [
+        [
+            "processor",
+            "screen"
+        ]
+    ],
+    "continent": [
+        [
+            "island",
+            "island"
+        ]
+    ],
+    "coral": [
+        [
+            "fish",
+            "house"
+        ]
+    ],
+    "cow": [
+        [
+            "animal",
+            "farmer"
+        ]
+    ],
+    "cyborg": [
+        [
+            "human",
+            "robot"
+        ]
+    ],
+    "death": [
+        [
+            "earth",
+            "meteorite"
+        ],
+        [
+            "electricity",
+            "human"
+        ],
+        [
+            "human",
+            "time"
+        ],
+        [
+            "life",
+            "time"
+        ]
+    ],
+    "desert": [
+        [
+            "sand",
+            "sand"
+        ]
+    ],
+    "diamond": [
+        [
+            "charcoal",
+            "volcano"
+        ],
+        [
+            "coal",
+            "volcano"
+        ]
+    ],
+    "dinosaur": [
+        [
+            "earth",
+            "meteorite"
+        ]
+    ],
+    "dirt": [
+        [
+            "forest",
+            "time"
+        ],
+        [
+            "plant",
+            "time"
+        ],
+        [
+            "tree",
+            "time"
+        ]
+    ],
+    "dog": [
+        [
+            "animal",
+            "bone"
+        ],
+        [
+            "bone",
+            "human"
+        ]
+    ],
+    "doghouse": [
+        [
+            "dog",
+            "house"
+        ]
+    ],
+    "dragon": [
+        [
+            "bird",
+            "magic"
+        ]
+    ],
+    "drone": [
+        [
+            "robot",
+            "air"
+        ],
+        [
+            "robot",
+            "bird"
+        ],
+        [
+            "robot",
+            "plane"
+        ]
+    ],
+    "dryad": [
+        [
+            "human",
+            "tree"
+        ]
+    ],
+    "dyson_sphere": [
+        [
+            "halo",
+            "sun"
+        ]
+    ],
+    "earth": [
+        [
+            "continent",
+            "ocean"
+        ]
+    ],
+    "earthquake": [
+        [
+            "earth",
+            "wave"
+        ]
+    ],
+    "egg": [
+        [
+            "bird",
+            "bird"
+        ],
+        [
+            "chicken",
+            "chicken"
+        ],
+        [
+            "fish",
+            "fish"
+        ]
+    ],
+    "electricity": [
+        [
+            "fire",
+            "metal"
+        ]
+    ],
+    "elsa": [
+        [
+            "child",
+            "magic"
+        ]
+    ],
+    "engine": [
+        [
+            "petroleum",
+            "tool"
+        ]
+    ],
+    "ent": [
+        [
+            "human",
+            "tree"
+        ]
+    ],
+    "eye": [
+        [
+            "animal",
+            "light"
+        ],
+        [
+            "human",
+            "light"
+        ]
+    ],
+    "factory": [
+        [
+            "building",
+            "worker"
+        ]
+    ],
+    "fairy_tail": [
+        [
+            "castle",
+            "dragon"
+        ]
+    ],
+    "fan": [
+        [
+            "air",
+            "technology"
+        ]
+    ],
+    "farmer": [
+        [
+            "human",
+            "plant"
+        ]
+    ],
+    "feather": [
+        [
+            "bird",
+            "death"
+        ]
+    ],
+    "fir": [
+        [
+            "snow",
+            "tree"
+        ]
+    ],
+    "fire": [
+        [
+            "lava",
+            "tree"
+        ],
+        [
+            "lava",
+            "wood"
+        ]
+    ],
+    "fish": [
+        [
+            "animal",
+            "aquarium"
+        ],
+        [
+            "animal",
+            "ocean"
+        ],
+        [
+            "aquarium",
+            "life"
+        ],
+        [
+            "life",
+            "ocean"
+        ]
+    ],
+    "fish_and_chips": [
+        [
+            "fish",
+            "french_fries"
+        ]
+    ],
+    "flour": [
+        [
+            "hay",
+            "stone"
+        ],
+        [
+            "seed",
+            "stone"
+        ]
+    ],
+    "flower": [
+        [
+            "garden",
+            "plant"
+        ]
+    ],
+    "food": [
+        [
+            "fruit",
+            "human"
+        ],
+        [
+            "ice_cream",
+            "human"
+        ]
+    ],
+    "force_field": [
+        [
+            "magnet",
+            "technology"
+        ]
+    ],
+    "forest": [
+        [
+            "tree",
+            "tree"
+        ]
+    ],
+    "french_fries": [
+        [
+            "oil",
+            "potatoe"
+        ]
+    ],
+    "fried_egg": [
+        [
+            "egg",
+            "fire"
+        ],
+        [
+            "egg",
+            "furnace"
+        ]
+    ],
+    "fruit": [
+        [
+            "food",
+            "plant"
+        ],
+        [
+            "food",
+            "tree"
+        ],
+        [
+            "plant",
+            "time"
+        ]
+    ],
+    "furnace": [
+        [
+            "charcoal",
+            "tool"
+        ],
+        [
+            "coal",
+            "tool"
+        ],
+        [
+            "fire",
+            "tool"
+        ]
+    ],
+    "galaxy": [
+        [
+            "solar_system",
+            "solar_system"
+        ],
+        [
+            "sun",
+            "sun"
+        ]
+    ],
+    "garden": [
+        [
+            "house",
+            "forest"
+        ],
+        [
+            "house",
+            "tree"
+        ]
+    ],
+    "gazoline": [
+        [
+            "factory",
+            "oil"
+        ]
+    ],
+    "generator": [
+        [
+            "electricity",
+            "engine"
+        ]
+    ],
+    "geyser": [
+        [
+            "volcano",
+            "water"
+        ]
+    ],
+    "glass": [
+        [
+            "fire",
+            "sand"
+        ],
+        [
+            "furnace",
+            "sand"
+        ]
+    ],
+    "glasses": [
+        [
+            "eye",
+            "glass"
+        ]
+    ],
+    "gold": [
+        [
+            "metal",
+            "rainbow"
+        ]
+    ],
+    "grass": [
+        [
+            "dirt",
+            "seed"
+        ]
+    ],
+    "greenhouse": [
+        [
+            "garden",
+            "glass"
+        ]
+    ],
+    "halo": [
+        [
+            "earth",
+            "the_ring"
+        ],
+        [
+            "the_ring",
+            "space_station"
+        ]
+    ],
+    "hamburger": [
+        [
+            "bread",
+            "meat"
+        ]
+    ],
+    "hay": [
+        [
+            "farmer",
+            "grass"
+        ]
+    ],
+    "haystack": [
+        [
+            "hay",
+            "hay"
+        ]
+    ],
+    "hourglass": [
+        [
+            "glass",
+            "sand"
+        ]
+    ],
+    "house": [
+        [
+            "building",
+            "human"
+        ],
+        [
+            "building",
+            "nest"
+        ]
+    ],
+    "human": [
+        [
+            "animal",
+            "tool"
+        ],
+        [
+            "monkey",
+            "tool"
+        ]
+    ],
+    "hydrogen": [
+        [
+            "water",
+            "electricity"
+        ]
+    ],
+    "hyperspace": [
+        [
+            "lightspeed",
+            "spaceship"
+        ]
+    ],
+    "ice": [
+        [
+            "elsa",
+            "water"
+        ]
+    ],
+    "ice_cream": [
+        [
+            "food",
+            "ice"
+        ]
+    ],
+    "ice_tea": [
+        [
+            "ice",
+            "tea"
+        ]
+    ],
+    "iceberg": [
+        [
+            "ice",
+            "ice"
+        ]
+    ],
+    "igloo": [
+        [
+            "building",
+            "ice"
+        ],
+        [
+            "house",
+            "ice"
+        ]
+    ],
+    "internet": [
+        [
+            "communication",
+            "computer"
+        ]
+    ],
+    "island": [
+        [
+            "mountain",
+            "ocean"
+        ]
+    ],
+    "jewelry": [
+        [
+            "diamond",
+            "metal"
+        ]
+    ],
+    "juice": [
+        [
+            "beverage",
+            "fruit"
+        ],
+        [
+            "fruit",
+            "glass"
+        ]
+    ],
+    "knife": [
+        [
+            "meat",
+            "tool"
+        ]
+    ],
+    "lantern": [
+        [
+            "lightbulb",
+            "paper"
+        ]
+    ],
+    "las_vegas": [
+        [
+            "city",
+            "desert"
+        ]
+    ],
+    "lava": [
+        [
+            "stone",
+            "volcano"
+        ]
+    ],
+    "leather": [
+        [
+            "animal",
+            "knife"
+        ]
+    ],
+    "library": [
+        [
+            "book",
+            "book"
+        ]
+    ],
+    "life": [
+        [
+            "ocean",
+            "time"
+        ]
+    ],
+    "light": [
+        [
+            "electricity",
+            "lightbulb"
+        ]
+    ],
+    "lightbulb": [
+        [
+            "electricity",
+            "glass"
+        ]
+    ],
+    "lightspeed": [
+        [
+            "light",
+            "time"
+        ]
+    ],
+    "magic": [
+        [
+            "technology",
+            "time"
+        ]
+    ],
+    "magnet": [
+        [
+            "electricity",
+            "metal"
+        ]
+    ],
+    "magnetar": [
+        [
+            "black_hole",
+            "magnet"
+        ]
+    ],
+    "map": [
+        [
+            "paper",
+            "continent"
+        ],
+        [
+            "paper",
+            "earth"
+        ],
+        [
+            "paper",
+            "ocean"
+        ]
+    ],
+    "master_chief": [
+        [
+            "halo",
+            "human"
+        ]
+    ],
+    "matrix": [
+        [
+            "technology",
+            "vr_headset"
+        ]
+    ],
+    "meat": [
+        [
+            "animal",
+            "fire"
+        ],
+        [
+            "animal",
+            "furnace"
+        ]
+    ],
+    "menu": [
+        [
+            "food",
+            "paper"
+        ]
+    ],
+    "mermaid": [
+        [
+            "fish",
+            "human"
+        ],
+        [
+            "fish",
+            "magic"
+        ]
+    ],
+    "metal": [
+        [
+            "fire",
+            "stone"
+        ],
+        [
+            "furnace",
+            "stone"
+        ]
+    ],
+    "meteor_storm": [
+        [
+            "meteorite",
+            "meteorite"
+        ]
+    ],
+    "meteorite": [
+        [
+            "galaxy",
+            "stone"
+        ],
+        [
+            "solar_system",
+            "stone"
+        ]
+    ],
+    "milk": [
+        [
+            "cow",
+            "grass"
+        ]
+    ],
+    "mirror": [
+        [
+            "glass",
+            "metal"
+        ]
+    ],
+    "monkey": [
+        [
+            "animal",
+            "tree"
+        ]
+    ],
+    "moon": [
+        [
+            "earth",
+            "earth"
+        ]
+    ],
+    "mountain": [
+        [
+            "stone",
+            "stone"
+        ]
+    ],
+    "mountain_chain": [
+        [
+            "mountain",
+            "mountain"
+        ]
+    ],
+    "mud": [
+        [
+            "dirt",
+            "water"
+        ]
+    ],
+    "mushroom": [
+        [
+            "continent",
+            "earth"
+        ],
+        [
+            "continent",
+            "life"
+        ]
+    ],
+    "music_instrument": [
+        [
+            "sound",
+            "tool"
+        ]
+    ],
+    "needle": [
+        [
+            "haystack",
+            "metal"
+        ]
+    ],
+    "neon": [
+        [
+            "lightbulb",
+            "pipe"
+        ]
+    ],
+    "nest": [
+        [
+            "bird",
+            "house"
+        ]
+    ],
+    "nina": [
+        [
+            "child",
+            "dog"
+        ]
+    ],
+    "oasis": [
+        [
+            "desert",
+            "water"
+        ]
+    ],
+    "ocean": [
+        [
+            "water",
+            "water"
+        ]
+    ],
+    "oil": [
+        [
+            "plant",
+            "stone"
+        ]
+    ],
+    "optical_fiber": [
+        [
+            "cable",
+            "light"
+        ],
+        [
+            "glass",
+            "light"
+        ]
+    ],
+    "oxygen": [
+        [
+            "electricity",
+            "water"
+        ],
+        [
+            "plant",
+            "sun"
+        ]
+    ],
+    "paper": [
+        [
+            "water",
+            "wood"
+        ]
+    ],
+    "particle": [
+        [
+            "knife",
+            "hydrogen"
+        ],
+        [
+            "knife",
+            "oxygen"
+        ]
+    ],
+    "particle_accelerator": [
+        [
+            "building",
+            "particle"
+        ]
+    ],
+    "petroleum": [
+        [
+            "forest",
+            "time"
+        ],
+        [
+            "plant",
+            "time"
+        ],
+        [
+            "time",
+            "tree"
+        ]
+    ],
+    "phoenix": [
+        [
+            "animal",
+            "fire"
+        ],
+        [
+            "bird",
+            "fire"
+        ]
+    ],
+    "phone": [
+        [
+            "communication",
+            "electricity"
+        ]
+    ],
+    "pickaxe": [
+        [
+            "stone",
+            "tool"
+        ]
+    ],
+    "pig": [
+        [
+            "animal",
+            "farmer"
+        ]
+    ],
+    "pilot": [
+        [
+            "human",
+            "plane"
+        ]
+    ],
+    "pipe": [
+        [
+            "metal",
+            "water"
+        ]
+    ],
+    "plane": [
+        [
+            "cloud",
+            "engine"
+        ]
+    ],
+    "plant": [
+        [
+            "continent",
+            "life"
+        ],
+        [
+            "earth",
+            "life"
+        ]
+    ],
+    "platypus": [
+        [
+            "bird",
+            "milk"
+        ]
+    ],
+    "potatoe": [
+        [
+            "dirt",
+            "food"
+        ]
+    ],
+    "potion": [
+        [
+            "beverage",
+            "magic"
+        ]
+    ],
+    "printer": [
+        [
+            "computer",
+            "paper"
+        ]
+    ],
+    "processor": [
+        [
+            "transistor",
+            "transistor"
+        ]
+    ],
+    "rain": [
+        [
+            "cloud",
+            "water"
+        ]
+    ],
+    "rainbow": [
+        [
+            "light",
+            "rain"
+        ],
+        [
+            "sun",
+            "rain"
+        ]
+    ],
+    "rampart": [
+        [
+            "wall",
+            "wall"
+        ]
+    ],
+    "robot": [
+        [
+            "human",
+            "metal"
+        ],
+        [
+            "life",
+            "metal"
+        ]
+    ],
+    "rocket": [
+        [
+            "engine",
+            "galaxy"
+        ],
+        [
+            "engine",
+            "solar_system"
+        ],
+        [
+            "engine",
+            "universe"
+        ]
+    ],
+    "rust": [
+        [
+            "metal",
+            "air"
+        ],
+        [
+            "metal",
+            "time"
+        ]
+    ],
+    "salt": [
+        [
+            "fire",
+            "ocean"
+        ]
+    ],
+    "sand": [
+        [
+            "mountain",
+            "ocean"
+        ],
+        [
+            "mountain",
+            "rain"
+        ],
+        [
+            "mountain",
+            "water"
+        ],
+        [
+            "ocean",
+            "stone"
+        ],
+        [
+            "rain",
+            "stone"
+        ],
+        [
+            "stone",
+            "time"
+        ],
+        [
+            "stone",
+            "water"
+        ]
+    ],
+    "sandstone": [
+        [
+            "sand",
+            "stone"
+        ]
+    ],
+    "sandstorm": [
+        [
+            "sand",
+            "storm"
+        ]
+    ],
+    "santa_claus": [
+        [
+            "fir",
+            "human"
+        ]
+    ],
+    "satellite": [
+        [
+            "rocket",
+            "solar_panel"
+        ]
+    ],
+    "screen": [
+        [
+            "glass",
+            "light"
+        ]
+    ],
+    "seed": [
+        [
+            "fruit",
+            "death"
+        ],
+        [
+            "fruit",
+            "time"
+        ]
+    ],
+    "shark": [
+        [
+            "ocean",
+            "blood"
+        ]
+    ],
+    "smartphone": [
+        [
+            "computer",
+            "phone"
+        ]
+    ],
+    "snow": [
+        [
+            "ice",
+            "cloud"
+        ],
+        [
+            "ice",
+            "rain"
+        ]
+    ],
+    "snowman": [
+        [
+            "human",
+            "snow"
+        ]
+    ],
+    "solar_panel": [
+        [
+            "electricity",
+            "sun"
+        ]
+    ],
+    "solar_system": [
+        [
+            "earth",
+            "sun"
+        ]
+    ],
+    "sonic_screwdriver": [
+        [
+            "technology",
+            "wand"
+        ]
+    ],
+    "sound": [
+        [
+            "air",
+            "wave"
+        ]
+    ],
+    "space_station": [
+        [
+            "astronaut",
+            "satellite"
+        ],
+        [
+            "human",
+            "satellite"
+        ]
+    ],
+    "spaceship": [
+        [
+            "alien",
+            "rocket"
+        ]
+    ],
+    "spell_book": [
+        [
+            "book",
+            "magic"
+        ]
+    ],
+    "steam": [
+        [
+            "fire",
+            "water"
+        ]
+    ],
+    "steel": [
+        [
+            "metal",
+            "charcoal"
+        ],
+        [
+            "metal",
+            "coal"
+        ]
+    ],
+    "stone": [
+        [
+            "lava",
+            "water"
+        ],
+        [
+            "mountain",
+            "pickaxe"
+        ]
+    ],
+    "storm": [
+        [
+            "cloud",
+            "cloud"
+        ],
+        [
+            "cloud",
+            "electricity"
+        ],
+        [
+            "electricity",
+            "rain"
+        ]
+    ],
+    "sun": [
+        [
+            "earth",
+            "fire"
+        ]
+    ],
+    "supernovae": [
+        [
+            "sun",
+            "time"
+        ]
+    ],
+    "syringe": [
+        [
+            "blood",
+            "needle"
+        ]
+    ],
+    "tablet": [
+        [
+            "book",
+            "technology"
+        ],
+        [
+            "paper",
+            "technology"
+        ]
+    ],
+    "tea": [
+        [
+            "plant",
+            "water"
+        ]
+    ],
+    "technology": [
+        [
+            "electricity",
+            "tool"
+        ]
+    ],
+    "telescope": [
+        [
+            "galaxy",
+            "glass"
+        ],
+        [
+            "glass",
+            "solar_system"
+        ]
+    ],
+    "the_flash": [
+        [
+            "electricity",
+            "human"
+        ]
+    ],
+    "the_ring": [
+        [
+            "jewelry",
+            "volcano"
+        ]
+    ],
+    "tiberium": [
+        [
+            "diamond",
+            "meteorite"
+        ]
+    ],
+    "time": [
+        [
+            "hourglass",
+            "hourglass"
+        ]
+    ],
+    "time_lord": [
+        [
+            "human",
+            "sonic_screwdriver"
+        ],
+        [
+            "human",
+            "time"
+        ]
+    ],
+    "tool": [
+        [
+            "metal",
+            "metal"
+        ],
+        [
+            "metal",
+            "steel"
+        ]
+    ],
+    "toy": [
+        [
+            "child",
+            "tool"
+        ]
+    ],
+    "transistor": [
+        [
+            "electricity",
+            "metal"
+        ]
+    ],
+    "tree": [
+        [
+            "plant",
+            "time"
+        ]
+    ],
+    "tsunami": [
+        [
+            "earthquake",
+            "ocean"
+        ],
+        [
+            "meteorite",
+            "ocean"
+        ]
+    ],
+    "turtle": [
+        [
+            "egg",
+            "sand"
+        ]
+    ],
+    "unicorn": [
+        [
+            "animal",
+            "magic"
+        ]
+    ],
+    "universe": [
+        [
+            "galaxy",
+            "galaxy"
+        ]
+    ],
+    "vampire": [
+        [
+            "blood",
+            "human"
+        ]
+    ],
+    "video_game": [
+        [
+            "technology",
+            "toy"
+        ]
+    ],
+    "volcano": [
+        [
+            "lava",
+            "mountain"
+        ]
+    ],
+    "vr_headset": [
+        [
+            "glasses",
+            "technology"
+        ]
+    ],
+    "wall": [
+        [
+            "brick",
+            "brick"
+        ]
+    ],
+    "wand": [
+        [
+            "magic",
+            "wood"
+        ]
+    ],
+    "water": [],
+    "wave": [
+        [
+            "moon",
+            "ocean"
+        ],
+        [
+            "ocean",
+            "storm"
+        ]
+    ],
+    "wind_turbine": [
+        [
+            "electricity",
+            "air"
+        ],
+        [
+            "engine",
+            "air"
+        ],
+        [
+            "technology",
+            "air"
+        ]
+    ],
+    "witch": [
+        [
+            "human",
+            "magic"
+        ]
+    ],
+    "wolf": [
+        [
+            "dog",
+            "forest"
+        ]
+    ],
+    "wood": [
+        [
+            "axe",
+            "ent"
+        ],
+        [
+            "axe",
+            "tree"
+        ],
+        [
+            "chainsaw",
+            "ent"
+        ],
+        [
+            "chainsaw",
+            "tree"
+        ],
+        [
+            "tool",
+            "ent"
+        ],
+        [
+            "tool",
+            "tree"
+        ]
+    ],
+    "worker": [
+        [
+            "human",
+            "tool"
+        ]
+    ],
+    "zombie": [
+        [
+            "death",
+            "human"
+        ]
+    ]
+}

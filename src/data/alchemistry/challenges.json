@@ -1,0 +1,263 @@
+[
+	{
+		"elements": [
+			"lava",
+			"water"
+		],
+		"target": "stone"
+	},
+	{
+		"elements": [
+			"lava",
+			"water"
+		],
+		"target": "ocean"
+	},
+	{
+		"elements": [
+			"sand",
+			"water"
+		],
+		"target": "oasis"
+	},
+	{
+		"elements": [
+			"lava",
+			"water"
+		],
+		"target": "mountain"
+	},
+	{
+		"elements": [
+			"sand",
+			"water",
+			"fire"	
+		],
+		"target": "aquarium"
+	},
+	{
+		"elements": [
+			"lava",
+			"water",
+			"fire"
+		],
+		"target": "electricity"
+	},
+	{
+		"elements": [
+			"lava",
+			"water",
+			"fire"
+		],
+		"target": "volcano"
+	},
+	{
+		"elements": [
+			"sun",
+			"water"
+		],
+		"target": "rainbow"
+	},
+	{
+		"elements": [
+			"water",
+			"fire",
+			"stone"
+		],
+		"target": "pipe"
+	},
+	{
+		"elements": [
+			"electricity",
+			"tool",
+			"glass",
+			"human",
+			"light"	
+		],
+		"target": "vr_headset"
+	},
+	{
+		"elements": [
+			"earth",
+			"fire",
+			"sand"
+		],
+		"target": "black_hole"
+	},
+	{
+		"elements": [
+			"fish",
+			"plant",
+			"stone",
+			"dirt",
+			"food"
+		],
+		"target": "fish_and_chips"
+	},
+	{
+		"elements": [
+			"life",
+			"ocean",
+			"sun",
+			"time"
+		],
+		"target": "feather"
+	},
+	{
+		"elements": [
+			"fire",
+			"stone",
+			"tool",
+			"time"
+		],
+		"target": "magic"
+	},
+	{
+		"elements": [
+			"stone",
+			"fire"
+		],
+		"target": "processor"
+	},
+	{
+		"elements": [
+			"life",
+			"fire",
+			"continent",
+			"ocean"
+		],
+		"target": "universe"
+	},
+	{
+		"elements": [
+			"life",
+			"time",
+			"continent",
+			"tool"
+		],
+		"target": "zombie"
+	},
+	{
+		"elements": [
+			"stone",
+			"earth",
+			"water",
+			"fire"
+		],
+		"target": "time"
+	},
+	{
+		"elements": [
+			"fire",
+			"stone",
+			"coal",
+			"lava"
+		],
+		"target": "jewelry"
+	},
+	{
+		"elements": [
+			"continent",
+			"ocean",
+			"time",
+			"fire",
+			"tool"
+		],
+		"target": "charcoal"
+	},
+	{
+		"elements": [
+			"life",
+			"metal",
+			"continent",
+			"time",
+			"lava"
+		],
+		"target": "dog"
+	},
+	{
+		"elements": [
+			"stone",
+			"wood",
+			"ocean",
+			"fire",
+			"water"	
+		],
+		"target": "tablet"
+	},
+	{
+		"elements": [
+			"mountain",
+			"water",
+			"fire"	
+		],
+		"target": "universe"
+	},
+	{
+		"elements": [
+			"lava",
+			"water",
+			"time"	
+		],
+		"target": "animal"
+	},
+	{
+		"elements": [
+			"water",
+			"tool",
+			"glass",
+			"stone",
+			"child",
+			"electricity",
+			"time"
+		],
+		"target": "alchemistry"
+	},
+	{
+		"elements": [
+			"tool",
+			"ocean",
+			"life",
+			"continent",
+			"fire",
+			"petroleum"
+		],
+		"target": "astronaut"
+	},
+	{
+		"elements": [
+			"lava",
+			"water",
+			"time",
+			"ocean"	,
+			"metal"
+		],
+		"target": "human"
+	},
+	{
+		"elements": [
+			"fire",
+			"stone",
+			"water"
+		],
+		"target": "meteorite"
+	},
+	{
+		"elements": [
+			"stone",
+			"water",
+			"fire"	
+		],
+		"target": "binary_system"
+	},
+	{
+		"elements": [
+			"brick",
+			"tool",
+			"life",
+			"continent",
+			"time"
+		],
+		"target": "castle"
+	}	
+]
