@@ -1,3 +1,6 @@
+import PropTypes from 'prop-types';
+import achievementPropType from '../PropTypes/achievement.js';
+
 import { neededItems, neededIngredients } from '/src/business/alchemistry_neededItems.js';
 
 export default function AlchemistryAchievementDescription({ achievement, t, translatePath }) {
@@ -16,3 +19,9 @@ export default function AlchemistryAchievementDescription({ achievement, t, tran
 		</div>
 	);
 }
+
+AlchemistryAchievementDescription.propTypes = {
+	achievements: PropTypes.exact(achievementPropType).isRequired,
+	t: PropTypes.func.isRequired,
+	translatePath: PropTypes.func.isRequired,
+};

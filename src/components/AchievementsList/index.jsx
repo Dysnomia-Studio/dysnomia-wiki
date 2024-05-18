@@ -1,4 +1,5 @@
 import PropTypes from 'prop-types';
+import achievementPropType from '../PropTypes/achievement.js';
 
 import './index.css';
 
@@ -35,11 +36,6 @@ export default function AchievementsList({ achievements, t }) {
 }
 
 AchievementsList.propTypes = {
-	achievements: PropTypes.arrayOf(PropTypes.exact({
-		description: PropTypes.element.isRequired,
-		index: PropTypes.number.isRequired,
-		name: PropTypes.string.isRequired,
-		percent: PropTypes.number.isRequired,
-	})).isRequired,
+	achievements: PropTypes.arrayOf(PropTypes.exact(achievementPropType)).isRequired,
 	t: PropTypes.func.isRequired,
 };
