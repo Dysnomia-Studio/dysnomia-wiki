@@ -36,20 +36,16 @@ export function useTranslatedPath(lang) {
 }
 
 export function cleanPath(path) {
-	console.log(path);
 	if(path.startsWith('/')) {
 		path = path.substring(1);
 	}
 
-console.log(path);
 	for(const language of languageList) {
-		console.log(language);
 	  if(path.startsWith(language)) {
 	    path = path.substring(language.length);
 	    break;
 	  }
 	}
 
-console.log(path);
 	return path;
 }
