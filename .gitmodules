@@ -1,0 +1,3 @@
+[submodule "src/i18n/alchemistry"]
+	path = src/i18n/alchemistry
+	url = git@github.com:Dysnomia-Studio/alchemistry-i18n.git
