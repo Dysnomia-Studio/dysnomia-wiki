@@ -10,7 +10,7 @@ const RARITY_THRESOLD = 10;
 export default function AchievementsList({ achievements, t }) {
 	return (
 		<div className="achievement-list">
-			<SpoilerWarning />
+			<SpoilerWarning t={t} />
 			
 			{achievements.map((currentAchievement) => {
 				let rarityClass = 'achievement-list-rarity';

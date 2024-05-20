@@ -13,6 +13,10 @@ export const types = {
 		'items',
 		'store',
 		'ui',
+		'wiki',
+	],
+	'wiki': [
+		'spoiler',
 	]
 };
 

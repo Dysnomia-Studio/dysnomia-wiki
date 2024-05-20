@@ -1,11 +1,16 @@
+import PropTypes from 'prop-types';
+
 import './index.css';
 
-export default function SpoilerWarning() {
-	// TODO: i18n
+export default function SpoilerWarning({ t }) {
 	return (
 		<div className="spoiler-warning">
-			⚠️ This page may contain spoilers.<br />
-			If you haven't fully experienced the game and prefer to avoid spoilers, you may want to stop reading now.
+			{t(`wiki:spoiler:spoiler-first-line`)}<br />
+			{t(`wiki:spoiler:spoiler-second-line`)}
 		</div>
 	);
 }
+
+SpoilerWarning.propTypes = {
+	t: PropTypes.func.isRequired,
+};
