@@ -5,7 +5,7 @@
   "scripts": {
     "start": "npm run prepare && astro dev",
     "build": "npm run prepare && astro build",
-    "prepare": "cp -R src/pages/alchemistry/ src/pages/fr/ && cp -R src/pages/*.astro src/pages/fr/",
+    "prepare": "bash copy-pages-for-other-languages.sh",
     "preview": "astro preview",
     "preview": "astro preview",
     "astro": "astro"

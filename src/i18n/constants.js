@@ -1,9 +1,12 @@
 export const defaultLang = 'en';
-//const languageList = ['de', 'en', 'fr', 'nl', 'ru', 'sv'];
-export const languageList = ['en', 'fr'];
+export const languageList = ['de', 'en', 'fr', 'nl', 'ru', 'sv'];
 export const languageDictionary = {
+	'de': 'Deutsch',
 	'en': 'English',
 	'fr': 'Francais',
+	'nl': 'Nederlands',
+	'ru': 'Русский',
+	'sv': 'Svenska',
 };
 export const types = {
 	alchemistry: [
@@ -28,7 +31,12 @@ async function loadTranslations() {
 			translationsList[gameName][type] = {};
 
 			for(const language of languageList) {
-				translationsList[gameName][type][language] = (await import(`./${gameName}/${type}/${language}.json`)).default;
+				try {
+					translationsList[gameName][type][language] = (await import(`./${gameName}/${type}/${language}.json`)).default;
+				} catch(e) {
+					console.error(e);
+					translationsList[gameName][type][language] = {};
+				}
 			}
 		}
 	}
