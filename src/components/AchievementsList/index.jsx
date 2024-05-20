@@ -1,6 +1,8 @@
 import PropTypes from 'prop-types';
 import achievementPropType from '../PropTypes/achievement.js';
 
+import SpoilerWarning from '../SpoilerWarning';
+
 import './index.css';
 
 const RARITY_THRESOLD = 10;
@@ -8,6 +10,8 @@ const RARITY_THRESOLD = 10;
 export default function AchievementsList({ achievements, t }) {
 	return (
 		<div className="achievement-list">
+			<SpoilerWarning />
+			
 			{achievements.map((currentAchievement) => {
 				let rarityClass = 'achievement-list-rarity';
 				if(currentAchievement.percent < RARITY_THRESOLD) {
