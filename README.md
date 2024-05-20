@@ -9,6 +9,6 @@ Games listed:
 - [Galactae: Space Age Dawn](https://galactae.eu)
 - [Manufactur'inc](https://store.steampowered.com/app/2146380/Manufactur_inc/)
 
-# Licence
+# License
 
 The game data and images are under proprietary license. The generator is under MIT license and people can take inspiration to generate their own Astro websites/wiki. 
