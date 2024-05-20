@@ -1,47 +1,96 @@
-.menu {
-	text-align: center;
-	margin-bottom: 3.5rem;
-}
-.menu * {
-	vertical-align: middle;
-}
-.menu img {
-	max-height: 4rem;
-}
-.menu-item-title, .menu a {
-	color: #CCC;
-	margin-left: 0.5rem;
-	margin-right: 0.5rem;
-	text-decoration: none;
-}
-.menu-item-title, .menu a:not(.submenu a) {
-	font-size: 1.5rem;
-}
-.menu a:hover {
-	color: #FFF;
+@media (min-width: 1025px) {
+	.mobile-menu-button, .mobile-menu-quit {
+		display: none;
+	}
+	.menu {
+		text-align: center;
+		margin-bottom: 3.5rem;
+	}
+	.menu * {
+		vertical-align: middle;
+	}
+	.menu img {
+		max-height: 4rem;
+	}
+	.menu-item-title, .menu a {
+		color: #CCC;
+		margin-left: 0.5rem;
+		margin-right: 0.5rem;
+		text-decoration: none;
+	}
+	.menu-item-title, .menu a:not(.submenu a) {
+		font-size: 1.5rem;
+	}
+	.menu a:hover {
+		color: #FFF;
+	}
+
+	.menu .menu-item {
+		position: relative;
+		z-index: 10;
+	}
+	.menu .submenu {
+		border-left: 1px solid white;
+		display: none;
+		font-size: 1rem;
+		position: absolute;
+		padding-top: 2rem;
+		left: 0;
+		top: 0;
+		text-align: left;
+	}
+	.menu .menu-item:hover > .submenu {
+		display: initial;
+	}
+	.submenu:hover {
+		display: initial;
+	}
+	.submenu a {
+		display: inline-block;
+		padding-bottom: 0.3rem;
+	}
+
 }
 
-.menu .menu-item {
-	position: relative;
-	z-index: 10;
-}
-.menu .submenu {
-	border-left: 1px solid white;
-	display: none;
-	font-size: 1rem;
-	position: absolute;
-	padding-top: 2rem;
-	left: 0;
-	top: 0;
-	text-align: left;
-}
-.menu .menu-item:hover > .submenu {
-	display: initial;
-}
-.submenu:hover {
-	display: initial;
-}
-.submenu a {
-	display: inline-block;
-	padding-bottom: 0.3rem;
+@media (max-width: 1024px) {
+	.mobile-menu-button, .mobile-menu-quit {
+		color: white;
+		font-size: 2.5rem;
+	}
+	.menu:target {
+		display: block;
+	}
+
+	.mobile-menu-quit {
+		position: absolute;
+		left: 0.3rem;
+		top: 1rem;
+	}
+
+	.menu {
+		background: #0d101aee;
+		display: none;
+		font-size: 2rem;
+		height: 100vh;
+		padding-left: 1rem;
+		padding-top: 4rem;
+		position: fixed;
+		top: 0;
+		width: 100vw;
+		z-index: 10000;
+	}
+
+	.menu img {
+		max-height: 3em;
+		padding-bottom: 1rem;
+	}
+	.menu .menu-item, .menu .submenu {
+		display: block;
+	}
+	.menu .menu-item {
+		padding-bottom: 1rem;
+	}
+	.menu .submenu {
+		padding-left: 1em;
+	}
 }
