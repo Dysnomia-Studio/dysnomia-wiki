@@ -32,7 +32,7 @@ const lang = getLangFromUrl(Astro.url);
 const t = useTranslations(lang);
 const translatePath = useTranslatedPath(lang);
 ---
-<Layout title={t(`alchemistry:wiki:item-page-title`)} description={t(`alchemistry:wiki:item-page-description`)}>
+<Layout title={t(`alchemistry:wiki:item-page-title`) + ' - ' + t(`alchemistry:items:${element}`)} description={t(`alchemistry:wiki:item-page-description`).replace('%element%', t(`alchemistry:items:${element}`))}>
 	<div class="item-page">
 		<LanguagePicker />
 
@@ -42,7 +42,7 @@ const translatePath = useTranslatedPath(lang);
 
 		<SpoilerWarning t={t} />
 
-		<h2>Recipes</h2> {/* TODO */}
+		<h2>{t(`alchemistry:wiki:item-page-recipes`)}</h2>
 
 		<div>
 			{elements[element].map(x => {
