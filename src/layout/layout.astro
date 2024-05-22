@@ -1,12 +1,15 @@
 ---
+import { getLangFromUrl } from '/src/i18n/utils';
+
 import Menu from '../components/Menu';
 import Footer from '../components/Footer/index.astro';
 
 import './layout.css';
 
 const { title } = Astro.props;
+const currLang = getLangFromUrl(Astro.url);
 ---
-<html lang="en">
+<html lang={currLang}>
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
