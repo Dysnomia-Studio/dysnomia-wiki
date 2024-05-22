@@ -62,7 +62,7 @@ jobs:
       - run: npm run build
 
       - name: Build & Push Docker image
-        uses: docker/build-push-action@v3.2.0
+        uses: docker/build-push-action@v5.3.0
         with:
           push: true
           context: .
