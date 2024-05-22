@@ -1,0 +1,28 @@
+.item-page {
+	margin: 0 auto;
+	max-width: 800px;
+	text-align: center;
+	width: 100%;
+}
+
+.item-page .language-picker {
+	text-align: right;
+	padding-bottom: 1rem;
+}
+
+.item-page h1 {
+	font-size: 1.75rem;
+}
+.item-page h2 {
+	font-size: 1.25rem;
+}
+
+.item-page img {
+	margin: 1rem;
+	width: 300px;
+	max-width: calc(80vw - 2rem);
+}
+
+.item-page hr {
+	margin: 3rem 0;
+}

@@ -1,0 +1,65 @@
+---
+import elements from '/src/data/alchemistry/elements.json';
+
+import AlchemistryRecipe from '/src/components/AlchemistryRecipe';
+import Layout from '/src/layout/layout.astro';
+import LanguagePicker from '/src/components/LanguagePicker/index.astro';
+import SpoilerWarning from '/src/components/SpoilerWarning';
+
+import { getLangFromUrl, useTranslatedPath, useTranslations } from '/src/i18n/utils';
+
+import './item.css';
+
+export function getStaticPaths() {
+	return Object.keys(elements).map(x => ({ params: { element: x } }));
+}
+
+const { element } = Astro.params;
+
+const recipesAsIngredient = [];
+for(const iteratingElement in elements) {
+	for(const recipe of elements[iteratingElement]) {
+		if(recipe[0] === element || recipe[1] === element) {
+			recipesAsIngredient.push([
+				...recipe,
+				iteratingElement
+			]);
+		}
+	}
+}
+
+const lang = getLangFromUrl(Astro.url);
+const t = useTranslations(lang);
+const translatePath = useTranslatedPath(lang);
+---
+<Layout title={t(`alchemistry:wiki:item-page-title`)} description={t(`alchemistry:wiki:item-page-description`)}>
+	<div class="item-page">
+		<LanguagePicker />
+
+		<h1>{t(`alchemistry:items:${element}`)}</h1>
+
+		<img src={`/img/alchemistry/elements/${element}.png`} alt={t(`alchemistry:items:${element}`)} />
+
+		<SpoilerWarning t={t} />
+
+		<h2>Recipes</h2> {/* TODO */}
+
+		<div>
+			{elements[element].map(x => {
+				return (
+					<AlchemistryRecipe current={element} first={x[0]} second={x[1]} result={element} t={t} translatePath={translatePath} />
+				);
+			})}
+		</div>
+
+		{elements[element].length > 0 && recipesAsIngredient.length > 0 && <hr />}
+
+		<div>
+			{recipesAsIngredient.map(x => {
+				return (
+					<AlchemistryRecipe current={element} first={x[0]} second={x[1]} result={x[2]} t={t} translatePath={translatePath} />
+				);
+			})}
+		</div>
+	</div>
+</Layout>
