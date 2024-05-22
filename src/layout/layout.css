@@ -3,9 +3,12 @@ html, body {
 	color: white;
 	font-family: sans-serif;
 }
-body {
-	width: calc(100vw - 1rem);
-	margin: 0.5rem;
+
+@media (max-width: 1024px) {
+	body {
+		width: calc(100vw - 1rem);
+		margin: 0.5rem;
+	}
 }
 
 /* Tablet */
