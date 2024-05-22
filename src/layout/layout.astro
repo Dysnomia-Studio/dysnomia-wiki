@@ -6,13 +6,14 @@ import Footer from '../components/Footer/index.astro';
 
 import './layout.css';
 
-const { title } = Astro.props;
+const { title, description } = Astro.props;
 const currLang = getLangFromUrl(Astro.url);
 ---
 <html lang={currLang}>
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="description" content={description || 'Welcome to the official Dysnomia\'s games wiki'}>
 		<link rel="sitemap" href="/sitemap-index.xml" />
 		<title>Dysnomia Wiki - {title}</title>
 	</head>

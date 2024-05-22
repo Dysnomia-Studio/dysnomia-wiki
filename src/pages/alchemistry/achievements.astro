@@ -31,7 +31,7 @@ const achievementsToDisplay = achievementsPercentages.map((achievementData) => {
 	return achievement;
 });
 ---
-<Layout title="Alchemistry - Achievements">
+<Layout title={t(`alchemistry:wiki:achievement-page-title`)} description={t(`alchemistry:wiki:achievement-page-description`)}>
 	<div class="achievements-page">
 		<LanguagePicker />
 		<AchievementsList t={t} achievements={achievementsToDisplay} />
