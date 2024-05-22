@@ -1,3 +1,8 @@
+.achievements-page h1 {
+	font-size: 1.5rem;
+	padding-left: calc(50vw - 400px - 1rem);
+}
+
 .achievements-page .language-picker {
 	margin: 0 auto;
 	max-width: 800px;
