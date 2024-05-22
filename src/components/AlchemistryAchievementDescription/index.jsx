@@ -7,12 +7,12 @@ export default function AlchemistryAchievementDescription({ achievement, t, tran
 	return (
 		<div>
 			{t(`alchemistry:achievements:NEW_ACHIEVEMENT_1_${achievement.index}_DESC`).replace('N/A', '')}
-			{neededItems[achievement.name] && <details>
+			{neededItems[achievement.key] && <details>
 				<summary>{t(`alchemistry:wiki:achievement-item-needed`)}</summary>
-				{t(`alchemistry:wiki:achievement-item-description-need`)} <a href={translatePath(`/items/${neededItems[achievement.name]}`)}>
-					{t(`alchemistry:items:${neededItems[achievement.name]}`)}
-				</a>{neededIngredients[achievement.name] && <> {t(`alchemistry:wiki:achievement-item-description-from`)} <a href={translatePath(`/items/${neededIngredients[achievement.name]}`)}>
-					{t(`alchemistry:items:${neededIngredients[achievement.name]}`)}
+				{t(`alchemistry:wiki:achievement-item-description-need`)} <a href={translatePath(`/items/${neededItems[achievement.key]}`)}>
+					{t(`alchemistry:items:${neededItems[achievement.key]}`)}
+				</a>{neededIngredients[achievement.key] && <> {t(`alchemistry:wiki:achievement-item-description-from`)} <a href={translatePath(`/items/${neededIngredients[achievement.key]}`)}>
+					{t(`alchemistry:items:${neededIngredients[achievement.key]}`)}
 					</a>.
 				</>}
 			</details>}

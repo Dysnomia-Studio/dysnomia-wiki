@@ -21,9 +21,13 @@ if(achievementsPercentages.length !== Object.keys(achievements).length) {
 }
 
 const achievementsToDisplay = achievementsPercentages.map((achievementData) => {
+	const index = Object.keys(achievements).indexOf(achievementData.name);
+
 	const achievement = {
-		name: achievementData.name,
-		index: Object.keys(achievements).indexOf(achievementData.name),
+		key: achievementData.name,
+		index: index,
+		name: t(`alchemistry:achievements:NEW_ACHIEVEMENT_1_${index}_NAME`),
+		picture: `/img/alchemistry/achievements/${achievementData.name}_ok.png`,
 		percent: achievementData.percent
 	};
 	achievement.description = AlchemistryAchievementDescription({ achievement, t, translatePath });

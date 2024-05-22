@@ -20,10 +20,10 @@ export default function AchievementsList({ achievements, t }) {
 
 				return (
 					<div key={currentAchievement.index} className="achievement-list-item">
-						<img src={`/img/alchemistry/achievements/${currentAchievement.name}_ok.png`} width="50" height="50" alt={t(`alchemistry:achievements:NEW_ACHIEVEMENT_1_${currentAchievement.index}_NAME`)} />
+						<img src={currentAchievement.picture} width="50" height="50" alt={currentAchievement.name} />
 						<div className="achievement-list-item-body">
 							<div className="achievement-list-item-title">
-								{t(`alchemistry:achievements:NEW_ACHIEVEMENT_1_${currentAchievement.index}_NAME`)}
+								{currentAchievement.name}
 							</div>
 							<span className={rarityClass}>
 								{Math.floor(currentAchievement.percent)}%
