@@ -4,27 +4,38 @@ import './index.css';
 
 function AlchemistryRecipeElementWithLink({ item, t, translatePath }) {
 	return (
-		<div class="item-page-recipe-element">
+		<div className="item-page-recipe-element">
 			<a href={translatePath(`/alchemistry/item/${item}`)}>
 				<img src={`/img/alchemistry/elements/${item}.png`} alt={t(`alchemistry:items:${item}`)} />
-				<span class="element-name">{t(`alchemistry:items:${item}`)}</span>
+				<span className="element-name">{t(`alchemistry:items:${item}`)}</span>
 			</a>
 		</div>
 	)
 }
 
+AlchemistryRecipeElementWithLink.propTypes = {
+	item: PropTypes.string.isRequired,
+	t: PropTypes.func.isRequired,
+	translatePath: PropTypes.func.isRequired,
+};
+
 function AlchemistryRecipeElementWithoutLink({ item, t }) {
 	return (
-		<div class="item-page-recipe-element">
+		<div className="item-page-recipe-element">
 			<img src={`/img/alchemistry/elements/${item}.png`} alt={t(`alchemistry:items:${item}`)} />
-			<span class="element-name">{t(`alchemistry:items:${item}`)}</span>
+			<span className="element-name">{t(`alchemistry:items:${item}`)}</span>
 		</div>
 	)
 }
 
+AlchemistryRecipeElementWithoutLink.propTypes = {
+	item: PropTypes.string.isRequired,
+	t: PropTypes.func.isRequired,
+};
+
 export default function AlchemistryRecipe({ current, first, second, result, t, translatePath }) {
 	return (
-        <div class="item-page-recipe">
+        <div className="item-page-recipe">
 			{current !== first && (
 				<AlchemistryRecipeElementWithLink
 					item={first}
@@ -39,7 +50,7 @@ export default function AlchemistryRecipe({ current, first, second, result, t, t
 				/>
 			)}
 
-			<span class="item-page-recipe-operator"> + </span>
+			<span className="item-page-recipe-operator"> + </span>
 
 			{current !== second && (
 				<AlchemistryRecipeElementWithLink
@@ -55,7 +66,7 @@ export default function AlchemistryRecipe({ current, first, second, result, t, t
 				/>
 			)}
 
-          	<span class="item-page-recipe-operator"> → </span>
+          	<span className="item-page-recipe-operator"> → </span>
 
 			{current !== result && (
 				<AlchemistryRecipeElementWithLink
