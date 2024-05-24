@@ -1,8 +1,12 @@
 ---
+import { getLangFromUrl, useTranslations } from '/src/i18n/utils';
+
 import Layout from '/src/layout/layout.astro';
 
 import '/src/css/home.css';
 
+const currLang = getLangFromUrl(Astro.url);
+const t = useTranslations(currLang);
 ---
 <Layout title="Home">
 	<div class="home">
@@ -17,9 +21,9 @@ import '/src/css/home.css';
 			<li>
 				<span>Alchemistry</span>
 				<ul>
-					<li><a href="/alchemistry/achievements">Achievements</a><br/></li>
-					<li><a href="/alchemistry/challenges">Challenges</a><br/></li>
-					<li><a href="/alchemistry/items">Items</a><br/></li>
+					<li><a href="/alchemistry/achievements">{t(`alchemistry:wiki:achievement-page-title`)}</a><br/></li>
+					<li><a href="/alchemistry/challenges">{t(`alchemistry:wiki:challenges-page-title`)}</a><br/></li>
+					<li><a href="/alchemistry/items">{t(`alchemistry:wiki:items-page-title`)}</a><br/></li>
 				</ul>
 			</li>
 			<li><a href="/extortion">Extortion</a></li>

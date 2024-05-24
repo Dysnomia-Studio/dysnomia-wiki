@@ -1,6 +1,8 @@
+import PropTypes from 'prop-types';
+
 import './index.css';
 
-export default function Menu() {
+export default function Menu({ t }) {
 	return (
 		<>
 			<a href="#menu" className="mobile-menu-button">☰</a>
@@ -10,9 +12,9 @@ export default function Menu() {
 				<span className="menu-item">
 					<span className="menu-item-title">Alchemistry</span>
 					<span className="submenu">
-						<a href="/alchemistry/achievements">Achievements</a><br/>
-						<a href="/alchemistry/challenges">Challenges</a><br/>
-						<a href="/alchemistry/items">Items</a><br/>
+						<a href="/alchemistry/achievements">{t(`alchemistry:wiki:achievement-page-title`)}</a><br/>
+						<a href="/alchemistry/challenges">{t(`alchemistry:wiki:challenges-page-title`)}</a><br/>
+						<a href="/alchemistry/items">{t(`alchemistry:wiki:items-page-title`)}</a><br/>
 					</span>
 				</span>
 				<a className="menu-item" href="/extortion">Extortion</a>
@@ -22,3 +24,7 @@ export default function Menu() {
 		</>
 	);
 }
+
+Menu.propType = {
+	t: PropTypes.func.isRequired
+};
