@@ -2,6 +2,14 @@
 	margin: 1rem;
 }
 
+.items-list .language-picker {
+	text-align: right;
+	padding-bottom: 1rem;
+}
+.items-list .language-picker a {
+	width: auto !important;
+}
+
 .items-list a {
 	display: inline-block;
 	margin: 0.5rem;
