@@ -18,7 +18,17 @@ const localizedElements = Object.keys(elements).map((x) => ({
 	id: x,
 	name: t(`alchemistry:items:${x}`)
 }));
-localizedElements.sort((a, b) => a.name > b.name);
+localizedElements.sort((a, b) => {
+	if(a.name > b.name) {
+		return 1;
+	}
+
+	if(a.name === b.name) {
+		return 0;
+	}
+
+	return -1;
+});
 ---
 <Layout title={`Alchemistry - ${t(`alchemistry:wiki:items-page-title`)}`}>
 	<div class="items-list">
