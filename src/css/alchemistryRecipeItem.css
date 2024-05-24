@@ -1,5 +1,6 @@
 .item-page {
 	margin: 0 auto;
+	min-height: calc(100vh - 10rem - 10rem);
 	max-width: 800px;
 	text-align: center;
 	width: 100%;
