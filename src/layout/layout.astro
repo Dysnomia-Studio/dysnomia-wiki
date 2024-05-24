@@ -1,5 +1,5 @@
 ---
-import { getLangFromUrl, useTranslations } from '/src/i18n/utils';
+import { getLangFromUrl, useTranslatedPath, useTranslations } from '/src/i18n/utils';
 
 import Menu from '../components/Menu';
 import Footer from '../components/Footer/index.astro';
@@ -9,6 +9,7 @@ import './layout.css';
 const { title, description } = Astro.props;
 const currLang = getLangFromUrl(Astro.url);
 const t = useTranslations(currLang);
+const translatePath = useTranslatedPath(currLang);
 ---
 <html lang={currLang}>
 	<head>
@@ -19,7 +20,7 @@ const t = useTranslations(currLang);
 		<title>Dysnomia Wiki - {title}</title>
 	</head>
 	<body>
-		<Menu t={t} />
+		<Menu t={t} translatePath={translatePath} />
 		<slot /> <!-- page content -->
 		<Footer />
 	</body>

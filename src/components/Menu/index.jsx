@@ -2,7 +2,7 @@ import PropTypes from 'prop-types';
 
 import './index.css';
 
-export default function Menu({ t }) {
+export default function Menu({ t, translatePath }) {
 	return (
 		<>
 			<a href="#menu" className="mobile-menu-button">☰</a>
@@ -12,14 +12,14 @@ export default function Menu({ t }) {
 				<span className="menu-item">
 					<span className="menu-item-title">Alchemistry</span>
 					<span className="submenu">
-						<a href="/alchemistry/achievements">{t(`alchemistry:wiki:achievement-page-title`)}</a><br/>
-						<a href="/alchemistry/challenges">{t(`alchemistry:wiki:challenges-page-title`)}</a><br/>
-						<a href="/alchemistry/items">{t(`alchemistry:wiki:items-page-title`)}</a><br/>
+						<a href={translatePath('/alchemistry/achievements')}>{t(`alchemistry:wiki:achievement-page-title`)}</a><br/>
+						<a href={translatePath('/alchemistry/challenges')}>{t(`alchemistry:wiki:challenges-page-title`)}</a><br/>
+						<a href={translatePath('/alchemistry/items')}>{t(`alchemistry:wiki:items-page-title`)}</a><br/>
 					</span>
 				</span>
-				<a className="menu-item" href="/extortion">Extortion</a>
-				<a className="menu-item" href="/galactae">Galactae</a>
-				<a className="menu-item" href="/manufactur-inc">Manufactur'inc</a>
+				<a className="menu-item" href={translatePath('/extortion')}>Extortion</a>
+				<a className="menu-item" href={translatePath('/galactae')}>Galactae</a>
+				<a className="menu-item" href={translatePath('/manufactur-inc')}>Manufactur'inc</a>
 			</nav>
 		</>
 	);
