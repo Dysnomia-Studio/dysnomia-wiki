@@ -7,7 +7,7 @@ permissions:
   contents: read
 
 jobs:
-  test:
+  quality:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v4
@@ -19,6 +19,9 @@ jobs:
       with:
         node-version: 22
         cache: 'npm'
+
+    - run: npm ci
+    - run: npm run build        
 
     - name: SonarQube Scan
       uses: sonarsource/sonarqube-scan-action@master
@@ -33,8 +36,9 @@ jobs:
       env:
        SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
   
-  build_branch:
-    needs: test
+  build_and_push_tag:
+    if: startsWith(github.event.ref, 'refs/tags/')
+    needs: quality
   
     runs-on: ubuntu-latest
     steps:
@@ -66,4 +70,16 @@ jobs:
         with:
           push: true
           context: .
-          tags: ghcr.io/dysnomia-studio/dysnomia-wiki:${{ github.head_ref || github.ref_name }}  
+          tags: ghcr.io/dysnomia-studio/dysnomia-wiki:${{ github.head_ref || github.ref_name }}
+
+  deploy_app:
+    needs: build_and_push_tag
+
+    runs-on: ubuntu-latest
+    steps:
+      - name: Update infra
+        uses: peter-evans/repository-dispatch@v3
+        with:
+          token: ${{ secrets.UPDATE_INFRA_TOKEN }}
+          repository: Dysnomia-studio/argocd-infra
+          event-type: update-infra
