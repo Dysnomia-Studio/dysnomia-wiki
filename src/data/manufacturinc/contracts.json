@@ -1,0 +1,21 @@
+[
+	{
+		"contract_id": "first_production",
+		"contract_type": "global",
+		"objectives": [
+			{
+				"objective_type": "equipment",
+				"equipment_type": "small_saw",
+				"requirement_type": "absolute",
+				"amount": 1
+			},
+			{
+				"objective_type": "resource",
+				"resource_type": "planks",
+				"requirement_type": "absolute",
+				"amount": 10
+			}
+		],
+		"requirements": []
+	}
+]

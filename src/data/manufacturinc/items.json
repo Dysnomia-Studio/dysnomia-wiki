@@ -1,0 +1,62 @@
+[
+    {
+        "id": "anything",
+        "price": 0,
+        "price_variation": 0
+    },
+    {
+        "id": "wood",
+        "price": 10,
+        "price_variation": 2
+    },
+    {
+        "id": "planks",
+        "price": 4,
+        "price_variation": 1
+    },
+    {
+        "id": "woodchip",
+        "price": 1.5,
+        "price_variation": 0.2
+    },
+    {
+        "id": "paper",
+        "price": 4,
+        "price_variation": 1
+    },
+    {
+        "id": "cardboard",
+        "price": 9,
+        "price_variation": 2
+    },
+    {
+        "id": "water",
+        "price": 1,
+        "price_variation": 0.1
+    },
+    {
+        "id": "money",
+        "price": 1,
+        "price_variation": 0
+    },
+    {
+        "id": "charcoal",
+        "price": 20,
+        "price_variation": 5
+    },
+    {
+        "id": "cardboard_box",
+        "price": 12,
+        "price_variation": 3
+    },
+    {
+        "id": "chair",
+        "price": 13,
+        "price_variation": 5
+    },
+    {
+        "id": "table",
+        "price": 20,
+        "price_variation": 5
+    }
+]

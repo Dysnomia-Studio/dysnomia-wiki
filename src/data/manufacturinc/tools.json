@@ -1,0 +1,238 @@
+[
+    {
+        "id": "small_saw",
+        "cycle_duration": 3,
+        "width": 1,
+        "height": 1,
+        "cost": [
+            {
+                "resource_type": "money",
+                "amount": 100
+            }
+        ],
+        "storage": [
+            {
+                "resource_type": "wood",
+                "max": 25,
+                "io_kind": "input",
+                "slot_index": 0
+            },
+            {
+                "resource_type": "planks",
+                "max": 60,
+                "io_kind": "output",
+                "slot_index": 1
+            },
+            {
+                "resource_type": "woodchip",
+                "max": 20,
+                "io_kind": "output",
+                "slot_index": 2
+            }
+        ],
+        "category": "tool"
+    },
+    {
+        "id": "medium_saw",
+        "cycle_duration": 4,
+        "width": 2,
+        "height": 2,
+        "category": "tool"
+    },
+    {
+        "id": "large_saw",
+        "cycle_duration": 5,
+        "width": 4,
+        "height": 2,
+        "category": "tool"
+    },
+    {
+        "id": "small_paper_machine",
+        "cycle_duration": 10,
+        "width": 2,
+        "height": 1,
+        "category": "tool",
+        "storage": [
+            {
+                "resource_type": "woodchip",
+                "max": 20,
+                "io_kind": "input",
+                "slot_index": 0
+            },
+            {
+                "resource_type": "water",
+                "max": 20,
+                "io_kind": "input",
+                "slot_index": 1
+            },
+            {
+                "resource_type": "paper",
+                "max": 20,
+                "io_kind": "output",
+                "slot_index": 2
+            }
+        ],
+        "cost": [
+            {
+                "resource_type": "money",
+                "amount": 250
+            }
+        ]
+    },
+    {
+        "id": "small_cardboard_machine",
+        "cycle_duration": 12,
+        "width": 1,
+        "height": 4,
+        "category": "tool",
+        "cost": [
+            {
+                "resource_type": "money",
+                "amount": 250
+            }
+        ],
+        "storage": [
+            {
+                "resource_type": "paper",
+                "max": 30,
+                "io_kind": "input",
+                "slot_index": 0
+            },
+            {
+                "resource_type": "cardboard",
+                "max": 15,
+                "io_kind": "output",
+                "slot_index": 1
+            }
+        ]
+    },
+    {
+        "id": "small_storage",
+        "cycle_duration": 0,
+        "width": 1,
+        "height": 1,
+        "cost": [
+            {
+                "resource_type": "money",
+                "amount": 100
+            }
+        ],
+        "storage": [
+            {
+                "resource_type": "anything",
+                "max": 150,
+                "io_kind": "input_output",
+                "slot_index": 0
+            }
+        ],
+        "category": "storage"
+    },
+    {
+        "id": "small_furnace",
+        "category": "tool",
+        "cycle_duration": 15,
+        "width": 2,
+        "height": 2,
+        "cost": [
+            {
+                "resource_type": "money",
+                "amount": 150
+            }
+        ],
+        "storage": [
+            {
+                "resource_type": "wood",
+                "max": 15,
+                "io_kind": "input",
+                "slot_index": 0
+            },
+            {
+                "resource_type": "charcoal",
+                "max": 20,
+                "io_kind": "output",
+                "slot_index": 1
+            }
+        ]
+    },
+    {
+        "id": "small_cardboard_box_machine",
+        "category": "tool",
+        "cycle_duration": 5,
+        "width": 2,
+        "height": 1,
+        "cost": [
+            {
+                "resource_type": "money",
+                "amount": 200
+            }
+        ],
+        "storage": [
+            {
+                "resource_type": "cardboard",
+                "max": 20,
+                "io_kind": "input",
+                "slot_index": 0
+            },
+            {
+                "resource_type": "cardboard_box",
+                "max": 20,
+                "io_kind": "output",
+                "slot_index": 1
+            }
+        ]
+    },
+    {
+        "id": "small_chair_machine",
+        "category": "tool",
+        "cycle_duration": 25,
+        "width": 3,
+        "height": 2,
+        "cost": [
+            {
+                "resource_type": "money",
+                "amount": 500
+            }
+        ],
+        "storage": [
+            {
+                "resource_type": "planks",
+                "max": 30,
+                "io_kind": "input",
+                "slot_index": 0
+            },
+            {
+                "resource_type": "chair",
+                "max": 15,
+                "io_kind": "output",
+                "slot_index": 1
+            }
+        ]
+    },
+    {
+        "id": "small_table_machine",
+        "category": "tool",
+        "cycle_duration": 25,
+        "width": 4,
+        "height": 2,
+        "cost": [
+            {
+                "resource_type": "money",
+                "amount": 750
+            }
+        ],
+        "storage": [
+            {
+                "resource_type": "planks",
+                "max": 60,
+                "io_kind": "input",
+                "slot_index": 0
+            },
+            {
+                "resource_type": "table",
+                "max": 15,
+                "io_kind": "output",
+                "slot_index": 1
+            }
+        ]
+    }
+]

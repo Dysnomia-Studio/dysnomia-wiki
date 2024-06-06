@@ -1,0 +1,153 @@
+[
+    {
+        "name": "small_saw",
+        "ingredients": [
+            {
+                "resource_type": "wood",
+                "amount": 1
+            }
+        ],
+        "production": [
+            {
+                "resource_type": "planks",
+                "amount": 4
+            },
+            {
+                "resource_type": "woodchip",
+                "amount": 0.5
+            }
+        ]
+    },
+    {
+        "name": "small_paper_machine",
+        "ingredients": [
+            {
+                "resource_type": "woodchip",
+                "amount": 1
+            },
+            {
+                "resource_type": "water",
+                "amount": 1
+            }
+        ],
+        "production": [
+            {
+                "resource_type": "paper",
+                "amount": 1
+            }
+        ]
+    },
+    {
+        "name": "small_cardboard_machine",
+        "ingredients": [
+            {
+                "resource_type": "paper",
+                "amount": 2
+            }
+        ],
+        "production": [
+            {
+                "resource_type": "cardboard",
+                "amount": 1
+            }
+        ]
+    },
+    {
+        "name": "medium_saw",
+        "ingredients": [
+            {
+                "resource_type": "wood",
+                "amount": 2
+            }
+        ],
+        "production": [
+            {
+                "resource_type": "planks",
+                "amount": 8
+            },
+            {
+                "resource_type": "woodchip",
+                "amount": 1
+            }
+        ]
+    },
+    {
+        "name": "large_saw",
+        "ingredients": [
+            {
+                "resource_type": "wood",
+                "amount": 5
+            }
+        ],
+        "production": [
+            {
+                "resource_type": "planks",
+                "amount": 10
+            },
+            {
+                "resource_type": "woodchip",
+                "amount": 2.5
+            }
+        ]
+    },
+    {
+        "name": "small_furnace",
+        "ingredients": [
+            {
+                "resource_type": "wood",
+                "amount": 3
+            }
+        ],
+        "production": [
+            {
+                "resource_type": "charcoal",
+                "amount": 2
+            }
+        ]
+    },
+    {
+        "name": "small_cardboard_box_machine",
+        "ingredients": [
+            {
+                "resource_type": "cardboard",
+                "amount": 1
+            }
+        ],
+        "production": [
+            {
+                "resource_type": "cardboard_box",
+                "amount": 1
+            }
+        ]
+    },
+    {
+        "name": "small_chair_machine",
+        "ingredients": [
+            {
+                "resource_type": "planks",
+                "amount": 2
+            }
+        ],
+        "production": [
+            {
+                "resource_type": "chair",
+                "amount": 1
+            }
+        ]
+    },
+    {
+        "name": "small_table_machine",
+        "ingredients": [
+            {
+                "resource_type": "planks",
+                "amount": 4
+            }
+        ],
+        "production": [
+            {
+                "resource_type": "table",
+                "amount": 1
+            }
+        ]
+    }
+]
