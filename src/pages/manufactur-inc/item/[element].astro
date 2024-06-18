@@ -1,0 +1,34 @@
+---
+import items from '/src/data/manufacturinc/items.json';
+
+import Layout from '/src/layout/layout.astro';
+import LanguagePicker from '/src/components/LanguagePicker/index.astro';
+import SpoilerWarning from '/src/components/SpoilerWarning';
+
+import { getLangFromUrl, useTranslatedPath, useTranslations } from '/src/i18n/utils';
+
+export function getStaticPaths() {
+	return items.map(x => ({ params: { element: x.id } }));
+}
+
+console.log(getStaticPaths);
+
+const { element } = Astro.params;
+
+const lang = getLangFromUrl(Astro.url);
+const t = useTranslations(lang);
+const translatePath = useTranslatedPath(lang);
+---
+<Layout title={`Manufactur'inc - ${t(`manufacturinc:wiki:item-page-title`)} - ${t(`manufacturinc:resources:${element}`)}`} description={t(`manufacturinc:wiki:item-page-description`).replace('%element%', t(`manufacturinc:resources:${element}`))}>
+	<div class="item-page">
+		<LanguagePicker />
+
+		<h1>{t(`manufacturinc:resources:${element}`)}</h1>
+
+		<img src={`/img/manufacturinc/resources/${element}.png`} alt={t(`manufacturinc:resources:${element}`)} />
+
+		<SpoilerWarning t={t} />
+
+		<h2>{t(`manufacturinc:wiki:item-page-recipes`)}</h2>
+	</div>
+</Layout>

@@ -18,6 +18,16 @@ export const types = {
 		'ui',
 		'wiki',
 	],
+	manufacturinc: [
+		'achievements',
+		'contracts',
+		'durations',
+		'equipments',
+		'features',
+		'resources',
+		'store',
+		'wiki',
+	],
 	'wiki': [
 		'spoiler',
 	]
@@ -34,7 +44,7 @@ async function loadTranslations() {
 				try {
 					translationsList[gameName][type][language] = (await import(`./${gameName}/${type}/${language}.json`)).default;
 				} catch(e) {
-					console.error(e);
+					//console.error(e);
 					translationsList[gameName][type][language] = {};
 				}
 			}

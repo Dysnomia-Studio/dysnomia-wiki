@@ -1,3 +1,6 @@
 [submodule "src/i18n/alchemistry"]
 	path = src/i18n/alchemistry
 	url = git@github.com:Dysnomia-Studio/alchemistry-i18n.git
+[submodule "src/i18n/manufacturinc"]
+	path = src/i18n/manufacturinc
+	url = git@github.com:Dysnomia-Studio/factory-game-i18n.git

@@ -12,6 +12,8 @@ export function useTranslations(lang) {
 	return function t(key) {
 		const [gameName, type, tKey] = key.split(':');
 
+		console.log([gameName, type, tKey]);
+
 		const localizedText = translations[gameName][type][lang][tKey];
 		if(localizedText && localizedText !== '?') {
 			return localizedText;
