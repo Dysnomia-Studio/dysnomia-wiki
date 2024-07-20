@@ -19,7 +19,15 @@ export default function Menu({ t, translatePath }) {
 				</span>
 				<a className="menu-item" href={translatePath('/extortion')}>Extortion</a>
 				<a className="menu-item" href={translatePath('/galactae')}>Galactae</a>
-				<a className="menu-item" href={translatePath('/manufactur-inc')}>Manufactur'inc</a>
+				<span className="menu-item">
+					<span className="menu-item-title">Manufactur'inc</span>
+					<span className="submenu">
+						<a href={translatePath('/manufactur-inc/achievements')}>{t(`manufacturinc:wiki:achievement-page-title`)}</a><br/>
+						<a href={translatePath('/manufactur-inc/contracts')}>{t(`manufacturinc:wiki:contracts-page-title`)}</a><br/>
+						<a href={translatePath('/manufactur-inc/equipments')}>{t(`manufacturinc:wiki:equipments-page-title`)}</a><br/>
+						<a href={translatePath('/manufactur-inc/items')}>{t(`manufacturinc:wiki:items-page-title`)}</a><br/>
+					</span>
+				</span>
 			</nav>
 		</>
 	);

@@ -1,0 +1,21 @@
+---
+import { getLangFromUrl, useTranslations } from '/src/i18n/utils';
+
+import Layout from '/src/layout/layout.astro';
+
+import '/src/css/home.css';
+
+const lang = getLangFromUrl(Astro.url);
+const t = useTranslations(lang);
+---
+<Layout title="Manufactur'inc">
+	<div class="home">
+		<p>Manufactur'inc</p>
+		<ul>
+			<li><a href="/manufactur-inc/achievements">{t(`manufacturinc:wiki:achievement-page-title`)}</a></li>
+			<li><a href="/manufactur-inc/contracts">{t(`manufacturinc:wiki:contracts-page-title`)}</a></li>
+			<li><a href="/manufactur-inc/equipments">{t(`manufacturinc:wiki:equipments-page-title`)}</a></li>
+			<li><a href="/manufactur-inc/items">{t(`manufacturinc:wiki:items-page-title`)}</a></li>
+		</ul>
+	</div>
+</Layout>

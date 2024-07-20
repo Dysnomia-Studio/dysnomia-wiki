@@ -19,7 +19,7 @@ const lang = getLangFromUrl(Astro.url);
 const t = useTranslations(lang);
 const translatePath = useTranslatedPath(lang);
 ---
-<Layout title={`Manufactur'inc - ${t(`manufacturinc:wiki:item-page-title`)} - ${t(`manufacturinc:equipments:${element}`)}`} description={t(`manufacturinc:wiki:item-page-description`).replace('%element%', t(`manufacturinc:equipments:${element}`))}>
+<Layout title={`Manufactur'inc - ${t(`manufacturinc:wiki:item-page-title`)} - ${t(`manufacturinc:equipments:${element}`)}`} description={t(`manufacturinc:wiki:equipment-page-description`).replace('%element%', t(`manufacturinc:equipments:${element}`))}>
 	<div class="item-page">
 		<LanguagePicker />
 
