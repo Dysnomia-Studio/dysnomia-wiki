@@ -8,7 +8,7 @@ import SpoilerWarning from '/src/components/SpoilerWarning';
 
 import { getLangFromUrl, useTranslatedPath, useTranslations } from '/src/i18n/utils';
 
-import '/src/css/alchemistryRecipeItem.css';
+import '/src/css/item-page.css';
 
 export function getStaticPaths() {
 	return Object.keys(elements).map(x => ({ params: { element: x } }));

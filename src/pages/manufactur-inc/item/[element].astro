@@ -7,11 +7,11 @@ import SpoilerWarning from '/src/components/SpoilerWarning';
 
 import { getLangFromUrl, useTranslatedPath, useTranslations } from '/src/i18n/utils';
 
+import '/src/css/item-page.css';
+
 export function getStaticPaths() {
 	return items.map(x => ({ params: { element: x.id } }));
 }
-
-console.log(getStaticPaths);
 
 const { element } = Astro.params;
 
