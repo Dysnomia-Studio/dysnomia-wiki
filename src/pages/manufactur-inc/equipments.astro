@@ -1,5 +1,5 @@
 ---
-import items from '/src/data/manufacturinc/items.json';
+import tools from '/src/data/manufacturinc/tools.json';
 
 import { getLangFromUrl, useTranslatedPath, useTranslations } from '/src/i18n/utils';
 
@@ -14,9 +14,9 @@ const lang = getLangFromUrl(Astro.url);
 const t = useTranslations(lang);
 const translatePath = useTranslatedPath(lang);
 
-const localizedElements = items.map((x) => ({
+const localizedElements = tools.map((x) => ({
 	id: x.id,
-	name: t(`manufacturinc:resources:${x.id}`) || x.id
+	name: t(`manufacturinc:equipments:${x.id}`) || x.id
 }));
 localizedElements.sort((a, b) => {
 	if(a.name > b.name) {
@@ -30,17 +30,17 @@ localizedElements.sort((a, b) => {
 	return -1;
 });
 ---
-<Layout title={`Manufactur'inc - ${t(`manufacturinc:wiki:items-page-title`)}`}>
+<Layout title={`Manufactur'inc - ${t(`manufacturinc:wiki:equipment-page-title`)}`}>
 	<div class="items-list">
 		<LanguagePicker />
 
-		<h1>{t(`manufacturinc:wiki:items-page-title`)}</h1>
+		<h1>{t(`manufacturinc:wiki:equipment-page-title`)}</h1>
 
 		<SpoilerWarning t={t} />
 
 		{localizedElements.map((x) => 
-			<a href={translatePath(`/manufactur-inc/item/${x.id}`)}>
-				<img src={`/img/manufacturinc/resources/${x.id}.svg`} alt={x.name} />
+			<a href={translatePath(`/manufactur-inc/equipment/${x.id}`)}>
+				<img src={`/img/manufacturinc/equipments/${x.id}.svg`} alt={x.name} />
 				{x.name}
 			</a>
 		)}
