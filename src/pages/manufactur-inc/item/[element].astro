@@ -23,7 +23,7 @@ const translatePath = useTranslatedPath(lang);
 	<div class="item-page">
 		<LanguagePicker />
 
-		<h1>{t(`manufacturinc:resources:${element}`)}</h1>
+		<h1>{t(`manufacturinc:resources:${element}`) || element}</h1>
 
 		<img src={`/img/manufacturinc/resources/${element}.svg`} alt={t(`manufacturinc:resources:${element}`)} />
 

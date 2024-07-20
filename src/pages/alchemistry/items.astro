@@ -16,7 +16,7 @@ const translatePath = useTranslatedPath(lang);
 
 const localizedElements = Object.keys(elements).map((x) => ({
 	id: x,
-	name: t(`alchemistry:items:${x}`)
+	name: t(`alchemistry:items:${x}`) || x
 }));
 localizedElements.sort((a, b) => {
 	if(a.name > b.name) {

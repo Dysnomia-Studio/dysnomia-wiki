@@ -16,7 +16,7 @@ const translatePath = useTranslatedPath(lang);
 
 const localizedElements = items.map((x) => ({
 	id: x.id,
-	name: t(`manufacturinc:resources:${x.id}`)
+	name: t(`manufacturinc:resources:${x.id}`) || x.id
 }));
 localizedElements.sort((a, b) => {
 	if(a.name > b.name) {
