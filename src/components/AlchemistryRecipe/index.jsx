@@ -1,7 +1,5 @@
 import PropTypes from 'prop-types';
 
-import './index.css';
-
 function AlchemistryRecipeElementWithLink({ item, t, translatePath }) {
 	return (
 		<div className="item-page-recipe-element">

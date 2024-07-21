@@ -27,3 +27,29 @@
 .item-page hr {
 	margin: 3rem 0;
 }
+
+/* Recipes */
+.item-page-recipe {
+	border-bottom: 1px solid #FFFFFF44;
+	padding: 1rem;
+}
+.item-page-recipe:last-child {
+	border: 0;
+}
+
+.item-page-recipe * {
+	vertical-align: middle;
+}
+
+.item-page-recipe-element {
+	display: inline-block;
+	padding: 0 1rem;
+	width: 75px;
+}
+
+.item-page .item-page-recipe-element img, .item-page-recipe-element img {
+	margin: 0;
+	width: 75px;
+	display: block;
+	margin-bottom: 1rem;
+}
