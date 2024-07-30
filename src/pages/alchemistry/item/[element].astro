@@ -36,7 +36,7 @@ const translatePath = useTranslatedPath(lang);
 	<div class="item-page">
 		<LanguagePicker />
 
-		<h1>{t(`alchemistry:items:${element}`)} || element</h1>
+		<h1>{t(`alchemistry:items:${element}`) || element}</h1>
 
 		<img src={`/img/alchemistry/elements/${element}.png`} alt={t(`alchemistry:items:${element}`)} />
 
