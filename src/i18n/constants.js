@@ -25,6 +25,7 @@ export const types = {
 		'durations',
 		'equipments',
 		'features',
+		'menu',
 		'resources',
 		'store',
 		'wiki',
