@@ -53,3 +53,8 @@
 	display: block;
 	margin-bottom: 1rem;
 }
+
+.item-page ul {
+	padding-left: 4rem;
+	text-align: left;
+}

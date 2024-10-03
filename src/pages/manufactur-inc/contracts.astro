@@ -1,10 +1,18 @@
 ---
+import contracts from '/src/data/manufacturinc/contracts.json';
+
 import Layout from '/src/layout/layout.astro';
 
+import { getLangFromUrl, useTranslatedPath, useTranslations } from '/src/i18n/utils';
+
 import '/src/css/home.css';
+
+const lang = getLangFromUrl(Astro.url);
+const t = useTranslations(lang);
+const translatePath = useTranslatedPath(lang);
 ---
 <Layout title="Manufactur'inc">
 	<div class="home">
-		Work in progress, coming soon
+		{contracts.map((contract) => <p><a href={translatePath(`/manufactur-inc/contract/${contract.contract_id}`)}>{t(`manufacturinc:contracts:${contract.contract_id}-title`)}</a></p>)}
 	</div>
 </Layout>

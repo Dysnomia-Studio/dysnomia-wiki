@@ -1,0 +1,73 @@
+---
+import contracts from '/src/data/manufacturinc/contracts.json';
+
+import ManufacturIncContractObjective from '/src/components/ManufacturIncContractObjective';
+import ManufacturIncContractRequirement from '/src/components/ManufacturIncContractRequirement';
+import ManufacturIncContractReward from '/src/components/ManufacturIncContractReward';
+import SpoilerWarning from '/src/components/SpoilerWarning';
+
+import Layout from '/src/layout/layout.astro';
+import LanguagePicker from '/src/components/LanguagePicker/index.astro';
+
+import { getLangFromUrl, useTranslatedPath, useTranslations } from '/src/i18n/utils';
+import formatLocalDateWithTime from '/src/business/formatLocalDateWithTime';
+
+import '/src/css/item-page.css';
+
+export function getStaticPaths() {
+	return contracts.map((x) => ({ params: { contract: x.contract_id } }));
+}
+
+const { contract } = Astro.params;
+
+const lang = getLangFromUrl(Astro.url);
+const t = useTranslations(lang);
+const translatePath = useTranslatedPath(lang);
+
+const currContract = contracts.find((x) => x.contract_id === contract);
+---
+<Layout title={`Manufactur'inc - ${t(`manufacturinc:menu:contracts`)} - ${t(`manufacturinc:contracts:${contract}-title`)}`} description={t(`manufacturinc:contracts:${contract}-subtitle`)}>
+	<div class="item-page">
+		<LanguagePicker />
+
+		<h1>{t(`manufacturinc:contracts:${contract}-title`)}</h1>
+
+		<SpoilerWarning t={t} />
+
+		<p><b>{t(`manufacturinc:contracts:${contract}-subtitle`)}</b></p>
+		<p><i>{t(`manufacturinc:contracts:${contract}-description`)}</i></p>
+
+		{currContract.requirements.length === 0 ? null : (
+			<>
+				<br />
+				<br />
+				<h2>{t('manufacturinc:contracts:generic_requirements')}</h2>
+				<ul>
+					{currContract.requirements.map((requirement) => <ManufacturIncContractRequirement requirement={requirement} lang={lang} t={t} translatePath={translatePath} />)}
+				</ul>
+			</>
+		)}
+
+		{currContract.objectives.length === 0 ? null : (
+			<>
+				<br />
+				<br />
+				<h2>{t('manufacturinc:contracts:generic_objectives')}</h2>
+				<ul>
+					{currContract.objectives.map((objective) => <ManufacturIncContractObjective objective={objective} t={t} translatePath={translatePath} />)}
+				</ul>
+			</>
+		)}
+
+		{currContract.rewards.length === 0 ? null : (
+			<>
+				<br />
+				<br />
+				<h2>{t('manufacturinc:contracts:generic_rewards')}</h2>
+				<ul>
+					{currContract.rewards.map((reward) => <ManufacturIncContractReward reward={reward} t={t} translatePath={translatePath} />)}
+				</ul>
+			</>
+		)}
+	</div>
+</Layout>
