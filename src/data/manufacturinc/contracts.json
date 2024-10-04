@@ -1,22 +1,287 @@
 [
-	{
-		"contract_id": "first_production",
-		"contract_type": "global",
-		"objectives": [
-			{
-				"objective_type": "equipment",
-				"equipment_type": "small_saw",
-				"requirement_type": "absolute",
-				"amount": 1
-			},
-			{
-				"objective_type": "resource",
-				"resource_type": "planks",
-				"requirement_type": "absolute",
-				"amount": 10
-			}
-		],
-		"requirements": [],
-		"rewards": []
-	}
+    {
+        "contract_id": "first_production",
+        "contract_type": "global",
+        "requirements": [],
+        "objectives": [
+            {
+                "objective_type": "equipment",
+                "equipment_type": "small_saw",
+                "requirement_type": "absolute",
+                "amount": 1
+            },
+            {
+                "objective_type": "resource",
+                "resource_type": "planks",
+                "requirement_type": "absolute",
+                "amount": 15
+            }
+        ],
+        "rewards": [
+            {
+                "reward_type": "resource",
+                "resource_type": "money",
+                "amount": 200
+            },
+            {
+                "reward_type": "resource",
+                "resource_type": "paper",
+                "amount": 0
+            },
+            {
+                "reward_type": "resource",
+                "resource_type": "planks",
+                "amount": 0
+            },
+            {
+                "reward_type": "resource",
+                "resource_type": "woodchip",
+                "amount": 0
+            },
+            {
+                "reward_type": "equipment",
+                "equipment_type": "small_paper_machine"
+            },
+            {
+                "reward_type": "equipment",
+                "equipment_type": "medium_saw"
+            }
+        ]
+    },
+    {
+        "contract_id": "manufacturinc_follow_objective",
+        "contract_type": "special",
+        "requirements": [],
+        "objectives": [
+            {
+                "objective_type": "follow_game",
+                "group_id": 44529211,
+                "game_name": "Manufactur'inc"
+            }
+        ],
+        "rewards": [
+            {
+                "reward_type": "resource",
+                "resource_type": "money",
+                "amount": 500
+            }
+        ]
+    },
+    {
+        "contract_id": "recycle_woodchip",
+        "contract_type": "global",
+        "requirements": [
+            {
+                "requirement_type": "contract",
+                "required_contract_id": "first_production"
+            }
+        ],
+        "objectives": [
+            {
+                "objective_type": "resource",
+                "resource_type": "paper",
+                "requirement_type": "absolute",
+                "amount": 25
+            }
+        ],
+        "rewards": [
+            {
+                "reward_type": "resource",
+                "resource_type": "money",
+                "amount": 500
+            },
+            {
+                "reward_type": "resource",
+                "resource_type": "cardboard",
+                "amount": 0
+            },
+            {
+                "reward_type": "resource",
+                "resource_type": "cardboard_box",
+                "amount": 0
+            },
+            {
+                "reward_type": "equipment",
+                "equipment_type": "small_cardboard_box_machine"
+            },
+            {
+                "reward_type": "equipment",
+                "equipment_type": "small_cardboard_machine"
+            }
+        ]
+    },
+    {
+        "contract_id": "everyone_needs_boxes",
+        "contract_type": "global",
+        "requirements": [
+            {
+                "requirement_type": "contract",
+                "required_contract_id": "recycle_woodchip"
+            }
+        ],
+        "objectives": [
+            {
+                "objective_type": "resource",
+                "resource_type": "paper",
+                "requirement_type": "absolute",
+                "amount": 25
+            }
+        ],
+        "rewards": [
+            {
+                "reward_type": "resource",
+                "resource_type": "money",
+                "amount": 500
+            }
+        ]
+    },
+    {
+        "contract_id": "higher_planks_output",
+        "contract_type": "global",
+        "requirements": [
+            {
+                "requirement_type": "contract",
+                "required_contract_id": "first_production"
+            }
+        ],
+        "objectives": [
+            {
+                "objective_type": "resource",
+                "resource_type": "planks",
+                "requirement_type": "absolute",
+                "amount": 100
+            },
+            {
+                "objective_type": "equipment",
+                "equipment_type": "small_saw",
+                "requirement_type": "absolute",
+                "amount": 2
+            },
+            {
+                "objective_type": "equipment",
+                "equipment_type": "medium_saw",
+                "requirement_type": "absolute",
+                "amount": 1
+            }
+        ],
+        "rewards": [
+            {
+                "reward_type": "resource",
+                "resource_type": "money",
+                "amount": 700
+            },
+            {
+                "reward_type": "equipment",
+                "equipment_type": "large_saw"
+            },
+            {
+                "reward_type": "equipment",
+                "equipment_type": "small_furnace"
+            },
+            {
+                "reward_type": "equipment",
+                "equipment_type": "small_chair_machine"
+            },
+            {
+                "reward_type": "resource",
+                "resource_type": "charcoal",
+                "amount": 0
+            },
+            {
+                "reward_type": "resource",
+                "resource_type": "chair",
+                "amount": 0
+            }
+        ]
+    },
+    {
+        "contract_id": "burn_baby_burn",
+        "contract_type": "global",
+        "requirements": [
+            {
+                "requirement_type": "contract",
+                "required_contract_id": "higher_planks_output"
+            }
+        ],
+        "objectives": [
+            {
+                "objective_type": "resource",
+                "resource_type": "charcoal",
+                "requirement_type": "absolute",
+                "amount": 100
+            }
+        ],
+        "rewards": [
+            {
+                "reward_type": "resource",
+                "resource_type": "money",
+                "amount": 1500
+            }
+        ]
+    },
+    {
+        "contract_id": "make_funitures",
+        "contract_type": "global",
+        "requirements": [
+            {
+                "requirement_type": "contract",
+                "required_contract_id": "higher_planks_output"
+            }
+        ],
+        "objectives": [
+            {
+                "objective_type": "resource",
+                "resource_type": "chair",
+                "requirement_type": "absolute",
+                "amount": 20
+            }
+        ],
+        "rewards": [
+            {
+                "reward_type": "resource",
+                "resource_type": "money",
+                "amount": 1000
+            },
+            {
+                "reward_type": "equipment",
+                "equipment_type": "small_table_machine"
+            },
+            {
+                "reward_type": "resource",
+                "resource_type": "table",
+                "amount": 0
+            }
+        ]
+    },
+    {
+        "contract_id": "wedding_furnitures",
+        "contract_type": "global",
+        "requirements": [
+            {
+                "requirement_type": "contract",
+                "required_contract_id": "make_funitures"
+            }
+        ],
+        "objectives": [
+            {
+                "objective_type": "resource",
+                "resource_type": "chair",
+                "requirement_type": "absolute",
+                "amount": 60
+            },
+            {
+                "objective_type": "resource",
+                "resource_type": "table",
+                "requirement_type": "absolute",
+                "amount": 10
+            }
+        ],
+        "rewards": [
+            {
+                "reward_type": "resource",
+                "resource_type": "money",
+                "amount": 2000
+            }
+        ]
+    }
 ]
