@@ -5,20 +5,29 @@ export default function ManufacturIncContractReward({ reward,  t, translatePath 
 		case 'equipment':
 			return (
 				<li>{text[0]}
-					<a href={translatePath(`/manufactur-inc/equipment/${objective.equipment_type}`)}>
-						{t(`manufacturinc:equipments:${objective.equipment_type}`)}
+					<a href={translatePath(`/manufactur-inc/equipment/${reward.equipment_type}`)}>
+						{t(`manufacturinc:equipments:${reward.equipment_type}`)}
 					</a>{text[1]}
 				</li>
 			);
 		case 'resource':
+			if(reward.amount === 0) {
+				return (
+					<li>{text[0]}
+						<a href={translatePath(`/manufactur-inc/item/${reward.resource_type}`)}>
+							{t(`manufacturinc:resources:${reward.resource_type}`)}
+						</a>{text[1]}
+					</li>
+				);
+			}
+
 			return (
-				<li>{text[0]}
-					<a href={translatePath(`/manufactur-inc/item/${objective.resource_type}`)}>
-						{t(`manufacturinc:resources:${objective.resource_type}`)}
-					</a>{text[1]}
+				<li>{reward.amount} x <a href={translatePath(`/manufactur-inc/item/${reward.resource_type}`)}>
+						{t(`manufacturinc:resources:${reward.resource_type}`)}
+					</a>
 				</li>
 			);
 		default:
-			throw new Error(`Unknown reward_type! ${objective.reward_type}`);
+			throw new Error(`Unknown reward_type! ${reward.reward_type}`);
 	}
 }

@@ -15,7 +15,7 @@ export default function ManufacturIncContractRequirement({ requirement, lang, t,
 			return (<li>{t('manufacturinc:contracts:follow_game').replace('%game_name%', getGameNameByGroupId(requirement.group_id))}</li>);
 		case 'contract':
 			const text = t('manufacturinc:contracts:requirement_contract').split('%contractName%');
-			return (<li>{text[0]}<a href={translatePath(`/manufactur-inc/contract/${requirement.contract_id}`)}>{t(`manufacturinc:contracts:${requirement.contract_id}-title`)}</a>{text[1]}</li>);
+			return (<li>{text[0]}<a href={translatePath(`/manufactur-inc/contract/${requirement.required_contract_id}`)}>{t(`manufacturinc:contracts:${requirement.required_contract_id}-title`)}</a>{text[1]}</li>);
 		default:
 			throw new Error(`Unknown requirement_type! ${requirement.requirement_type}`);
 	}

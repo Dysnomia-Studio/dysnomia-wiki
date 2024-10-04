@@ -63,7 +63,7 @@ const currContract = contracts.find((x) => x.contract_id === contract);
 			<>
 				<br />
 				<br />
-				<h2>{t('manufacturinc:contracts:generic_rewards')}</h2>
+				<h2>{t('manufacturinc:contracts:generic_reward')}</h2>
 				<ul>
 					{currContract.rewards.map((reward) => <ManufacturIncContractReward reward={reward} t={t} translatePath={translatePath} />)}
 				</ul>
