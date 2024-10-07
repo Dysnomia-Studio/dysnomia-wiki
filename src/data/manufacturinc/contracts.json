@@ -35,6 +35,11 @@
             },
             {
                 "reward_type": "resource",
+                "resource_type": "water",
+                "amount": 0
+            },
+            {
+                "reward_type": "resource",
                 "resource_type": "woodchip",
                 "amount": 0
             },

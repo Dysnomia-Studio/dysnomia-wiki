@@ -37,6 +37,32 @@
         "cycle_duration": 4,
         "width": 2,
         "height": 2,
+        "cost": [
+            {
+                "resource_type": "money",
+                "amount": 200
+            }
+        ],
+        "storage": [
+            {
+                "resource_type": "wood",
+                "max": 50,
+                "io_kind": "input",
+                "slot_index": 0
+            },
+            {
+                "resource_type": "planks",
+                "max": 100,
+                "io_kind": "output",
+                "slot_index": 1
+            },
+            {
+                "resource_type": "woodchip",
+                "max": 40,
+                "io_kind": "output",
+                "slot_index": 2
+            }
+        ],
         "category": "tool"
     },
     {
@@ -44,6 +70,32 @@
         "cycle_duration": 5,
         "width": 4,
         "height": 2,
+        "cost": [
+            {
+                "resource_type": "money",
+                "amount": 400
+            }
+        ],
+        "storage": [
+            {
+                "resource_type": "wood",
+                "max": 100,
+                "io_kind": "input",
+                "slot_index": 0
+            },
+            {
+                "resource_type": "planks",
+                "max": 200,
+                "io_kind": "output",
+                "slot_index": 1
+            },
+            {
+                "resource_type": "woodchip",
+                "max": 40,
+                "io_kind": "output",
+                "slot_index": 2
+            }
+        ],
         "category": "tool"
     },
     {
