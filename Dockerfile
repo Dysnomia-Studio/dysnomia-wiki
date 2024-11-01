@@ -1,4 +1,4 @@
-FROM nginx:1.27.0
+FROM nginx:1.27.2
 
 RUN  touch /var/run/nginx.pid && \
      chown -R nginx:nginx /var/cache/nginx /var/run/nginx.pid
