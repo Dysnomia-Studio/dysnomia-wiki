@@ -11,12 +11,12 @@
     "astro": "astro"
   },
   "dependencies": {
-    "@astrojs/react": "^4.1.2",
+    "@astrojs/react": "^4.2.1",
     "@astrojs/sitemap": "^3.2.1",
-    "@playform/compress": "^0.1.6",
-    "@types/react": "^19.0.2",
-    "@types/react-dom": "^19.0.2",
-    "astro": "^5.1.2",
+    "@playform/compress": "^0.1.7",
+    "@types/react": "^19.0.10",
+    "@types/react-dom": "^19.0.4",
+    "astro": "^5.4.2",
     "astro-robots-txt": "^1.0.0",
     "prop-types": "^15.8.1",
     "react": "^19.0.0",
