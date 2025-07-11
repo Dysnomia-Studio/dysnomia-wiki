@@ -30,7 +30,7 @@ const title = `Extortion - ${t(`extortion:wiki:servers-page-title`)}`;
 					<th>{t(`extortion:wiki:servers-page-table-password`)}</th>
 					<th>{t(`extortion:wiki:servers-page-table-firewall`)}</th>
 				</tr>
-				{Object.keys(servers).filter(x => x !== 'localhost').map((serverIp) => {
+				{Object.keys(servers).filter(x => x !== 'localhost' &&  x !== '37.158.219.56').map((serverIp) => {
 					const server = servers[serverIp];
 					const firstAccount = Object.keys(servers[serverIp].accounts)[0];
 
