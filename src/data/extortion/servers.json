@@ -833,7 +833,8 @@
     "98.135.5.26": {
         "haveFirewall": true,
         "fireWallDownEndTime": null,
-        "fireWallResetTimeMin": 30,
+        "fireWallResetTimeMin": 20,
+        "fireWallResetTimeMax": 30,
         "accounts": {
             "john": {
                 "password": "J5%f14_t",
@@ -995,7 +996,8 @@
     "94.165.61.234": {
         "haveFirewall": true,
         "fireWallDownEndTime": null,
-        "fireWallResetTimeMin": 30,
+        "fireWallResetTimeMin": 20,
+        "fireWallResetTimeMax": 30,
         "accounts": {
             "billy": {
                 "password": "jfIDe9r%",
@@ -1157,7 +1159,8 @@
     "93.168.26.45": {
         "haveFirewall": true,
         "fireWallDownEndTime": null,
-        "fireWallResetTimeMin": 30,
+        "fireWallResetTimeMin": 20,
+        "fireWallResetTimeMax": 30,
         "accounts": {
             "kate": {
                 "password": "g0@Fi0KL",
@@ -1319,7 +1322,8 @@
     "92.46.167.234": {
         "haveFirewall": true,
         "fireWallDownEndTime": null,
-        "fireWallResetTimeMin": 30,
+        "fireWallResetTimeMin": 20,
+        "fireWallResetTimeMax": 30,
         "accounts": {
             "dana": {
                 "password": "GhI_b5dk",
@@ -1481,7 +1485,8 @@
     "91.79.216.179": {
         "haveFirewall": true,
         "fireWallDownEndTime": null,
-        "fireWallResetTimeMin": 30,
+        "fireWallResetTimeMin": 20,
+        "fireWallResetTimeMax": 30,
         "accounts": {
             "cath": {
                 "password": "bk5mfL_8",
@@ -3312,7 +3317,8 @@
     "45.199.48.21": {
         "haveFirewall": true,
         "fireWallDownEndTime": null,
-        "fireWallResetTimeMin": 25,
+        "fireWallResetTimeMin": 15,
+        "fireWallResetTimeMax": 25,
         "accounts": {
             "diddy": {
                 "password": "Bah!Bouh!",
@@ -3474,7 +3480,8 @@
     "48.69.57.59": {
         "haveFirewall": true,
         "fireWallDownEndTime": null,
-        "fireWallResetTimeMin": 25,
+        "fireWallResetTimeMin": 15,
+        "fireWallResetTimeMax": 25,
         "accounts": {
             "ariel": {
                 "password": "bl4hbl4hbl4h!",
@@ -3636,7 +3643,8 @@
     "48.15.16.23": {
         "haveFirewall": true,
         "fireWallDownEndTime": null,
-        "fireWallResetTimeMin": 25,
+        "fireWallResetTimeMin": 15,
+        "fireWallResetTimeMax": 25,
         "accounts": {
             "bob": {
                 "password": "_1mp0551bl3!",
@@ -3799,6 +3807,7 @@
         "haveFirewall": true,
         "fireWallDownEndTime": null,
         "fireWallResetTimeMin": 1,
+        "fireWallResetTimeMax": 1,
         "accounts": {
             "root": {
                 "password": "12561gfd-kDGOP_fgkb-950",
