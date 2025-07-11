@@ -1,0 +1,54 @@
+---
+import AchievementsList from '/src/components/AchievementsList';
+import ExtortionAchievementDescription from '/src/components/ExtortionAchievementDescription';
+import LanguagePicker from '/src/components/LanguagePicker/index.astro';
+import SpoilerWarning from '/src/components/SpoilerWarning';
+
+import Layout from '/src/layout/layout.astro';
+
+import servers from '/src/data/extortion/servers.json';
+
+import '/src/css/extortion-servers.css';
+
+import { getLangFromUrl, useTranslatedPath, useTranslations } from '/src/i18n/utils';
+
+const lang = getLangFromUrl(Astro.url);
+const t = useTranslations(lang);
+
+const title = `Extortion - ${t(`extortion:wiki:servers-page-title`)}`;
+---
+<Layout title={title} description={t(`extortion:wiki:servers-page-description`)}>
+		<div class="extortion-servers-list">
+			<h1>{title}</h1>
+			<SpoilerWarning t={t} />
+			<LanguagePicker />
+
+			<table>
+				<tr>
+					<th>{t(`extortion:wiki:servers-page-table-ip-address`)}</th>
+					<th>{t(`extortion:wiki:servers-page-table-username`)}</th>
+					<th>{t(`extortion:wiki:servers-page-table-password`)}</th>
+					<th>{t(`extortion:wiki:servers-page-table-firewall`)}</th>
+				</tr>
+				{Object.keys(servers).filter(x => x !== 'localhost').map((serverIp) => {
+					const server = servers[serverIp];
+					const firstAccount = Object.keys(servers[serverIp].accounts)[0];
+
+					return (
+						<tr id={'server-' + serverIp}>
+							<td>{serverIp}</td>
+							<td>{firstAccount}</td>
+							<td>{server.accounts[firstAccount].password}</td>
+							<td>
+								{!server.haveFirewall && t(`extortion:wiki:servers-page-table-firewall-none`)}
+								{server.fireWallResetTime && t(`extortion:wiki:servers-page-table-firewall-reset-time-strict`).replace('%duration%', server.fireWallResetTime / 1000)}
+								{server.fireWallResetTimeMin && t(`extortion:wiki:servers-page-table-firewall-reset-time-random`)
+									.replace('%min%', server.fireWallResetTimeMin)
+									.replace('%max%', server.fireWallResetTimeMax)}
+							</td>
+						</tr>
+					)
+				})}
+			</table>
+		</div>
+</Layout>

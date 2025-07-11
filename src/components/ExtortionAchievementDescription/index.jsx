@@ -9,7 +9,7 @@ export default function ExtortionAchievementDescription({ achievement, t, transl
 			{achievement.chapter && <span>({t(`extortion:wiki:chapter_index`).replace('%number%', achievement.chapter)}){' '}</span>}
 
 			<i>{t(`extortion:achievements:${achievement.i18nKeyPrefix}_DESC`) ?? t(`extortion:achievements:${achievement.i18nKeyPrefix}_WIKI`)}</i><br />
-			{achievement.server && achievement.file && <><br /><p>Read the file named <i>{achievement.file}</i> on <a href={translatePath(`/extortion/server/${achievement.server}`)}>{achievement.server}</a>.</p></>}
+			{achievement.server && achievement.file && <><br /><p>Read the file named <i>{achievement.file}</i> on <a href={translatePath(`/extortion/servers#server-${achievement.server}`)}>{achievement.server}</a>.</p></>}
 		</div>
 	);
 }

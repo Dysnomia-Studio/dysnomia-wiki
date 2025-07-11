@@ -1,0 +1,24 @@
+.extortion-servers-list {
+	margin: 0 auto;
+	max-width: 1000px;
+	padding: 2rem;
+	width: 100%;
+}
+
+.extortion-servers-list table {
+	border-collapse: collapse;
+	width: 100%;
+}
+
+.extortion-servers-list th {
+	text-align: left;
+	padding-bottom: 0.75rem;
+}
+.extortion-servers-list td {
+	padding: 0.5rem 0;
+	user-select: all;
+}
+
+.extortion-servers-list tr:hover {
+	background: #ffffff44;
+}

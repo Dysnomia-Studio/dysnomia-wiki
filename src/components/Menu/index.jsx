@@ -21,6 +21,7 @@ export default function Menu({ t, translatePath }) {
 					<span className="menu-item-title">Extortion</span>
 					<span className="submenu">
 						<a href={translatePath('/extortion/achievements')}>{t(`extortion:wiki:achievement-page-title`)}</a><br />
+						<a href={translatePath('/extortion/servers')}>{t(`extortion:wiki:servers-page-title`)}</a><br />
 					</span>
 				</span>
 				<a className="menu-item" href={translatePath('/galactae')}>Galactae</a>
