@@ -1,0 +1,142 @@
+[
+    {
+        "name": "FIRST_SERVER",
+        "i18nKeyPrefix": "NEW_ACHIEVEMENT_1_0",
+        "chapter": 1,
+        "story": true
+    },
+    {
+        "name": "CHAPITER_1",
+        "i18nKeyPrefix": "NEW_ACHIEVEMENT_1_1",
+        "chapter": 1,
+        "story": true
+    },
+    {
+        "name": "CHAPITER_2",
+        "i18nKeyPrefix": "NEW_ACHIEVEMENT_1_8",
+        "chapter": 2,
+        "story": true
+    },
+    {
+        "name": "CHAPITER_2_2",
+        "i18nKeyPrefix": "NEW_ACHIEVEMENT_1_9",
+        "chapter": 2,
+        "story": false
+    },
+    {
+        "name": "CHAPITER_3",
+        "i18nKeyPrefix": "NEW_ACHIEVEMENT_1_10",
+        "chapter": 3,
+        "story": true
+    },
+    {
+        "name": "CHAPITER_4",
+        "i18nKeyPrefix": "NEW_ACHIEVEMENT_1_11",
+        "chapter": 4,
+        "story": true
+    },
+    {
+        "name": "CHAPITER_5",
+        "i18nKeyPrefix": "NEW_ACHIEVEMENT_1_12",
+        "chapter": 5,
+        "story": true
+    },
+    {
+        "name": "CHAPITER_6",
+        "i18nKeyPrefix": "NEW_ACHIEVEMENT_1_13",
+        "chapter": 6,
+        "story": true
+    },
+    {
+        "name": "CHAPITER_7",
+        "i18nKeyPrefix": "NEW_ACHIEVEMENT_1_14",
+        "chapter": 7,
+        "story": true
+    },
+    {
+        "name": "CHAPITER_8_1",
+        "i18nKeyPrefix": "NEW_ACHIEVEMENT_1_15",
+        "chapter": 8,
+        "story": true,
+        "exclusive": "CHAPITER_8_2"
+    },
+    {
+        "name": "CHAPITER_8_2",
+        "i18nKeyPrefix": "NEW_ACHIEVEMENT_1_16",
+        "chapter": 8,
+        "story": true,
+        "exclusive": "CHAPITER_8_1"
+    },
+    {
+        "name": "STORY_DAY_1",
+        "file": "notes_01.txt",
+        "server": "97.4.68.18",
+        "i18nKeyPrefix": "NEW_ACHIEVEMENT_1_21",
+        "chapter": 2,
+        "story": false
+    },
+    {
+        "name": "STORY_DAY_3",
+        "file": "notes_03.txt",
+        "server": "95.8.122.22",
+        "i18nKeyPrefix": "NEW_ACHIEVEMENT_1_22",
+        "chapter": 2,
+        "story": false
+    },
+    {
+        "name": "STORY_DAY_6",
+        "file": "notes_06.txt",
+        "server": "92.15.28.45",
+        "i18nKeyPrefix": "NEW_ACHIEVEMENT_1_23",
+        "chapter": 2,
+        "story": false
+    },
+    {
+        "name": "STORY_DAY_8",
+        "file": "notes_08.txt",
+        "server": "94.16.219.67",
+        "i18nKeyPrefix": "NEW_ACHIEVEMENT_1_24",
+        "chapter": 2,
+        "story": false
+    },
+    {
+        "name": "STORY_DAY_15",
+        "file": "notes_15.txt",
+        "server": "96.23.1.88",
+        "i18nKeyPrefix": "NEW_ACHIEVEMENT_1_25",
+        "chapter": 2,
+        "story": false
+    },
+    {
+        "name": "STORY_DAY_18",
+        "file": "notes_18.txt",
+        "server": "78.42.12.13",
+        "i18nKeyPrefix": "NEW_ACHIEVEMENT_1_26",
+        "chapter": 2,
+        "story": false
+    },
+    {
+        "name": "THE_FLASH",
+        "i18nKeyPrefix": "NEW_ACHIEVEMENT_1_17",
+        "chapter": 6,
+        "story": false
+    },
+    {
+        "name": "CREDITS",
+        "i18nKeyPrefix": "NEW_ACHIEVEMENT_1_18",
+        "chapter": null,
+        "story": false
+    },
+    {
+        "name": "NO_FOOTPRINT",
+        "i18nKeyPrefix": "NEW_ACHIEVEMENT_1_19",
+        "chapter": null,
+        "story": false
+    },
+    {
+        "name": "BIG_FOOTPRINT",
+        "i18nKeyPrefix": "NEW_ACHIEVEMENT_1_20",
+        "chapter": null,
+        "story": false
+    }
+]
