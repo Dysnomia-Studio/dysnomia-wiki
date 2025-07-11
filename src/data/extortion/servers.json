@@ -1,1 +1,5120 @@
-{}
+{
+    "localhost": {
+        "accounts": {
+            "?": {
+                "password": "sdojgsdlgndskjgnsdkjgnsdkjlgnsdjknglsdngldskngsdlkgndslkgnsdlkgnsdlkgnsdoklgnsdlkgndsglksdnglksdnglksdngsdlkgns123#",
+                "defaultPath": "/home/"
+            }
+        },
+        "haveFirewall": false,
+        "fireWallDownEndTime": null,
+        "hasRandomFiles": true,
+        "paths": {
+            "bin": {
+                "owner": "root",
+                "files": {
+                    "help": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "echo": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "clear": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "clearLogs": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "repeat": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "kill": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "sendToPolice": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "ssh": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "exit": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "su": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "sudo": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "ls": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "cd": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "cat": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "scp": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    }
+                }
+            },
+            "boot": {
+                "owner": "root"
+            },
+            "dev": {
+                "owner": "root"
+            },
+            "etc": {
+                "owner": "root"
+            },
+            "home": {
+                "paths": {},
+                "files": {
+                    ".bashrc": {
+                        "type": "text",
+                        "content": "# .bashrc file"
+                    }
+                }
+            },
+            "lib": {
+                "owner": "root"
+            },
+            "lib64": {
+                "owner": "root"
+            },
+            "media": {
+                "owner": "root"
+            },
+            "mnt": {
+                "owner": "root"
+            },
+            "opt": {
+                "owner": "root"
+            },
+            "proc": {
+                "owner": "root"
+            },
+            "root": {
+                "owner": "root"
+            },
+            "run": {
+                "owner": "root"
+            },
+            "sbin": {
+                "owner": "root"
+            },
+            "srv": {
+                "owner": "root"
+            },
+            "sys": {
+                "owner": "root"
+            },
+            "tmp": {},
+            "usr": {
+                "owner": "root"
+            },
+            "var": {
+                "paths": {
+                    "cache": {
+                        "owner": "root"
+                    },
+                    "lib": {
+                        "owner": "root"
+                    },
+                    "log": {
+                        "files": {
+                            "ssh.log": {
+                                "type": "text",
+                                "contentStr": ""
+                            }
+                        }
+                    },
+                    "mail": {
+                        "owner": "root"
+                    },
+                    "tmp": {
+                        "owner": "root"
+                    },
+                    "opt": {
+                        "owner": "root"
+                    }
+                },
+                "files": {}
+            }
+        }
+    },
+    "98.454.546.45": {
+        "haveFirewall": false,
+        "fireWallDownEndTime": null,
+        "accounts": {
+            "notroot": {
+                "password": "a369bc",
+                "defaultPath": "/home/notroot/"
+            }
+        },
+        "paths": {
+            "bin": {
+                "owner": "root",
+                "files": {
+                    "help": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "echo": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "clear": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "clearLogs": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "repeat": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "kill": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "sendToPolice": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "ssh": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "exit": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "su": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "sudo": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "ls": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "cd": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "cat": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "scp": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    }
+                }
+            },
+            "boot": {
+                "owner": "root"
+            },
+            "dev": {
+                "owner": "root"
+            },
+            "etc": {
+                "owner": "root"
+            },
+            "home": {
+                "paths": {
+                    "notroot": {
+                        "owner": "notroot",
+                        "paths": {},
+                        "files": {
+                            "passwordBruteForce": {
+                                "type": "executable",
+                                "content": "<Binary file>"
+                            },
+                            "firewallBreaker": {
+                                "type": "executable",
+                                "content": "<Binary file>"
+                            },
+                            "csvBuilder": {
+                                "type": "executable",
+                                "content": "<Binary file>"
+                            }
+                        }
+                    }
+                },
+                "files": {}
+            },
+            "lib": {
+                "owner": "root"
+            },
+            "lib64": {
+                "owner": "root"
+            },
+            "media": {
+                "owner": "root"
+            },
+            "mnt": {
+                "owner": "root"
+            },
+            "opt": {
+                "owner": "root"
+            },
+            "proc": {
+                "owner": "root"
+            },
+            "root": {
+                "owner": "root"
+            },
+            "run": {
+                "owner": "root"
+            },
+            "sbin": {
+                "owner": "root"
+            },
+            "srv": {
+                "owner": "root"
+            },
+            "sys": {
+                "owner": "root"
+            },
+            "tmp": {},
+            "usr": {
+                "owner": "root"
+            },
+            "var": {
+                "paths": {
+                    "cache": {
+                        "owner": "root"
+                    },
+                    "lib": {
+                        "owner": "root"
+                    },
+                    "log": {
+                        "files": {
+                            "ssh.log": {
+                                "type": "text",
+                                "contentStr": ""
+                            }
+                        }
+                    },
+                    "mail": {
+                        "owner": "root"
+                    },
+                    "tmp": {
+                        "owner": "root"
+                    },
+                    "opt": {
+                        "owner": "root"
+                    }
+                },
+                "files": {}
+            }
+        }
+    },
+    "96.124.137.29": {
+        "haveFirewall": false,
+        "fireWallDownEndTime": null,
+        "accounts": {
+            "aaron": {
+                "password": "my_password",
+                "defaultPath": "/home/aaron/"
+            }
+        },
+        "paths": {
+            "bin": {
+                "owner": "root",
+                "files": {
+                    "help": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "echo": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "clear": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "clearLogs": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "repeat": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "kill": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "sendToPolice": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "ssh": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "exit": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "su": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "sudo": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "ls": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "cd": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "cat": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "scp": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    }
+                }
+            },
+            "boot": {
+                "owner": "root"
+            },
+            "dev": {
+                "owner": "root"
+            },
+            "etc": {
+                "owner": "root"
+            },
+            "home": {
+                "paths": {
+                    "aaron": {
+                        "owner": "aaron",
+                        "paths": {},
+                        "files": {
+                            "accounts_p1": {
+                                "content": "<Binary file>"
+                            }
+                        }
+                    }
+                },
+                "files": {}
+            },
+            "lib": {
+                "owner": "root"
+            },
+            "lib64": {
+                "owner": "root"
+            },
+            "media": {
+                "owner": "root"
+            },
+            "mnt": {
+                "owner": "root"
+            },
+            "opt": {
+                "owner": "root"
+            },
+            "proc": {
+                "owner": "root"
+            },
+            "root": {
+                "owner": "root"
+            },
+            "run": {
+                "owner": "root"
+            },
+            "sbin": {
+                "owner": "root"
+            },
+            "srv": {
+                "owner": "root"
+            },
+            "sys": {
+                "owner": "root"
+            },
+            "tmp": {},
+            "usr": {
+                "owner": "root"
+            },
+            "var": {
+                "paths": {
+                    "cache": {
+                        "owner": "root"
+                    },
+                    "lib": {
+                        "owner": "root"
+                    },
+                    "log": {
+                        "files": {
+                            "ssh.log": {
+                                "type": "text",
+                                "contentStr": ""
+                            }
+                        }
+                    },
+                    "mail": {
+                        "owner": "root"
+                    },
+                    "tmp": {
+                        "owner": "root"
+                    },
+                    "opt": {
+                        "owner": "root"
+                    }
+                },
+                "files": {}
+            }
+        }
+    },
+    "93.1.23.4": {
+        "haveFirewall": false,
+        "fireWallDownEndTime": null,
+        "accounts": {
+            "zachb": {
+                "password": "password_azerty",
+                "defaultPath": "/home/zachb/"
+            }
+        },
+        "paths": {
+            "bin": {
+                "owner": "root",
+                "files": {
+                    "help": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "echo": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "clear": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "clearLogs": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "repeat": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "kill": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "sendToPolice": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "ssh": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "exit": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "su": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "sudo": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "ls": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "cd": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "cat": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "scp": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    }
+                }
+            },
+            "boot": {
+                "owner": "root"
+            },
+            "dev": {
+                "owner": "root"
+            },
+            "etc": {
+                "owner": "root"
+            },
+            "home": {
+                "paths": {
+                    "zachb": {
+                        "owner": "zachb",
+                        "paths": {},
+                        "files": {
+                            "accounts_p2": {
+                                "content": "<Binary file>"
+                            }
+                        }
+                    }
+                },
+                "files": {}
+            },
+            "lib": {
+                "owner": "root"
+            },
+            "lib64": {
+                "owner": "root"
+            },
+            "media": {
+                "owner": "root"
+            },
+            "mnt": {
+                "owner": "root"
+            },
+            "opt": {
+                "owner": "root"
+            },
+            "proc": {
+                "owner": "root"
+            },
+            "root": {
+                "owner": "root"
+            },
+            "run": {
+                "owner": "root"
+            },
+            "sbin": {
+                "owner": "root"
+            },
+            "srv": {
+                "owner": "root"
+            },
+            "sys": {
+                "owner": "root"
+            },
+            "tmp": {},
+            "usr": {
+                "owner": "root"
+            },
+            "var": {
+                "paths": {
+                    "cache": {
+                        "owner": "root"
+                    },
+                    "lib": {
+                        "owner": "root"
+                    },
+                    "log": {
+                        "files": {
+                            "ssh.log": {
+                                "type": "text",
+                                "contentStr": ""
+                            }
+                        }
+                    },
+                    "mail": {
+                        "owner": "root"
+                    },
+                    "tmp": {
+                        "owner": "root"
+                    },
+                    "opt": {
+                        "owner": "root"
+                    }
+                },
+                "files": {}
+            }
+        }
+    },
+    "98.31.197.5": {
+        "haveFirewall": true,
+        "fireWallDownEndTime": null,
+        "fireWallResetTime": 60000,
+        "accounts": {
+            "myuser": {
+                "password": "impossibleToFind",
+                "defaultPath": "/home/myuser/"
+            }
+        },
+        "paths": {
+            "bin": {
+                "owner": "root",
+                "files": {
+                    "help": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "echo": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "clear": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "clearLogs": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "repeat": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "kill": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "sendToPolice": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "ssh": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "exit": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "su": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "sudo": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "ls": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "cd": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "cat": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "scp": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    }
+                }
+            },
+            "boot": {
+                "owner": "root"
+            },
+            "dev": {
+                "owner": "root"
+            },
+            "etc": {
+                "owner": "root"
+            },
+            "home": {
+                "paths": {
+                    "myuser": {
+                        "owner": "myuser",
+                        "paths": {},
+                        "files": {
+                            "accounts_p3": {
+                                "content": "<Binary file>"
+                            }
+                        }
+                    }
+                },
+                "files": {}
+            },
+            "lib": {
+                "owner": "root"
+            },
+            "lib64": {
+                "owner": "root"
+            },
+            "media": {
+                "owner": "root"
+            },
+            "mnt": {
+                "owner": "root"
+            },
+            "opt": {
+                "owner": "root"
+            },
+            "proc": {
+                "owner": "root"
+            },
+            "root": {
+                "owner": "root"
+            },
+            "run": {
+                "owner": "root"
+            },
+            "sbin": {
+                "owner": "root"
+            },
+            "srv": {
+                "owner": "root"
+            },
+            "sys": {
+                "owner": "root"
+            },
+            "tmp": {},
+            "usr": {
+                "owner": "root"
+            },
+            "var": {
+                "paths": {
+                    "cache": {
+                        "owner": "root"
+                    },
+                    "lib": {
+                        "owner": "root"
+                    },
+                    "log": {
+                        "files": {
+                            "ssh.log": {
+                                "type": "text",
+                                "contentStr": ""
+                            }
+                        }
+                    },
+                    "mail": {
+                        "owner": "root"
+                    },
+                    "tmp": {
+                        "owner": "root"
+                    },
+                    "opt": {
+                        "owner": "root"
+                    }
+                },
+                "files": {}
+            }
+        }
+    },
+    "98.135.5.26": {
+        "haveFirewall": true,
+        "fireWallDownEndTime": null,
+        "fireWallResetTimeMin": 30,
+        "accounts": {
+            "john": {
+                "password": "J5%f14_t",
+                "defaultPath": "/home/john/"
+            }
+        },
+        "paths": {
+            "bin": {
+                "owner": "root",
+                "files": {
+                    "help": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "echo": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "clear": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "clearLogs": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "repeat": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "kill": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "sendToPolice": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "ssh": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "exit": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "su": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "sudo": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "ls": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "cd": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "cat": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "scp": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    }
+                }
+            },
+            "boot": {
+                "owner": "root"
+            },
+            "dev": {
+                "owner": "root"
+            },
+            "etc": {
+                "owner": "root"
+            },
+            "home": {
+                "paths": {
+                    "john": {
+                        "owner": "john",
+                        "paths": {},
+                        "files": {}
+                    }
+                },
+                "files": {}
+            },
+            "lib": {
+                "owner": "root"
+            },
+            "lib64": {
+                "owner": "root"
+            },
+            "media": {
+                "owner": "root"
+            },
+            "mnt": {
+                "owner": "root"
+            },
+            "opt": {
+                "owner": "root"
+            },
+            "proc": {
+                "owner": "root"
+            },
+            "root": {
+                "owner": "root"
+            },
+            "run": {
+                "owner": "root"
+            },
+            "sbin": {
+                "owner": "root"
+            },
+            "srv": {
+                "owner": "root"
+            },
+            "sys": {
+                "owner": "root"
+            },
+            "tmp": {},
+            "usr": {
+                "owner": "root"
+            },
+            "var": {
+                "paths": {
+                    "cache": {
+                        "owner": "root"
+                    },
+                    "lib": {
+                        "owner": "root"
+                    },
+                    "log": {
+                        "files": {
+                            "ssh.log": {
+                                "type": "text",
+                                "contentStr": ""
+                            }
+                        }
+                    },
+                    "mail": {
+                        "owner": "root"
+                    },
+                    "tmp": {
+                        "owner": "root"
+                    },
+                    "opt": {
+                        "owner": "root"
+                    }
+                },
+                "files": {}
+            }
+        }
+    },
+    "94.165.61.234": {
+        "haveFirewall": true,
+        "fireWallDownEndTime": null,
+        "fireWallResetTimeMin": 30,
+        "accounts": {
+            "billy": {
+                "password": "jfIDe9r%",
+                "defaultPath": "/home/billy/"
+            }
+        },
+        "paths": {
+            "bin": {
+                "owner": "root",
+                "files": {
+                    "help": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "echo": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "clear": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "clearLogs": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "repeat": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "kill": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "sendToPolice": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "ssh": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "exit": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "su": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "sudo": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "ls": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "cd": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "cat": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "scp": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    }
+                }
+            },
+            "boot": {
+                "owner": "root"
+            },
+            "dev": {
+                "owner": "root"
+            },
+            "etc": {
+                "owner": "root"
+            },
+            "home": {
+                "paths": {
+                    "billy": {
+                        "owner": "billy",
+                        "paths": {},
+                        "files": {}
+                    }
+                },
+                "files": {}
+            },
+            "lib": {
+                "owner": "root"
+            },
+            "lib64": {
+                "owner": "root"
+            },
+            "media": {
+                "owner": "root"
+            },
+            "mnt": {
+                "owner": "root"
+            },
+            "opt": {
+                "owner": "root"
+            },
+            "proc": {
+                "owner": "root"
+            },
+            "root": {
+                "owner": "root"
+            },
+            "run": {
+                "owner": "root"
+            },
+            "sbin": {
+                "owner": "root"
+            },
+            "srv": {
+                "owner": "root"
+            },
+            "sys": {
+                "owner": "root"
+            },
+            "tmp": {},
+            "usr": {
+                "owner": "root"
+            },
+            "var": {
+                "paths": {
+                    "cache": {
+                        "owner": "root"
+                    },
+                    "lib": {
+                        "owner": "root"
+                    },
+                    "log": {
+                        "files": {
+                            "ssh.log": {
+                                "type": "text",
+                                "contentStr": ""
+                            }
+                        }
+                    },
+                    "mail": {
+                        "owner": "root"
+                    },
+                    "tmp": {
+                        "owner": "root"
+                    },
+                    "opt": {
+                        "owner": "root"
+                    }
+                },
+                "files": {}
+            }
+        }
+    },
+    "93.168.26.45": {
+        "haveFirewall": true,
+        "fireWallDownEndTime": null,
+        "fireWallResetTimeMin": 30,
+        "accounts": {
+            "kate": {
+                "password": "g0@Fi0KL",
+                "defaultPath": "/home/kate/"
+            }
+        },
+        "paths": {
+            "bin": {
+                "owner": "root",
+                "files": {
+                    "help": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "echo": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "clear": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "clearLogs": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "repeat": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "kill": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "sendToPolice": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "ssh": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "exit": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "su": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "sudo": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "ls": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "cd": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "cat": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "scp": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    }
+                }
+            },
+            "boot": {
+                "owner": "root"
+            },
+            "dev": {
+                "owner": "root"
+            },
+            "etc": {
+                "owner": "root"
+            },
+            "home": {
+                "paths": {
+                    "kate": {
+                        "owner": "kate",
+                        "paths": {},
+                        "files": {}
+                    }
+                },
+                "files": {}
+            },
+            "lib": {
+                "owner": "root"
+            },
+            "lib64": {
+                "owner": "root"
+            },
+            "media": {
+                "owner": "root"
+            },
+            "mnt": {
+                "owner": "root"
+            },
+            "opt": {
+                "owner": "root"
+            },
+            "proc": {
+                "owner": "root"
+            },
+            "root": {
+                "owner": "root"
+            },
+            "run": {
+                "owner": "root"
+            },
+            "sbin": {
+                "owner": "root"
+            },
+            "srv": {
+                "owner": "root"
+            },
+            "sys": {
+                "owner": "root"
+            },
+            "tmp": {},
+            "usr": {
+                "owner": "root"
+            },
+            "var": {
+                "paths": {
+                    "cache": {
+                        "owner": "root"
+                    },
+                    "lib": {
+                        "owner": "root"
+                    },
+                    "log": {
+                        "files": {
+                            "ssh.log": {
+                                "type": "text",
+                                "contentStr": ""
+                            }
+                        }
+                    },
+                    "mail": {
+                        "owner": "root"
+                    },
+                    "tmp": {
+                        "owner": "root"
+                    },
+                    "opt": {
+                        "owner": "root"
+                    }
+                },
+                "files": {}
+            }
+        }
+    },
+    "92.46.167.234": {
+        "haveFirewall": true,
+        "fireWallDownEndTime": null,
+        "fireWallResetTimeMin": 30,
+        "accounts": {
+            "dana": {
+                "password": "GhI_b5dk",
+                "defaultPath": "/home/dana/"
+            }
+        },
+        "paths": {
+            "bin": {
+                "owner": "root",
+                "files": {
+                    "help": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "echo": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "clear": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "clearLogs": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "repeat": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "kill": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "sendToPolice": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "ssh": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "exit": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "su": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "sudo": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "ls": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "cd": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "cat": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "scp": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    }
+                }
+            },
+            "boot": {
+                "owner": "root"
+            },
+            "dev": {
+                "owner": "root"
+            },
+            "etc": {
+                "owner": "root"
+            },
+            "home": {
+                "paths": {
+                    "dana": {
+                        "owner": "dana",
+                        "paths": {},
+                        "files": {}
+                    }
+                },
+                "files": {}
+            },
+            "lib": {
+                "owner": "root"
+            },
+            "lib64": {
+                "owner": "root"
+            },
+            "media": {
+                "owner": "root"
+            },
+            "mnt": {
+                "owner": "root"
+            },
+            "opt": {
+                "owner": "root"
+            },
+            "proc": {
+                "owner": "root"
+            },
+            "root": {
+                "owner": "root"
+            },
+            "run": {
+                "owner": "root"
+            },
+            "sbin": {
+                "owner": "root"
+            },
+            "srv": {
+                "owner": "root"
+            },
+            "sys": {
+                "owner": "root"
+            },
+            "tmp": {},
+            "usr": {
+                "owner": "root"
+            },
+            "var": {
+                "paths": {
+                    "cache": {
+                        "owner": "root"
+                    },
+                    "lib": {
+                        "owner": "root"
+                    },
+                    "log": {
+                        "files": {
+                            "ssh.log": {
+                                "type": "text",
+                                "contentStr": ""
+                            }
+                        }
+                    },
+                    "mail": {
+                        "owner": "root"
+                    },
+                    "tmp": {
+                        "owner": "root"
+                    },
+                    "opt": {
+                        "owner": "root"
+                    }
+                },
+                "files": {}
+            }
+        }
+    },
+    "91.79.216.179": {
+        "haveFirewall": true,
+        "fireWallDownEndTime": null,
+        "fireWallResetTimeMin": 30,
+        "accounts": {
+            "cath": {
+                "password": "bk5mfL_8",
+                "defaultPath": "/home/cath/"
+            }
+        },
+        "paths": {
+            "bin": {
+                "owner": "root",
+                "files": {
+                    "help": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "echo": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "clear": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "clearLogs": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "repeat": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "kill": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "sendToPolice": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "ssh": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "exit": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "su": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "sudo": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "ls": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "cd": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "cat": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "scp": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    }
+                }
+            },
+            "boot": {
+                "owner": "root"
+            },
+            "dev": {
+                "owner": "root"
+            },
+            "etc": {
+                "owner": "root"
+            },
+            "home": {
+                "paths": {
+                    "cath": {
+                        "owner": "cath",
+                        "paths": {},
+                        "files": {}
+                    }
+                },
+                "files": {}
+            },
+            "lib": {
+                "owner": "root"
+            },
+            "lib64": {
+                "owner": "root"
+            },
+            "media": {
+                "owner": "root"
+            },
+            "mnt": {
+                "owner": "root"
+            },
+            "opt": {
+                "owner": "root"
+            },
+            "proc": {
+                "owner": "root"
+            },
+            "root": {
+                "owner": "root"
+            },
+            "run": {
+                "owner": "root"
+            },
+            "sbin": {
+                "owner": "root"
+            },
+            "srv": {
+                "owner": "root"
+            },
+            "sys": {
+                "owner": "root"
+            },
+            "tmp": {},
+            "usr": {
+                "owner": "root"
+            },
+            "var": {
+                "paths": {
+                    "cache": {
+                        "owner": "root"
+                    },
+                    "lib": {
+                        "owner": "root"
+                    },
+                    "log": {
+                        "files": {
+                            "ssh.log": {
+                                "type": "text",
+                                "contentStr": ""
+                            }
+                        }
+                    },
+                    "mail": {
+                        "owner": "root"
+                    },
+                    "tmp": {
+                        "owner": "root"
+                    },
+                    "opt": {
+                        "owner": "root"
+                    }
+                },
+                "files": {}
+            }
+        }
+    },
+    "96.125.137.197": {
+        "haveFirewall": true,
+        "fireWallDownEndTime": null,
+        "fireWallResetTime": 27000,
+        "accounts": {
+            "beth": {
+                "password": "Blah_Blah_Blah",
+                "defaultPath": "/home/beth/"
+            }
+        },
+        "paths": {
+            "bin": {
+                "owner": "root",
+                "files": {
+                    "help": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "echo": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "clear": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "clearLogs": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "repeat": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "kill": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "sendToPolice": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "ssh": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "exit": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "su": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "sudo": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "ls": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "cd": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "cat": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "scp": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    }
+                }
+            },
+            "boot": {
+                "owner": "root"
+            },
+            "dev": {
+                "owner": "root"
+            },
+            "etc": {
+                "owner": "root"
+            },
+            "home": {
+                "paths": {
+                    "beth": {
+                        "owner": "beth",
+                        "paths": {},
+                        "files": {
+                            "sec_key1.key": {
+                                "content": "<Binary file>"
+                            }
+                        }
+                    }
+                },
+                "files": {}
+            },
+            "lib": {
+                "owner": "root"
+            },
+            "lib64": {
+                "owner": "root"
+            },
+            "media": {
+                "owner": "root"
+            },
+            "mnt": {
+                "owner": "root"
+            },
+            "opt": {
+                "owner": "root"
+            },
+            "proc": {
+                "owner": "root"
+            },
+            "root": {
+                "owner": "root"
+            },
+            "run": {
+                "owner": "root"
+            },
+            "sbin": {
+                "owner": "root"
+            },
+            "srv": {
+                "owner": "root"
+            },
+            "sys": {
+                "owner": "root"
+            },
+            "tmp": {},
+            "usr": {
+                "owner": "root"
+            },
+            "var": {
+                "paths": {
+                    "cache": {
+                        "owner": "root"
+                    },
+                    "lib": {
+                        "owner": "root"
+                    },
+                    "log": {
+                        "files": {
+                            "ssh.log": {
+                                "type": "text",
+                                "contentStr": ""
+                            }
+                        }
+                    },
+                    "mail": {
+                        "owner": "root"
+                    },
+                    "tmp": {
+                        "owner": "root"
+                    },
+                    "opt": {
+                        "owner": "root"
+                    }
+                },
+                "files": {}
+            }
+        }
+    },
+    "97.129.42.92": {
+        "haveFirewall": true,
+        "fireWallDownEndTime": null,
+        "fireWallResetTime": 25000,
+        "accounts": {
+            "garry": {
+                "password": "Bf4_8dF",
+                "defaultPath": "/home/garry/"
+            }
+        },
+        "paths": {
+            "bin": {
+                "owner": "root",
+                "files": {
+                    "help": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "echo": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "clear": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "clearLogs": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "repeat": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "kill": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "sendToPolice": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "ssh": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "exit": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "su": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "sudo": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "ls": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "cd": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "cat": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "scp": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    }
+                }
+            },
+            "boot": {
+                "owner": "root"
+            },
+            "dev": {
+                "owner": "root"
+            },
+            "etc": {
+                "owner": "root"
+            },
+            "home": {
+                "paths": {
+                    "garry": {
+                        "owner": "garry",
+                        "paths": {},
+                        "files": {
+                            "sec_key2.key": {
+                                "content": "<Binary file>"
+                            }
+                        }
+                    }
+                },
+                "files": {}
+            },
+            "lib": {
+                "owner": "root"
+            },
+            "lib64": {
+                "owner": "root"
+            },
+            "media": {
+                "owner": "root"
+            },
+            "mnt": {
+                "owner": "root"
+            },
+            "opt": {
+                "owner": "root"
+            },
+            "proc": {
+                "owner": "root"
+            },
+            "root": {
+                "owner": "root"
+            },
+            "run": {
+                "owner": "root"
+            },
+            "sbin": {
+                "owner": "root"
+            },
+            "srv": {
+                "owner": "root"
+            },
+            "sys": {
+                "owner": "root"
+            },
+            "tmp": {},
+            "usr": {
+                "owner": "root"
+            },
+            "var": {
+                "paths": {
+                    "cache": {
+                        "owner": "root"
+                    },
+                    "lib": {
+                        "owner": "root"
+                    },
+                    "log": {
+                        "files": {
+                            "ssh.log": {
+                                "type": "text",
+                                "contentStr": ""
+                            }
+                        }
+                    },
+                    "mail": {
+                        "owner": "root"
+                    },
+                    "tmp": {
+                        "owner": "root"
+                    },
+                    "opt": {
+                        "owner": "root"
+                    }
+                },
+                "files": {}
+            }
+        }
+    },
+    "93.22.87.12": {
+        "haveFirewall": true,
+        "fireWallDownEndTime": null,
+        "fireWallResetTime": 23000,
+        "accounts": {
+            "kenny": {
+                "password": "Blfd_98",
+                "defaultPath": "/home/kenny/"
+            }
+        },
+        "paths": {
+            "bin": {
+                "owner": "root",
+                "files": {
+                    "help": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "echo": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "clear": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "clearLogs": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "repeat": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "kill": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "sendToPolice": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "ssh": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "exit": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "su": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "sudo": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "ls": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "cd": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "cat": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "scp": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    }
+                }
+            },
+            "boot": {
+                "owner": "root"
+            },
+            "dev": {
+                "owner": "root"
+            },
+            "etc": {
+                "owner": "root"
+            },
+            "home": {
+                "paths": {
+                    "kenny": {
+                        "owner": "kenny",
+                        "paths": {},
+                        "files": {
+                            "sec_key3.key": {
+                                "content": "<Binary file>"
+                            }
+                        }
+                    }
+                },
+                "files": {}
+            },
+            "lib": {
+                "owner": "root"
+            },
+            "lib64": {
+                "owner": "root"
+            },
+            "media": {
+                "owner": "root"
+            },
+            "mnt": {
+                "owner": "root"
+            },
+            "opt": {
+                "owner": "root"
+            },
+            "proc": {
+                "owner": "root"
+            },
+            "root": {
+                "owner": "root"
+            },
+            "run": {
+                "owner": "root"
+            },
+            "sbin": {
+                "owner": "root"
+            },
+            "srv": {
+                "owner": "root"
+            },
+            "sys": {
+                "owner": "root"
+            },
+            "tmp": {},
+            "usr": {
+                "owner": "root"
+            },
+            "var": {
+                "paths": {
+                    "cache": {
+                        "owner": "root"
+                    },
+                    "lib": {
+                        "owner": "root"
+                    },
+                    "log": {
+                        "files": {
+                            "ssh.log": {
+                                "type": "text",
+                                "contentStr": ""
+                            }
+                        }
+                    },
+                    "mail": {
+                        "owner": "root"
+                    },
+                    "tmp": {
+                        "owner": "root"
+                    },
+                    "opt": {
+                        "owner": "root"
+                    }
+                },
+                "files": {}
+            }
+        }
+    },
+    "97.4.68.18": {
+        "haveFirewall": true,
+        "fireWallDownEndTime": null,
+        "fireWallResetTime": 25000,
+        "accounts": {
+            "robert": {
+                "password": "ab_fdhg8",
+                "defaultPath": "/home/robert/"
+            }
+        },
+        "paths": {
+            "bin": {
+                "owner": "root",
+                "files": {
+                    "help": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "echo": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "clear": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "clearLogs": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "repeat": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "kill": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "sendToPolice": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "ssh": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "exit": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "su": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "sudo": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "ls": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "cd": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "cat": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "scp": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    }
+                }
+            },
+            "boot": {
+                "owner": "root"
+            },
+            "dev": {
+                "owner": "root"
+            },
+            "etc": {
+                "owner": "root"
+            },
+            "home": {
+                "paths": {
+                    "robert": {
+                        "owner": "robert",
+                        "paths": {},
+                        "files": {
+                            "notes_01.txt": {
+                                "content": "<span>{i18n.t('files:notes_01_title')}<br/>{i18n.t('files:notes_01_desc')}</span>"
+                            }
+                        }
+                    }
+                },
+                "files": {}
+            },
+            "lib": {
+                "owner": "root"
+            },
+            "lib64": {
+                "owner": "root"
+            },
+            "media": {
+                "owner": "root"
+            },
+            "mnt": {
+                "owner": "root"
+            },
+            "opt": {
+                "owner": "root"
+            },
+            "proc": {
+                "owner": "root"
+            },
+            "root": {
+                "owner": "root"
+            },
+            "run": {
+                "owner": "root"
+            },
+            "sbin": {
+                "owner": "root"
+            },
+            "srv": {
+                "owner": "root"
+            },
+            "sys": {
+                "owner": "root"
+            },
+            "tmp": {},
+            "usr": {
+                "owner": "root"
+            },
+            "var": {
+                "paths": {
+                    "cache": {
+                        "owner": "root"
+                    },
+                    "lib": {
+                        "owner": "root"
+                    },
+                    "log": {
+                        "files": {
+                            "ssh.log": {
+                                "type": "text",
+                                "contentStr": ""
+                            }
+                        }
+                    },
+                    "mail": {
+                        "owner": "root"
+                    },
+                    "tmp": {
+                        "owner": "root"
+                    },
+                    "opt": {
+                        "owner": "root"
+                    }
+                },
+                "files": {}
+            }
+        }
+    },
+    "95.8.122.22": {
+        "haveFirewall": true,
+        "fireWallDownEndTime": null,
+        "fireWallResetTime": 24000,
+        "accounts": {
+            "georges": {
+                "password": "12-96gdkl",
+                "defaultPath": "/home/georges/"
+            }
+        },
+        "paths": {
+            "bin": {
+                "owner": "root",
+                "files": {
+                    "help": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "echo": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "clear": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "clearLogs": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "repeat": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "kill": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "sendToPolice": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "ssh": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "exit": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "su": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "sudo": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "ls": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "cd": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "cat": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "scp": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    }
+                }
+            },
+            "boot": {
+                "owner": "root"
+            },
+            "dev": {
+                "owner": "root"
+            },
+            "etc": {
+                "owner": "root"
+            },
+            "home": {
+                "paths": {
+                    "georges": {
+                        "owner": "georges",
+                        "paths": {},
+                        "files": {
+                            "notes_03.txt": {
+                                "content": "<span>{i18n.t('files:notes_03_title')}<br/>{i18n.t('files:notes_03_desc')}</span>"
+                            }
+                        }
+                    }
+                },
+                "files": {}
+            },
+            "lib": {
+                "owner": "root"
+            },
+            "lib64": {
+                "owner": "root"
+            },
+            "media": {
+                "owner": "root"
+            },
+            "mnt": {
+                "owner": "root"
+            },
+            "opt": {
+                "owner": "root"
+            },
+            "proc": {
+                "owner": "root"
+            },
+            "root": {
+                "owner": "root"
+            },
+            "run": {
+                "owner": "root"
+            },
+            "sbin": {
+                "owner": "root"
+            },
+            "srv": {
+                "owner": "root"
+            },
+            "sys": {
+                "owner": "root"
+            },
+            "tmp": {},
+            "usr": {
+                "owner": "root"
+            },
+            "var": {
+                "paths": {
+                    "cache": {
+                        "owner": "root"
+                    },
+                    "lib": {
+                        "owner": "root"
+                    },
+                    "log": {
+                        "files": {
+                            "ssh.log": {
+                                "type": "text",
+                                "contentStr": ""
+                            }
+                        }
+                    },
+                    "mail": {
+                        "owner": "root"
+                    },
+                    "tmp": {
+                        "owner": "root"
+                    },
+                    "opt": {
+                        "owner": "root"
+                    }
+                },
+                "files": {}
+            }
+        }
+    },
+    "92.15.28.45": {
+        "haveFirewall": true,
+        "fireWallDownEndTime": null,
+        "fireWallResetTime": 23000,
+        "accounts": {
+            "peter": {
+                "password": "_ul02L-t",
+                "defaultPath": "/home/peter/"
+            }
+        },
+        "paths": {
+            "bin": {
+                "owner": "root",
+                "files": {
+                    "help": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "echo": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "clear": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "clearLogs": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "repeat": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "kill": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "sendToPolice": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "ssh": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "exit": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "su": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "sudo": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "ls": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "cd": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "cat": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "scp": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    }
+                }
+            },
+            "boot": {
+                "owner": "root"
+            },
+            "dev": {
+                "owner": "root"
+            },
+            "etc": {
+                "owner": "root"
+            },
+            "home": {
+                "paths": {
+                    "peter": {
+                        "owner": "peter",
+                        "paths": {},
+                        "files": {
+                            "notes_06.txt": {
+                                "content": "<span>{i18n.t('files:notes_06_title')}<br/>{i18n.t('files:notes_06_desc')}</span>"
+                            }
+                        }
+                    }
+                },
+                "files": {}
+            },
+            "lib": {
+                "owner": "root"
+            },
+            "lib64": {
+                "owner": "root"
+            },
+            "media": {
+                "owner": "root"
+            },
+            "mnt": {
+                "owner": "root"
+            },
+            "opt": {
+                "owner": "root"
+            },
+            "proc": {
+                "owner": "root"
+            },
+            "root": {
+                "owner": "root"
+            },
+            "run": {
+                "owner": "root"
+            },
+            "sbin": {
+                "owner": "root"
+            },
+            "srv": {
+                "owner": "root"
+            },
+            "sys": {
+                "owner": "root"
+            },
+            "tmp": {},
+            "usr": {
+                "owner": "root"
+            },
+            "var": {
+                "paths": {
+                    "cache": {
+                        "owner": "root"
+                    },
+                    "lib": {
+                        "owner": "root"
+                    },
+                    "log": {
+                        "files": {
+                            "ssh.log": {
+                                "type": "text",
+                                "contentStr": ""
+                            }
+                        }
+                    },
+                    "mail": {
+                        "owner": "root"
+                    },
+                    "tmp": {
+                        "owner": "root"
+                    },
+                    "opt": {
+                        "owner": "root"
+                    }
+                },
+                "files": {}
+            }
+        }
+    },
+    "94.16.219.67": {
+        "haveFirewall": true,
+        "fireWallDownEndTime": null,
+        "fireWallResetTime": 22000,
+        "accounts": {
+            "harry": {
+                "password": "bi_4-58G",
+                "defaultPath": "/home/harry/"
+            }
+        },
+        "paths": {
+            "bin": {
+                "owner": "root",
+                "files": {
+                    "help": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "echo": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "clear": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "clearLogs": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "repeat": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "kill": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "sendToPolice": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "ssh": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "exit": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "su": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "sudo": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "ls": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "cd": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "cat": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "scp": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    }
+                }
+            },
+            "boot": {
+                "owner": "root"
+            },
+            "dev": {
+                "owner": "root"
+            },
+            "etc": {
+                "owner": "root"
+            },
+            "home": {
+                "paths": {
+                    "harry": {
+                        "owner": "harry",
+                        "paths": {},
+                        "files": {
+                            "notes_08.txt": {
+                                "content": "<span>{i18n.t('files:notes_08_title')}<br/>{i18n.t('files:notes_08_desc')}</span>"
+                            }
+                        }
+                    }
+                },
+                "files": {}
+            },
+            "lib": {
+                "owner": "root"
+            },
+            "lib64": {
+                "owner": "root"
+            },
+            "media": {
+                "owner": "root"
+            },
+            "mnt": {
+                "owner": "root"
+            },
+            "opt": {
+                "owner": "root"
+            },
+            "proc": {
+                "owner": "root"
+            },
+            "root": {
+                "owner": "root"
+            },
+            "run": {
+                "owner": "root"
+            },
+            "sbin": {
+                "owner": "root"
+            },
+            "srv": {
+                "owner": "root"
+            },
+            "sys": {
+                "owner": "root"
+            },
+            "tmp": {},
+            "usr": {
+                "owner": "root"
+            },
+            "var": {
+                "paths": {
+                    "cache": {
+                        "owner": "root"
+                    },
+                    "lib": {
+                        "owner": "root"
+                    },
+                    "log": {
+                        "files": {
+                            "ssh.log": {
+                                "type": "text",
+                                "contentStr": ""
+                            }
+                        }
+                    },
+                    "mail": {
+                        "owner": "root"
+                    },
+                    "tmp": {
+                        "owner": "root"
+                    },
+                    "opt": {
+                        "owner": "root"
+                    }
+                },
+                "files": {}
+            }
+        }
+    },
+    "96.23.1.88": {
+        "haveFirewall": true,
+        "fireWallDownEndTime": null,
+        "fireWallResetTime": 21000,
+        "accounts": {
+            "albert": {
+                "password": "I_IO8G-h90",
+                "defaultPath": "/home/albert/"
+            }
+        },
+        "paths": {
+            "bin": {
+                "owner": "root",
+                "files": {
+                    "help": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "echo": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "clear": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "clearLogs": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "repeat": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "kill": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "sendToPolice": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "ssh": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "exit": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "su": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "sudo": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "ls": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "cd": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "cat": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "scp": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    }
+                }
+            },
+            "boot": {
+                "owner": "root"
+            },
+            "dev": {
+                "owner": "root"
+            },
+            "etc": {
+                "owner": "root"
+            },
+            "home": {
+                "paths": {
+                    "albert": {
+                        "owner": "albert",
+                        "paths": {},
+                        "files": {
+                            "notes_15.txt": {
+                                "content": "<span>{i18n.t('files:notes_15_title')}<br/>{i18n.t('files:notes_15_desc')}</span>"
+                            }
+                        }
+                    }
+                },
+                "files": {}
+            },
+            "lib": {
+                "owner": "root"
+            },
+            "lib64": {
+                "owner": "root"
+            },
+            "media": {
+                "owner": "root"
+            },
+            "mnt": {
+                "owner": "root"
+            },
+            "opt": {
+                "owner": "root"
+            },
+            "proc": {
+                "owner": "root"
+            },
+            "root": {
+                "owner": "root"
+            },
+            "run": {
+                "owner": "root"
+            },
+            "sbin": {
+                "owner": "root"
+            },
+            "srv": {
+                "owner": "root"
+            },
+            "sys": {
+                "owner": "root"
+            },
+            "tmp": {},
+            "usr": {
+                "owner": "root"
+            },
+            "var": {
+                "paths": {
+                    "cache": {
+                        "owner": "root"
+                    },
+                    "lib": {
+                        "owner": "root"
+                    },
+                    "log": {
+                        "files": {
+                            "ssh.log": {
+                                "type": "text",
+                                "contentStr": ""
+                            }
+                        }
+                    },
+                    "mail": {
+                        "owner": "root"
+                    },
+                    "tmp": {
+                        "owner": "root"
+                    },
+                    "opt": {
+                        "owner": "root"
+                    }
+                },
+                "files": {}
+            }
+        }
+    },
+    "78.42.12.13": {
+        "haveFirewall": true,
+        "fireWallDownEndTime": null,
+        "fireWallResetTime": 15000,
+        "accounts": {
+            "john_was_here": {
+                "password": "GK%c_0489MP0w",
+                "defaultPath": "/home/john_was_here/"
+            }
+        },
+        "paths": {
+            "bin": {
+                "owner": "root",
+                "files": {
+                    "help": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "echo": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "clear": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "clearLogs": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "repeat": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "kill": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "sendToPolice": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "ssh": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "exit": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "su": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "sudo": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "ls": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "cd": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "cat": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "scp": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    }
+                }
+            },
+            "boot": {
+                "owner": "root"
+            },
+            "dev": {
+                "owner": "root"
+            },
+            "etc": {
+                "owner": "root"
+            },
+            "home": {
+                "paths": {
+                    "john_was_here": {
+                        "owner": "john_was_here",
+                        "paths": {},
+                        "files": {
+                            "notes_18.txt": {
+                                "content": "<span>{i18n.t('files:notes_18_title')}<br/>{i18n.t('files:notes_18_desc')}</span>"
+                            }
+                        }
+                    }
+                },
+                "files": {}
+            },
+            "lib": {
+                "owner": "root"
+            },
+            "lib64": {
+                "owner": "root"
+            },
+            "media": {
+                "owner": "root"
+            },
+            "mnt": {
+                "owner": "root"
+            },
+            "opt": {
+                "owner": "root"
+            },
+            "proc": {
+                "owner": "root"
+            },
+            "root": {
+                "owner": "root"
+            },
+            "run": {
+                "owner": "root"
+            },
+            "sbin": {
+                "owner": "root"
+            },
+            "srv": {
+                "owner": "root"
+            },
+            "sys": {
+                "owner": "root"
+            },
+            "tmp": {},
+            "usr": {
+                "owner": "root"
+            },
+            "var": {
+                "paths": {
+                    "cache": {
+                        "owner": "root"
+                    },
+                    "lib": {
+                        "owner": "root"
+                    },
+                    "log": {
+                        "files": {
+                            "ssh.log": {
+                                "type": "text",
+                                "contentStr": ""
+                            }
+                        }
+                    },
+                    "mail": {
+                        "owner": "root"
+                    },
+                    "tmp": {
+                        "owner": "root"
+                    },
+                    "opt": {
+                        "owner": "root"
+                    }
+                },
+                "files": {}
+            }
+        }
+    },
+    "165.54.98.73": {
+        "haveFirewall": true,
+        "fireWallDownEndTime": null,
+        "fireWallResetTime": 25000,
+        "accounts": {
+            "grant": {
+                "password": "drg8_sfj",
+                "defaultPath": "/home/grant/"
+            }
+        },
+        "paths": {
+            "bin": {
+                "owner": "root",
+                "files": {
+                    "help": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "echo": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "clear": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "clearLogs": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "repeat": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "kill": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "sendToPolice": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "ssh": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "exit": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "su": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "sudo": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "ls": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "cd": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "cat": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "scp": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    }
+                }
+            },
+            "boot": {
+                "owner": "root"
+            },
+            "dev": {
+                "owner": "root"
+            },
+            "etc": {
+                "owner": "root"
+            },
+            "home": {
+                "paths": {
+                    "grant": {
+                        "owner": "grant",
+                        "paths": {},
+                        "files": {
+                            "scanUsers": {
+                                "type": "executable",
+                                "content": "<Binary file>"
+                            },
+                            "zombieMaker": {
+                                "type": "executable",
+                                "content": "<Binary file>"
+                            },
+                            "zombieAttack": {
+                                "type": "executable",
+                                "content": "<Binary file>"
+                            }
+                        }
+                    }
+                },
+                "files": {}
+            },
+            "lib": {
+                "owner": "root"
+            },
+            "lib64": {
+                "owner": "root"
+            },
+            "media": {
+                "owner": "root"
+            },
+            "mnt": {
+                "owner": "root"
+            },
+            "opt": {
+                "owner": "root"
+            },
+            "proc": {
+                "owner": "root"
+            },
+            "root": {
+                "owner": "root"
+            },
+            "run": {
+                "owner": "root"
+            },
+            "sbin": {
+                "owner": "root"
+            },
+            "srv": {
+                "owner": "root"
+            },
+            "sys": {
+                "owner": "root"
+            },
+            "tmp": {},
+            "usr": {
+                "owner": "root"
+            },
+            "var": {
+                "paths": {
+                    "cache": {
+                        "owner": "root"
+                    },
+                    "lib": {
+                        "owner": "root"
+                    },
+                    "log": {
+                        "files": {
+                            "ssh.log": {
+                                "type": "text",
+                                "contentStr": ""
+                            }
+                        }
+                    },
+                    "mail": {
+                        "owner": "root"
+                    },
+                    "tmp": {
+                        "owner": "root"
+                    },
+                    "opt": {
+                        "owner": "root"
+                    }
+                },
+                "files": {}
+            }
+        }
+    },
+    "45.199.48.21": {
+        "haveFirewall": true,
+        "fireWallDownEndTime": null,
+        "fireWallResetTimeMin": 25,
+        "accounts": {
+            "diddy": {
+                "password": "Bah!Bouh!",
+                "defaultPath": "/home/diddy/"
+            }
+        },
+        "paths": {
+            "bin": {
+                "owner": "root",
+                "files": {
+                    "help": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "echo": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "clear": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "clearLogs": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "repeat": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "kill": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "sendToPolice": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "ssh": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "exit": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "su": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "sudo": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "ls": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "cd": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "cat": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "scp": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    }
+                }
+            },
+            "boot": {
+                "owner": "root"
+            },
+            "dev": {
+                "owner": "root"
+            },
+            "etc": {
+                "owner": "root"
+            },
+            "home": {
+                "paths": {
+                    "diddy": {
+                        "owner": "diddy",
+                        "paths": {},
+                        "files": {}
+                    }
+                },
+                "files": {}
+            },
+            "lib": {
+                "owner": "root"
+            },
+            "lib64": {
+                "owner": "root"
+            },
+            "media": {
+                "owner": "root"
+            },
+            "mnt": {
+                "owner": "root"
+            },
+            "opt": {
+                "owner": "root"
+            },
+            "proc": {
+                "owner": "root"
+            },
+            "root": {
+                "owner": "root"
+            },
+            "run": {
+                "owner": "root"
+            },
+            "sbin": {
+                "owner": "root"
+            },
+            "srv": {
+                "owner": "root"
+            },
+            "sys": {
+                "owner": "root"
+            },
+            "tmp": {},
+            "usr": {
+                "owner": "root"
+            },
+            "var": {
+                "paths": {
+                    "cache": {
+                        "owner": "root"
+                    },
+                    "lib": {
+                        "owner": "root"
+                    },
+                    "log": {
+                        "files": {
+                            "ssh.log": {
+                                "type": "text",
+                                "contentStr": ""
+                            }
+                        }
+                    },
+                    "mail": {
+                        "owner": "root"
+                    },
+                    "tmp": {
+                        "owner": "root"
+                    },
+                    "opt": {
+                        "owner": "root"
+                    }
+                },
+                "files": {}
+            }
+        }
+    },
+    "48.69.57.59": {
+        "haveFirewall": true,
+        "fireWallDownEndTime": null,
+        "fireWallResetTimeMin": 25,
+        "accounts": {
+            "ariel": {
+                "password": "bl4hbl4hbl4h!",
+                "defaultPath": "/home/ariel/"
+            }
+        },
+        "paths": {
+            "bin": {
+                "owner": "root",
+                "files": {
+                    "help": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "echo": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "clear": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "clearLogs": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "repeat": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "kill": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "sendToPolice": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "ssh": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "exit": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "su": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "sudo": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "ls": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "cd": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "cat": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "scp": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    }
+                }
+            },
+            "boot": {
+                "owner": "root"
+            },
+            "dev": {
+                "owner": "root"
+            },
+            "etc": {
+                "owner": "root"
+            },
+            "home": {
+                "paths": {
+                    "ariel": {
+                        "owner": "ariel",
+                        "paths": {},
+                        "files": {}
+                    }
+                },
+                "files": {}
+            },
+            "lib": {
+                "owner": "root"
+            },
+            "lib64": {
+                "owner": "root"
+            },
+            "media": {
+                "owner": "root"
+            },
+            "mnt": {
+                "owner": "root"
+            },
+            "opt": {
+                "owner": "root"
+            },
+            "proc": {
+                "owner": "root"
+            },
+            "root": {
+                "owner": "root"
+            },
+            "run": {
+                "owner": "root"
+            },
+            "sbin": {
+                "owner": "root"
+            },
+            "srv": {
+                "owner": "root"
+            },
+            "sys": {
+                "owner": "root"
+            },
+            "tmp": {},
+            "usr": {
+                "owner": "root"
+            },
+            "var": {
+                "paths": {
+                    "cache": {
+                        "owner": "root"
+                    },
+                    "lib": {
+                        "owner": "root"
+                    },
+                    "log": {
+                        "files": {
+                            "ssh.log": {
+                                "type": "text",
+                                "contentStr": ""
+                            }
+                        }
+                    },
+                    "mail": {
+                        "owner": "root"
+                    },
+                    "tmp": {
+                        "owner": "root"
+                    },
+                    "opt": {
+                        "owner": "root"
+                    }
+                },
+                "files": {}
+            }
+        }
+    },
+    "48.15.16.23": {
+        "haveFirewall": true,
+        "fireWallDownEndTime": null,
+        "fireWallResetTimeMin": 25,
+        "accounts": {
+            "bob": {
+                "password": "_1mp0551bl3!",
+                "defaultPath": "/home/bob/"
+            }
+        },
+        "paths": {
+            "bin": {
+                "owner": "root",
+                "files": {
+                    "help": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "echo": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "clear": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "clearLogs": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "repeat": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "kill": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "sendToPolice": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "ssh": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "exit": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "su": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "sudo": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "ls": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "cd": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "cat": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "scp": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    }
+                }
+            },
+            "boot": {
+                "owner": "root"
+            },
+            "dev": {
+                "owner": "root"
+            },
+            "etc": {
+                "owner": "root"
+            },
+            "home": {
+                "paths": {
+                    "bob": {
+                        "owner": "bob",
+                        "paths": {},
+                        "files": {}
+                    }
+                },
+                "files": {}
+            },
+            "lib": {
+                "owner": "root"
+            },
+            "lib64": {
+                "owner": "root"
+            },
+            "media": {
+                "owner": "root"
+            },
+            "mnt": {
+                "owner": "root"
+            },
+            "opt": {
+                "owner": "root"
+            },
+            "proc": {
+                "owner": "root"
+            },
+            "root": {
+                "owner": "root"
+            },
+            "run": {
+                "owner": "root"
+            },
+            "sbin": {
+                "owner": "root"
+            },
+            "srv": {
+                "owner": "root"
+            },
+            "sys": {
+                "owner": "root"
+            },
+            "tmp": {},
+            "usr": {
+                "owner": "root"
+            },
+            "var": {
+                "paths": {
+                    "cache": {
+                        "owner": "root"
+                    },
+                    "lib": {
+                        "owner": "root"
+                    },
+                    "log": {
+                        "files": {
+                            "ssh.log": {
+                                "type": "text",
+                                "contentStr": ""
+                            }
+                        }
+                    },
+                    "mail": {
+                        "owner": "root"
+                    },
+                    "tmp": {
+                        "owner": "root"
+                    },
+                    "opt": {
+                        "owner": "root"
+                    }
+                },
+                "files": {}
+            }
+        }
+    },
+    "37.158.219.56": {
+        "haveFirewall": true,
+        "fireWallDownEndTime": null,
+        "fireWallResetTimeMin": 1,
+        "accounts": {
+            "root": {
+                "password": "12561gfd-kDGOP_fgkb-950",
+                "defaultPath": "/home/root/"
+            }
+        },
+        "paths": {
+            "bin": {
+                "owner": "root",
+                "files": {
+                    "help": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "echo": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "clear": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "clearLogs": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "repeat": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "kill": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "sendToPolice": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "ssh": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "exit": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "su": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "sudo": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "ls": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "cd": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "cat": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "scp": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    }
+                }
+            },
+            "boot": {
+                "owner": "root"
+            },
+            "dev": {
+                "owner": "root"
+            },
+            "etc": {
+                "owner": "root"
+            },
+            "home": {
+                "paths": {
+                    "root": {
+                        "owner": "root",
+                        "paths": {},
+                        "files": {}
+                    }
+                },
+                "files": {}
+            },
+            "lib": {
+                "owner": "root"
+            },
+            "lib64": {
+                "owner": "root"
+            },
+            "media": {
+                "owner": "root"
+            },
+            "mnt": {
+                "owner": "root"
+            },
+            "opt": {
+                "owner": "root"
+            },
+            "proc": {
+                "owner": "root"
+            },
+            "root": {
+                "owner": "root"
+            },
+            "run": {
+                "owner": "root"
+            },
+            "sbin": {
+                "owner": "root"
+            },
+            "srv": {
+                "owner": "root"
+            },
+            "sys": {
+                "owner": "root"
+            },
+            "tmp": {},
+            "usr": {
+                "owner": "root"
+            },
+            "var": {
+                "paths": {
+                    "cache": {
+                        "owner": "root"
+                    },
+                    "lib": {
+                        "owner": "root"
+                    },
+                    "log": {
+                        "files": {
+                            "ssh.log": {
+                                "type": "text",
+                                "contentStr": ""
+                            }
+                        }
+                    },
+                    "mail": {
+                        "owner": "root"
+                    },
+                    "tmp": {
+                        "owner": "root"
+                    },
+                    "opt": {
+                        "owner": "root"
+                    }
+                },
+                "files": {}
+            }
+        }
+    },
+    "31.12.123.94": {
+        "haveFirewall": true,
+        "fireWallDownEndTime": null,
+        "fireWallResetTime": 20000,
+        "accounts": {
+            "ben_rpo": {
+                "password": "BO55MAN69",
+                "defaultPath": "/home/ben_rpo/"
+            }
+        },
+        "paths": {
+            "bin": {
+                "owner": "root",
+                "files": {
+                    "help": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "echo": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "clear": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "clearLogs": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "repeat": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "kill": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "sendToPolice": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "ssh": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "exit": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "su": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "sudo": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "ls": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "cd": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "cat": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "scp": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    }
+                }
+            },
+            "boot": {
+                "owner": "root"
+            },
+            "dev": {
+                "owner": "root"
+            },
+            "etc": {
+                "owner": "root"
+            },
+            "home": {
+                "paths": {
+                    "ben_rpo": {
+                        "owner": "ben_rpo",
+                        "paths": {},
+                        "files": {}
+                    }
+                },
+                "files": {}
+            },
+            "lib": {
+                "owner": "root"
+            },
+            "lib64": {
+                "owner": "root"
+            },
+            "media": {
+                "owner": "root"
+            },
+            "mnt": {
+                "owner": "root"
+            },
+            "opt": {
+                "owner": "root"
+            },
+            "proc": {
+                "owner": "root"
+            },
+            "root": {
+                "owner": "root"
+            },
+            "run": {
+                "owner": "root"
+            },
+            "sbin": {
+                "owner": "root"
+            },
+            "srv": {
+                "owner": "root"
+            },
+            "sys": {
+                "owner": "root"
+            },
+            "tmp": {},
+            "usr": {
+                "owner": "root"
+            },
+            "var": {
+                "paths": {
+                    "cache": {
+                        "owner": "root"
+                    },
+                    "lib": {
+                        "owner": "root"
+                    },
+                    "log": {
+                        "files": {
+                            "ssh.log": {
+                                "type": "text",
+                                "contentStr": ""
+                            }
+                        }
+                    },
+                    "mail": {
+                        "owner": "root"
+                    },
+                    "tmp": {
+                        "owner": "root"
+                    },
+                    "opt": {
+                        "owner": "root"
+                    }
+                },
+                "files": {}
+            }
+        }
+    },
+    "21.12.36.197": {
+        "haveFirewall": true,
+        "fireWallDownEndTime": null,
+        "fireWallResetTime": 30000,
+        "accounts": {
+            "avocado": {
+                "password": "TEST_123",
+                "defaultPath": "/home/avocado/"
+            }
+        },
+        "paths": {
+            "bin": {
+                "owner": "root",
+                "files": {
+                    "help": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "echo": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "clear": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "clearLogs": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "repeat": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "kill": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "sendToPolice": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "ssh": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "exit": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "su": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "sudo": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "ls": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "cd": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "cat": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "scp": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    }
+                }
+            },
+            "boot": {
+                "owner": "root"
+            },
+            "dev": {
+                "owner": "root"
+            },
+            "etc": {
+                "owner": "root"
+            },
+            "home": {
+                "paths": {
+                    "avocado": {
+                        "owner": "avocado",
+                        "paths": {},
+                        "files": {}
+                    }
+                },
+                "files": {}
+            },
+            "lib": {
+                "owner": "root"
+            },
+            "lib64": {
+                "owner": "root"
+            },
+            "media": {
+                "owner": "root"
+            },
+            "mnt": {
+                "owner": "root"
+            },
+            "opt": {
+                "owner": "root"
+            },
+            "proc": {
+                "owner": "root"
+            },
+            "root": {
+                "owner": "root"
+            },
+            "run": {
+                "owner": "root"
+            },
+            "sbin": {
+                "owner": "root"
+            },
+            "srv": {
+                "owner": "root"
+            },
+            "sys": {
+                "owner": "root"
+            },
+            "tmp": {},
+            "usr": {
+                "owner": "root"
+            },
+            "var": {
+                "paths": {
+                    "cache": {
+                        "owner": "root"
+                    },
+                    "lib": {
+                        "owner": "root"
+                    },
+                    "log": {
+                        "files": {
+                            "ssh.log": {
+                                "type": "text",
+                                "contentStr": ""
+                            }
+                        }
+                    },
+                    "mail": {
+                        "owner": "root"
+                    },
+                    "tmp": {
+                        "owner": "root"
+                    },
+                    "opt": {
+                        "owner": "root"
+                    }
+                },
+                "files": {}
+            }
+        },
+        "whitelist": [
+            "31.12.123.94"
+        ]
+    },
+    "19.65.132.17": {
+        "haveFirewall": true,
+        "fireWallDownEndTime": null,
+        "fireWallResetTime": 20000,
+        "accounts": {
+            "brandon": {
+                "password": "GJDFTKIF",
+                "defaultPath": "/home/brandon/"
+            }
+        },
+        "paths": {
+            "bin": {
+                "owner": "root",
+                "files": {
+                    "help": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "echo": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "clear": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "clearLogs": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "repeat": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "kill": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "sendToPolice": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "ssh": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "exit": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "su": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "sudo": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "ls": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "cd": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "cat": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "scp": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    }
+                }
+            },
+            "boot": {
+                "owner": "root"
+            },
+            "dev": {
+                "owner": "root"
+            },
+            "etc": {
+                "owner": "root"
+            },
+            "home": {
+                "paths": {
+                    "brandon": {
+                        "owner": "brandon",
+                        "paths": {},
+                        "files": {}
+                    }
+                },
+                "files": {}
+            },
+            "lib": {
+                "owner": "root"
+            },
+            "lib64": {
+                "owner": "root"
+            },
+            "media": {
+                "owner": "root"
+            },
+            "mnt": {
+                "owner": "root"
+            },
+            "opt": {
+                "owner": "root"
+            },
+            "proc": {
+                "owner": "root"
+            },
+            "root": {
+                "owner": "root"
+            },
+            "run": {
+                "owner": "root"
+            },
+            "sbin": {
+                "owner": "root"
+            },
+            "srv": {
+                "owner": "root"
+            },
+            "sys": {
+                "owner": "root"
+            },
+            "tmp": {},
+            "usr": {
+                "owner": "root"
+            },
+            "var": {
+                "paths": {
+                    "cache": {
+                        "owner": "root"
+                    },
+                    "lib": {
+                        "owner": "root"
+                    },
+                    "log": {
+                        "files": {
+                            "ssh.log": {
+                                "type": "text",
+                                "contentStr": ""
+                            }
+                        }
+                    },
+                    "mail": {
+                        "owner": "root"
+                    },
+                    "tmp": {
+                        "owner": "root"
+                    },
+                    "opt": {
+                        "owner": "root"
+                    }
+                },
+                "files": {}
+            }
+        },
+        "whitelist": [
+            "21.12.36.197"
+        ]
+    },
+    "10.8.0.42": {
+        "haveFirewall": true,
+        "fireWallDownEndTime": null,
+        "fireWallResetTime": 12000,
+        "accounts": {
+            "james": {
+                "password": "hf5fdh5_sfh",
+                "defaultPath": "/home/james/"
+            }
+        },
+        "paths": {
+            "bin": {
+                "owner": "root",
+                "files": {
+                    "help": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "echo": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "clear": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "clearLogs": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "repeat": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "kill": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "sendToPolice": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "ssh": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "exit": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "su": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "sudo": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "ls": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "cd": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "cat": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "scp": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    }
+                }
+            },
+            "boot": {
+                "owner": "root"
+            },
+            "dev": {
+                "owner": "root"
+            },
+            "etc": {
+                "owner": "root"
+            },
+            "home": {
+                "paths": {
+                    "james": {
+                        "owner": "james",
+                        "paths": {},
+                        "files": {}
+                    }
+                },
+                "files": {}
+            },
+            "lib": {
+                "owner": "root"
+            },
+            "lib64": {
+                "owner": "root"
+            },
+            "media": {
+                "owner": "root"
+            },
+            "mnt": {
+                "owner": "root"
+            },
+            "opt": {
+                "owner": "root"
+            },
+            "proc": {
+                "owner": "root"
+            },
+            "root": {
+                "owner": "root"
+            },
+            "run": {
+                "owner": "root"
+            },
+            "sbin": {
+                "owner": "root"
+            },
+            "srv": {
+                "owner": "root"
+            },
+            "sys": {
+                "owner": "root"
+            },
+            "tmp": {},
+            "usr": {
+                "owner": "root"
+            },
+            "var": {
+                "paths": {
+                    "cache": {
+                        "owner": "root"
+                    },
+                    "lib": {
+                        "owner": "root"
+                    },
+                    "log": {
+                        "files": {
+                            "ssh.log": {
+                                "type": "text",
+                                "contentStr": ""
+                            }
+                        }
+                    },
+                    "mail": {
+                        "owner": "root"
+                    },
+                    "tmp": {
+                        "owner": "root"
+                    },
+                    "opt": {
+                        "owner": "root"
+                    }
+                },
+                "files": {}
+            }
+        },
+        "whitelist": [
+            "19.65.132.17"
+        ]
+    },
+    "101.203.156.97": {
+        "haveFirewall": true,
+        "fireWallDownEndTime": null,
+        "fireWallResetTime": 30000,
+        "accounts": {
+            "daniel": {
+                "password": "J@ck50N",
+                "defaultPath": "/home/daniel/"
+            }
+        },
+        "paths": {
+            "bin": {
+                "owner": "root",
+                "files": {
+                    "help": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "echo": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "clear": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "clearLogs": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "repeat": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "kill": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "sendToPolice": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "ssh": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "exit": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "su": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "sudo": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "ls": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "cd": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "cat": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "scp": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    }
+                }
+            },
+            "boot": {
+                "owner": "root"
+            },
+            "dev": {
+                "owner": "root"
+            },
+            "etc": {
+                "owner": "root"
+            },
+            "home": {
+                "paths": {
+                    "daniel": {
+                        "owner": "daniel",
+                        "paths": {},
+                        "files": {}
+                    }
+                },
+                "files": {}
+            },
+            "lib": {
+                "owner": "root"
+            },
+            "lib64": {
+                "owner": "root"
+            },
+            "media": {
+                "owner": "root"
+            },
+            "mnt": {
+                "owner": "root"
+            },
+            "opt": {
+                "owner": "root"
+            },
+            "proc": {
+                "owner": "root"
+            },
+            "root": {
+                "owner": "root"
+            },
+            "run": {
+                "owner": "root"
+            },
+            "sbin": {
+                "owner": "root"
+            },
+            "srv": {
+                "owner": "root"
+            },
+            "sys": {
+                "owner": "root"
+            },
+            "tmp": {},
+            "usr": {
+                "owner": "root"
+            },
+            "var": {
+                "paths": {
+                    "cache": {
+                        "owner": "root"
+                    },
+                    "lib": {
+                        "owner": "root"
+                    },
+                    "log": {
+                        "paths": {},
+                        "files": {
+                            "ssh.log": {
+                                "type": "text",
+                                "contentStr": "[SSH] Connection from WW.XX.YY.ZZ\n[SSH] Connection from WW.XX.YY.ZZ\n[SSH] Connection from 112.16.43.36\n[SSH] Connection from 112.16.43.36\n[SSH] Connection from WW.XX.YY.ZZ\n[SSH] Connection from 112.16.43.36\n[SSH] Connection from 112.16.43.36\n[SSH] Connection from 112.16.43.36\n[SSH] Connection from 112.16.43.36\n[SSH] Connection from WW.XX.YY.ZZ\n[SSH] Connection from 112.16.43.36\n[SSH] Connection from 112.16.43.36\n[SSH] Connection from WW.XX.YY.ZZ\n",
+                                "content": "<>{retour}</>"
+                            }
+                        }
+                    },
+                    "mail": {
+                        "owner": "root"
+                    },
+                    "tmp": {
+                        "owner": "root"
+                    },
+                    "opt": {
+                        "owner": "root"
+                    }
+                },
+                "files": {}
+            }
+        }
+    },
+    "112.16.43.36": {
+        "haveFirewall": true,
+        "fireWallDownEndTime": null,
+        "fireWallResetTime": 30000,
+        "accounts": {
+            "jack": {
+                "password": "withOnlyOneL",
+                "defaultPath": "/home/jack/"
+            }
+        },
+        "paths": {
+            "bin": {
+                "owner": "root",
+                "files": {
+                    "help": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "echo": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "clear": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "clearLogs": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "repeat": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "kill": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "sendToPolice": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "ssh": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "exit": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "su": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "sudo": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "ls": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "cd": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "cat": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "scp": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    }
+                }
+            },
+            "boot": {
+                "owner": "root"
+            },
+            "dev": {
+                "owner": "root"
+            },
+            "etc": {
+                "owner": "root"
+            },
+            "home": {
+                "paths": {
+                    "jack": {
+                        "owner": "jack",
+                        "paths": {},
+                        "files": {}
+                    }
+                },
+                "files": {}
+            },
+            "lib": {
+                "owner": "root"
+            },
+            "lib64": {
+                "owner": "root"
+            },
+            "media": {
+                "owner": "root"
+            },
+            "mnt": {
+                "owner": "root"
+            },
+            "opt": {
+                "owner": "root"
+            },
+            "proc": {
+                "owner": "root"
+            },
+            "root": {
+                "owner": "root"
+            },
+            "run": {
+                "owner": "root"
+            },
+            "sbin": {
+                "owner": "root"
+            },
+            "srv": {
+                "owner": "root"
+            },
+            "sys": {
+                "owner": "root"
+            },
+            "tmp": {},
+            "usr": {
+                "owner": "root"
+            },
+            "var": {
+                "paths": {
+                    "cache": {
+                        "owner": "root"
+                    },
+                    "lib": {
+                        "owner": "root"
+                    },
+                    "log": {
+                        "paths": {},
+                        "files": {
+                            "ssh.log": {
+                                "type": "text",
+                                "contentStr": "[SSH] Connection from WW.XX.YY.ZZ\n[SSH] Connection from WW.XX.YY.ZZ\n[SSH] Connection from 126.97.87.31\n[SSH] Connection from 126.97.87.31\n[SSH] Connection from 126.97.87.31\n[SSH] Connection from WW.XX.YY.ZZ\n[SSH] Connection from 126.97.87.31\n[SSH] Connection from WW.XX.YY.ZZ\n[SSH] Connection from WW.XX.YY.ZZ\n[SSH] Connection from 126.97.87.31\n[SSH] Connection from 126.97.87.31\n[SSH] Connection from 126.97.87.31\n[SSH] Connection from WW.XX.YY.ZZ\n",
+                                "content": "<>{retour}</>"
+                            }
+                        }
+                    },
+                    "mail": {
+                        "owner": "root"
+                    },
+                    "tmp": {
+                        "owner": "root"
+                    },
+                    "opt": {
+                        "owner": "root"
+                    }
+                },
+                "files": {}
+            }
+        }
+    },
+    "126.97.87.31": {
+        "haveFirewall": false,
+        "fireWallDownEndTime": null,
+        "fireWallResetTime": null,
+        "accounts": {
+            "tamara": {
+                "password": "19690115",
+                "defaultPath": "/home/tamara/"
+            }
+        },
+        "paths": {
+            "bin": {
+                "owner": "root",
+                "files": {
+                    "help": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "echo": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "clear": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "clearLogs": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "repeat": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "kill": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "sendToPolice": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "ssh": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "exit": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "su": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "sudo": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "ls": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "cd": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "cat": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    },
+                    "scp": {
+                        "type": "executable",
+                        "content": "<Binary file>"
+                    }
+                }
+            },
+            "boot": {
+                "owner": "root"
+            },
+            "dev": {
+                "owner": "root"
+            },
+            "etc": {
+                "owner": "root"
+            },
+            "home": {
+                "paths": {
+                    "tamara": {
+                        "owner": "tamara",
+                        "paths": {
+                            "personal": {
+                                "owner": "tamara",
+                                "paths": {},
+                                "files": {
+                                    "notes_18.txt": {
+                                        "content": "<span>{i18n.t('files:notes_18_title')}<br/>{i18n.t('files:notes_18_desc')}</span>"
+                                    },
+                                    "id.txt": {
+                                        "content": "<p>\n\t\t\t\t\t\t\t\t\t\t\t\t<h1>{i18n.t('files:id_card_title')}</h1>\n\t\t\t\t\t\t\t\t\t\t\t\t<b>{i18n.t('files:id_card_name')}</b> Blue<br/>\n\t\t\t\t\t\t\t\t\t\t\t\t<b>{i18n.t('files:id_card_firstName')}</b> Tamara<br/>\n\t\t\t\t\t\t\t\t\t\t\t\t<b>{i18n.t('files:id_card_birthDate')}</b> {i18n.t('files:id_card_birthDate_content')}<br/>\n\t\t\t\t\t\t\t\t\t\t\t\t<b>{i18n.t('files:id_card_address')}</b> {i18n.t('files:id_card_address_content')}<br/><br/>\n\t\t\t\t\t\t\t\t\t\t\t</p>"
+                                    }
+                                }
+                            }
+                        },
+                        "files": {}
+                    }
+                },
+                "files": {}
+            },
+            "lib": {
+                "owner": "root"
+            },
+            "lib64": {
+                "owner": "root"
+            },
+            "media": {
+                "owner": "root"
+            },
+            "mnt": {
+                "owner": "root"
+            },
+            "opt": {
+                "owner": "root"
+            },
+            "proc": {
+                "owner": "root"
+            },
+            "root": {
+                "owner": "root"
+            },
+            "run": {
+                "owner": "root"
+            },
+            "sbin": {
+                "owner": "root"
+            },
+            "srv": {
+                "owner": "root"
+            },
+            "sys": {
+                "owner": "root"
+            },
+            "tmp": {},
+            "usr": {
+                "owner": "root"
+            },
+            "var": {
+                "paths": {
+                    "cache": {
+                        "owner": "root"
+                    },
+                    "lib": {
+                        "owner": "root"
+                    },
+                    "log": {
+                        "files": {
+                            "ssh.log": {
+                                "type": "text",
+                                "contentStr": ""
+                            }
+                        }
+                    },
+                    "mail": {
+                        "owner": "root"
+                    },
+                    "tmp": {
+                        "owner": "root"
+                    },
+                    "opt": {
+                        "owner": "root"
+                    }
+                },
+                "files": {}
+            }
+        }
+    }
+}
