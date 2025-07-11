@@ -1,7 +1,7 @@
 # Dysnomia Wiki
 
 This repo is fed by my various games repositories and then auto-generate a wiki about them.
-You can find this wiki at [https://github.com/Dysnomia-Studio/dysnomia-wiki](https://github.com/Dysnomia-Studio/dysnomia-wiki).
+You can find this wiki at [https://wiki.dysnomia.studio](https://wiki.dysnomia.studio).
 
 Games listed:
 - [Alchemistry](https://store.steampowered.com/app/1730540/Alchemistry/)
