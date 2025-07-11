@@ -19,6 +19,10 @@ export const types = {
 		'ui',
 		'wiki',
 	],
+	extortion: [
+		'achievements',
+		'wiki',
+	],
 	manufacturinc: [
 		'achievements',
 		'contracts',
@@ -37,15 +41,15 @@ export const types = {
 
 const translationsList = {};
 async function loadTranslations() {
-	for(const gameName in types) {
+	for (const gameName in types) {
 		translationsList[gameName] = {};
-		for(const type of types[gameName]) {
+		for (const type of types[gameName]) {
 			translationsList[gameName][type] = {};
 
-			for(const language of languageList) {
+			for (const language of languageList) {
 				try {
 					translationsList[gameName][type][language] = (await import(`./${gameName}/${type}/${language}.json`)).default;
-				} catch(e) {
+				} catch (e) {
 					//console.error(e);
 					translationsList[gameName][type][language] = {};
 				}

@@ -1,0 +1,18 @@
+---
+import { getLangFromUrl, useTranslations } from '/src/i18n/utils';
+
+import Layout from '/src/layout/layout.astro';
+
+import '/src/css/home.css';
+
+const lang = getLangFromUrl(Astro.url);
+const t = useTranslations(lang);
+---
+<Layout title="Extortion">
+	<div class="home">
+		<p>Extortion</p>
+		<ul>
+			<li><a href="/extortion/achievements">{t(`alchemistry:wiki:achievement-page-title`)}</a></li>
+		</ul>
+	</div>
+</Layout>

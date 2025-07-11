@@ -4,3 +4,6 @@
 [submodule "src/i18n/manufacturinc"]
 	path = src/i18n/manufacturinc
 	url = git@github.com:Dysnomia-Studio/factory-game-i18n.git
+[submodule "src/i18n/extortion"]
+	path = src/i18n/extortion
+	url = git@github.com:Dysnomia-Studio/extortion-i18n.git

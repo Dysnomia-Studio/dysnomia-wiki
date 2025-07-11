@@ -24,6 +24,11 @@
 	position: relative;
 }
 
+.achievement-list-item-title {
+	font-size: 1.25em;
+	margin-bottom: 1rem;
+}
+
 .achievement-list-item img {
 	max-width: 50px;
 }

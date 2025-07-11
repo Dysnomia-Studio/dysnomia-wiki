@@ -58,14 +58,14 @@
         "i18nKeyPrefix": "NEW_ACHIEVEMENT_1_15",
         "chapter": 8,
         "story": true,
-        "exclusive": "CHAPITER_8_2"
+        "exclusive": "NEW_ACHIEVEMENT_1_16"
     },
     {
         "name": "CHAPITER_8_2",
         "i18nKeyPrefix": "NEW_ACHIEVEMENT_1_16",
         "chapter": 8,
         "story": true,
-        "exclusive": "CHAPITER_8_1"
+        "exclusive": "NEW_ACHIEVEMENT_1_15"
     },
     {
         "name": "STORY_DAY_1",
@@ -110,9 +110,9 @@
     {
         "name": "STORY_DAY_18",
         "file": "notes_18.txt",
-        "server": "78.42.12.13",
+        "server": "126.97.87.31",
         "i18nKeyPrefix": "NEW_ACHIEVEMENT_1_26",
-        "chapter": 2,
+        "chapter": 8,
         "story": false
     },
     {
