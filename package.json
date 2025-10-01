@@ -12,7 +12,7 @@
   },
   "dependencies": {
     "@astrojs/react": "^4.3.1",
-    "@astrojs/sitemap": "^3.5.1",
+    "@astrojs/sitemap": "^3.6.0",
     "@playform/compress": "^0.2.0",
     "@types/react": "^19.1.13",
     "@types/react-dom": "^19.1.9",
