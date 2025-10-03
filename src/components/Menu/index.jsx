@@ -24,7 +24,7 @@ export default function Menu({ t, translatePath }) {
 						<a href={translatePath('/extortion/servers')}>{t(`extortion:wiki:servers-page-title`)}</a><br />
 					</span>
 				</span>
-				<a className="menu-item" href={translatePath('/galactae')}>Galactae</a>
+				<a className="menu-item" href={translatePath('/logistik')}>Logistik</a>
 				<span className="menu-item">
 					<span className="menu-item-title">Manufactur'inc</span>
 					<span className="submenu">

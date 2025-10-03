@@ -6,7 +6,7 @@ You can find this wiki at [https://wiki.dysnomia.studio](https://wiki.dysnomia.s
 Games listed:
 - [Alchemistry](https://store.steampowered.com/app/1730540/Alchemistry/)
 - [Extortion](https://store.steampowered.com/app/1299430/Extortion/)
-- [Galactae: Space Age Dawn](https://galactae.eu)
+- [Logistik](https://store.steampowered.com/app/3928180/Logistik/)
 - [Manufactur'inc](https://store.steampowered.com/app/2146380/Manufactur_inc/)
 
 # License
