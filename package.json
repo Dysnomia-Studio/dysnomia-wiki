@@ -16,7 +16,7 @@
     "@playform/compress": "^0.2.0",
     "@types/react": "^19.2.0",
     "@types/react-dom": "^19.2.0",
-    "astro": "^5.14.1",
+    "astro": "^5.14.4",
     "astro-robots-txt": "^1.0.0",
     "prop-types": "^15.8.1",
     "react": "^19.2.0",
