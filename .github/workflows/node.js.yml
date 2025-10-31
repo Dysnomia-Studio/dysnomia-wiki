@@ -2,6 +2,9 @@ name: Build & Test
 
 on: [push, pull_request]
 
+env:
+  node-version: 24
+
 permissions:
   packages: write
   contents: read
@@ -14,10 +17,10 @@ jobs:
       with:
         submodules: recursive
 
-    - name: Use Node.js ${{ matrix.node-version }}
-      uses: actions/setup-node@v5
+    - name: Use Node.js ${{ env.node-version }}
+      uses: actions/setup-node@v6
       with:
-        node-version: 24
+        node-version: ${{ env.node-version }}
         cache: 'npm'
 
     - run: npm ci
@@ -56,10 +59,10 @@ jobs:
         with:
           submodules: recursive
 
-      - name: Use Node.js ${{ matrix.node-version }}
-        uses: actions/setup-node@v5
+      - name: Use Node.js ${{ env.node-version }}
+        uses: actions/setup-node@v6
         with:
-          node-version: 24
+          node-version: ${{ env.node-version }}
           cache: 'npm'
 
       - run: npm ci
