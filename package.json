@@ -15,7 +15,7 @@
     "@astrojs/sitemap": "^3.6.0",
     "@playform/compress": "^0.2.0",
     "@types/react": "^19.2.2",
-    "@types/react-dom": "^19.2.2",
+    "@types/react-dom": "^19.2.3",
     "astro": "^5.15.3",
     "astro-robots-txt": "^1.0.0",
     "prop-types": "^15.8.1",
