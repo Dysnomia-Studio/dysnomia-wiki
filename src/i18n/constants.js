@@ -1,11 +1,12 @@
 export const defaultLang = 'en';
-export const languageList = ['ar', 'de', 'en', 'fr', 'nl', 'ru', 'sv', 'zh-cn'];
+export const languageList = ['ar', 'de', 'en', 'fr', 'nl', 'ro', 'ru', 'sv', 'zh-cn'];
 export const languageDictionary = {
 	'ar': 'العربية',
 	'de': 'Deutsch',
 	'en': 'English',
 	'fr': 'Francais',
 	'nl': 'Nederlands',
+	'ro': 'Română',
 	'ru': 'Русский',
 	'sv': 'Svenska',
 	'zh-cn': '简体中文',
