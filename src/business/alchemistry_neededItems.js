@@ -17,6 +17,8 @@ export const neededItems = {
 	YOU_RE_A_WIZARD_HARRY: 'wand',
 	SARUMAN_REVENGE: 'wood',
 	PERRY_THE_PLATYPUS: 'platypus',
+	CAVE_JOHNSON_LEMON_LEMONADE: 'lemonade',
+	OCTOPUS_THE_POWER_OF_THE_SUN: 'sun',
 };
 
 export const neededIngredients = {
