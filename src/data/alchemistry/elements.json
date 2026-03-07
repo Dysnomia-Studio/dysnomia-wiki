@@ -48,6 +48,10 @@
     "aquarium": [
         [
             "glass",
+            "fish"
+        ],
+        [
+            "glass",
             "water"
         ]
     ],
@@ -101,6 +105,16 @@
             "human"
         ]
     ],
+    "bacteria": [
+        [
+            "life",
+            "mud"
+        ],
+        [
+            "life",
+            "time"
+        ]
+    ],
     "ball": [
         [
             "air",
@@ -108,6 +122,14 @@
         ]
     ],
     "beach": [
+        [
+            "ocean",
+            "desert"
+        ],
+        [
+            "ocean",
+            "island"
+        ],
         [
             "ocean",
             "sand"
@@ -247,6 +269,10 @@
         [
             "clay",
             "furnace"
+        ],
+        [
+            "clay",
+            "sun"
         ]
     ],
     "bucket": [
@@ -286,6 +312,10 @@
     "camera": [
         [
             "eye",
+            "technology"
+        ],
+        [
+            "glass",
             "technology"
         ]
     ],
@@ -403,8 +433,22 @@
     ],
     "cheese": [
         [
+            "bacteria",
+            "milk"
+        ],
+        [
             "milk",
             "time"
+        ]
+    ],
+    "chemistry": [
+        [
+            "element",
+            "science"
+        ],
+        [
+            "science",
+            "tool"
         ]
     ],
     "chicken": [
@@ -457,6 +501,10 @@
         [
             "ocean",
             "sun"
+        ],
+        [
+            "steam",
+            "steam"
         ]
     ],
     "coal": [
@@ -477,6 +525,16 @@
         [
             "human",
             "sound"
+        ]
+    ],
+    "compass": [
+        [
+            "earth",
+            "magnet"
+        ],
+        [
+            "magnet",
+            "metal"
         ]
     ],
     "computer": [
@@ -531,6 +589,10 @@
         [
             "sand",
             "sand"
+        ],
+        [
+            "sand",
+            "sun"
         ]
     ],
     "diamond": [
@@ -567,6 +629,10 @@
         [
             "animal",
             "bone"
+        ],
+        [
+            "animal",
+            "human"
         ],
         [
             "bone",
@@ -641,6 +707,28 @@
         [
             "fire",
             "metal"
+        ],
+        [
+            "metal",
+            "wind"
+        ]
+    ],
+    "electromagnetism": [
+        [
+            "electricity",
+            "magnet"
+        ],
+        [
+            "electricity",
+            "wave"
+        ],
+        [
+            "light",
+            "wave"
+        ],
+        [
+            "technology",
+            "wave"
         ]
     ],
     "elsa": [
@@ -727,12 +815,20 @@
             "ocean"
         ],
         [
+            "animal",
+            "water"
+        ],
+        [
             "aquarium",
             "life"
         ],
         [
             "life",
             "ocean"
+        ],
+        [
+            "life",
+            "water"
         ]
     ],
     "fish_and_chips": [
@@ -1005,6 +1101,10 @@
         [
             "mountain",
             "ocean"
+        ],
+        [
+            "volcano",
+            "ocean"
         ]
     ],
     "jewelry": [
@@ -1051,6 +1151,34 @@
         [
             "animal",
             "knife"
+        ]
+    ],
+    "lemon": [
+        [
+            "food",
+            "plant"
+        ],
+        [
+            "food",
+            "tree"
+        ],
+        [
+            "plant",
+            "time"
+        ],
+        [
+            "sun",
+            "tree"
+        ],
+        [
+            "time",
+            "tree"
+        ]
+    ],
+    "lemonade": [
+        [
+            "glass",
+            "lemon"
         ]
     ],
     "library": [
@@ -1137,6 +1265,16 @@
             "furnace"
         ]
     ],
+    "medicine": [
+        [
+            "plant",
+            "science"
+        ],
+        [
+            "syringe",
+            "vaccine"
+        ]
+    ],
     "menu": [
         [
             "food",
@@ -1181,8 +1319,16 @@
     ],
     "milk": [
         [
+            "bucket",
+            "cow"
+        ],
+        [
             "cow",
             "grass"
+        ],
+        [
+            "cow",
+            "tool"
         ]
     ],
     "mirror": [
@@ -1235,6 +1381,12 @@
         [
             "sound",
             "tool"
+        ]
+    ],
+    "nanotechnology": [
+        [
+            "particle",
+            "robot"
         ]
     ],
     "needle": [
@@ -1389,6 +1541,14 @@
         [
             "earth",
             "life"
+        ],
+        [
+            "seed",
+            "time"
+        ],
+        [
+            "seed",
+            "water"
         ]
     ],
     "platypus": [
@@ -1456,7 +1616,15 @@
     "rocket": [
         [
             "engine",
+            "earth"
+        ],
+        [
+            "engine",
             "galaxy"
+        ],
+        [
+            "engine",
+            "moon"
         ],
         [
             "engine",
@@ -1485,6 +1653,10 @@
     ],
     "sand": [
         [
+            "island",
+            "dirt"
+        ],
+        [
             "mountain",
             "ocean"
         ],
@@ -1495,6 +1667,10 @@
         [
             "mountain",
             "water"
+        ],
+        [
+            "mountain",
+            "wind"
         ],
         [
             "ocean",
@@ -1511,6 +1687,10 @@
         [
             "stone",
             "water"
+        ],
+        [
+            "stone",
+            "wind"
         ]
     ],
     "sandstone": [
@@ -1537,6 +1717,12 @@
             "solar_panel"
         ]
     ],
+    "science": [
+        [
+            "book",
+            "human"
+        ]
+    ],
     "screen": [
         [
             "glass",
@@ -1553,16 +1739,54 @@
             "time"
         ]
     ],
+    "server": [
+        [
+            "computer",
+            "internet"
+        ]
+    ],
     "shark": [
         [
             "ocean",
             "blood"
         ]
     ],
+    "sickness": [
+        [
+            "animal",
+            "bacteria"
+        ],
+        [
+            "bacteria",
+            "human"
+        ],
+        [
+            "bacteria",
+            "life"
+        ],
+        [
+            "human",
+            "virus"
+        ],
+        [
+            "life",
+            "virus"
+        ]
+    ],
     "smartphone": [
         [
             "computer",
             "phone"
+        ]
+    ],
+    "smoothie": [
+        [
+            "fruit",
+            "ice"
+        ],
+        [
+            "fruit",
+            "juice"
         ]
     ],
     "snow": [
@@ -1663,6 +1887,10 @@
             "electricity"
         ],
         [
+            "cloud",
+            "wind"
+        ],
+        [
             "electricity",
             "rain"
         ]
@@ -1688,11 +1916,23 @@
     "tablet": [
         [
             "book",
+            "internet"
+        ],
+        [
+            "book",
             "technology"
+        ],
+        [
+            "internet",
+            "paper"
         ],
         [
             "paper",
             "technology"
+        ],
+        [
+            "processor",
+            "screen"
         ]
     ],
     "tea": [
@@ -1761,6 +2001,12 @@
             "steel"
         ]
     ],
+    "tornado": [
+        [
+            "air",
+            "storm"
+        ]
+    ],
     "toy": [
         [
             "child",
@@ -1807,6 +2053,16 @@
             "galaxy"
         ]
     ],
+    "vaccine": [
+        [
+            "bacteria",
+            "syringe"
+        ],
+        [
+            "syringe",
+            "virus"
+        ]
+    ],
     "vampire": [
         [
             "blood",
@@ -1819,7 +2075,21 @@
             "toy"
         ]
     ],
+    "virus": [
+        [
+            "life",
+            "sickness"
+        ]
+    ],
     "volcano": [
+        [
+            "fire",
+            "mountain"
+        ],
+        [
+            "lava",
+            "lava"
+        ],
         [
             "lava",
             "mountain"
