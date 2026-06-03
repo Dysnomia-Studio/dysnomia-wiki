@@ -14,12 +14,12 @@
     "@astrojs/react": "^5.0.4",
     "@astrojs/sitemap": "^3.7.2",
     "@playform/compress": "^0.2.3",
-    "@types/react": "^19.2.14",
+    "@types/react": "^19.2.16",
     "@types/react-dom": "^19.2.3",
     "astro": "^6.2.1",
     "astro-robots-txt": "^1.0.0",
     "prop-types": "^15.8.1",
-    "react": "^19.2.5",
+    "react": "^19.2.7",
     "react-dom": "^19.2.5"
   }
 }
