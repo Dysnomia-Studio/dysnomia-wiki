@@ -1,9 +1,7 @@
-FROM nginx:1.30.0-otel
+FROM nginx:1.30.2-otel
 
 RUN  touch /var/run/nginx.pid && \
      chown -R nginx:nginx /var/cache/nginx /var/run/nginx.pid /etc/nginx/conf.d
-
-#RUN rm /etc/nginx/nginx.conf
 
 # Website
 COPY --chown=nginx:nginx dist /usr/share/nginx/html
