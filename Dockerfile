@@ -1,4 +1,4 @@
-FROM nginx:1.30.3-otel
+FROM nginx:1.30.4-otel
 
 RUN  touch /var/run/nginx.pid && \
      chown -R nginx:nginx /var/cache/nginx /var/run/nginx.pid /etc/nginx/conf.d
